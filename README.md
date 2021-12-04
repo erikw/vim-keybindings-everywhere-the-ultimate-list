@@ -31,6 +31,7 @@ The following symbols are used with each list item to make it clearer what kind 
 
 ## IDEs
 * :heavy_plus_sign: Jetbrain's Intellij, PYCharm, PHPStorm, - ...
+* Visual Studio Code
 
 ## Text Editors
 We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have Vi(m) keybindings so let's skip those here (Vim, NeoVim, vile, ...)
@@ -38,7 +39,10 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
 * Atom
   * :heavy_plus_sign: [atom-vim-mode-plus](https://github.com/t9md/atom-vim-mode-plus)
 * Emacs
-  * 
+  * :white_check_mark: [spacemacs](https://www.spacemacs.org/) An emacs distribution with built-in Vim keybindings.
+  * :heavy_plus_sign: [Vimpulse](https://www.emacswiki.org/emacs/Vimpulse)
+  * :heavy_plus_sign: [Vim Mode](https://www.emacswiki.org/emacs/VimMode)
+  * :heavy_plus_sign: ~~[evil-mode](https://www.emacswiki.org/emacs/Evil)~~ Deprecated, check out Vimpulse or Vim Mode.
 * :white_check_mark: [oni2 (onivim)](https://github.com/onivim/oni2)
 
 ## Commandline Shells
