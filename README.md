@@ -29,7 +29,7 @@ The following symbols are used with each list item to make it clearer what kind 
 
 
 # General
-* [vim-anywhere](https://github.com/cknadler/vim-anywhere) - spawn a vim buffer from any text input in the operating system.
+* :white_check_mark: [vim-anywhere](https://github.com/cknadler/vim-anywhere) - spawn a vim buffer from any text input in the operating system.
 
 ## CLI
 ### Shells
@@ -65,12 +65,20 @@ The following symbols are used with each list item to make it clearer what kind 
     set-option -g status-keys vi	# Use Vi bindings in tmux command prompt.
     set-window-option -g mode-keys vi	# Use Vi bindings in copy and choice mode.
     ```
+* [irssi](https://github.com/shabble/irssi-scripts/tree/master/vim-mode) - the popular IRC client.
+  * :heavy_plus_sign: [vim_mode](https://github.com/shabble/irssi-scripts/tree/master/vim-mode) plugin.
 
+## PDF viewers
+* :white_check_mark: [apvlv](https://github.com/naihe2010/apvlv) - A PDF Viewer that acts Like Vim
 
 
 ## IDEs
-* :heavy_plus_sign: [Jetbrain's IDEs](https://www.jetbrains.com/products/#type=ide) (Intellij, PYCharm, PHPStorm, WebStorm, ...) - Install the plugin [IdeaVim](https://plugins.jetbrains.com/plugin/164-ideavim) directly from the plugin section in the IDE settings.
-* :heavy_plus_sign: Visual Studio Code - Install the [Vim plugin](https://github.com/VSCodeVim/Vim) directly in the plugin section in the IDE settings.
+* [Jetbrain's IDEs](https://www.jetbrains.com/products/#type=ide) (Intellij, PYCharm, PHPStorm, WebStorm, ...)
+  * :heavy_plus_sign: [IdeaVim](https://plugins.jetbrains.com/plugin/164-ideavim) - install it directly from the plugin section in the IDE settings.
+* [Visual Studio Code](https://code.visualstudio.com/)
+  * :heavy_plus_sign: [Vim plugin](https://github.com/VSCodeVim/Vim) - install it directly in the plugin section in the IDE settings.
+* [XCode](https://github.com/XVimProject/XVim) - Apple's IDE
+  * :heavy_plus_sign: [XVim](https://github.com/XVimProject/XVim) plugin
 
 
 ## Text Editors
@@ -88,6 +96,7 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
 ## Web browsers
 * Firefox
 * Chrome
+  * :heavy_plus_sign: [cVim](https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh)
 * Safari
 * Edge
 
