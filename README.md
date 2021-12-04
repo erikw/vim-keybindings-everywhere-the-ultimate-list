@@ -25,7 +25,7 @@ The following symbols are used with each list item to make it clearer what kind 
 * :heavy_plus_sign: - via addon/extension
 
 Tip: GitHubs built-in markdown Table of Contents in the top left corner of this file you're reading:
-[![GitHub ToC](img/github_md_toc.png)](#)
+<a href="#" title="GitHub built-in Table of Contents for markdown files."><img src="img/github_md_toc.png" alt="ToC"></a>
 
 
 # General
