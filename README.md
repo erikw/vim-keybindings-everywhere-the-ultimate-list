@@ -70,6 +70,15 @@ The following symbols are used with each list item to make it clearer what kind 
 * [irssi](https://github.com/shabble/irssi-scripts/tree/master/vim-mode) - the popular IRC client.
   * :heavy_plus_sign: [vim_mode](https://github.com/shabble/irssi-scripts/tree/master/vim-mode) plugin.
 
+## Development
+* :white_check_mark: [GHCi](https://wiki.haskell.org/GHC/GHCi) - Interactive Haskell environment. It uses [haskeline](https://hackage.haskell.org/package/haskeline) instead of readline. Put this in `~/haskeline`:
+  * ```bash
+    editMode: Vi
+    ```
+
+## Debuggers
+* :white_check_mark: [cgdb](http://cgdb.github.io/) - a curses interface on top of the GDB debuger with keybindings modeled after vim.
+
 ## PDF viewers
 * :white_check_mark: [apvlv](https://github.com/naihe2010/apvlv) - A PDF Viewer that acts Like Vim
 
