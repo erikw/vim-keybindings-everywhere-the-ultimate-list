@@ -24,6 +24,10 @@ The following symbols are used with each list item to make it clearer what kind 
 * :white_check_mark: - built-in support (possibly via a setting)
 * :heavy_plus_sign: - via addon/extension
 
+Tip: GitHubs built-in markdown Table of Contents in the top left corner of this file you're reading:
+[![GitHub ToC](img/github_md_toc.png)](#)
+
+
 # General
 * [vim-anywhere](https://github.com/cknadler/vim-anywhere) - spawn a vim buffer from any text input in the operating system.
 
