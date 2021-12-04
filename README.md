@@ -28,10 +28,14 @@ The following symbols are used with each list item to make it clearer what kind 
 * [vim-anywhere](https://github.com/cknadler/vim-anywhere) - spawn a vim buffer from any text input in the operating system.
 
 ## Web browsers
+* Firefox
+* Chrome
+* Safari
+* Edge
 
 ## IDEs
-* :heavy_plus_sign: Jetbrain's Intellij, PYCharm, PHPStorm, - ...
-* Visual Studio Code
+* :heavy_plus_sign: [Jetbrain's IDEs](https://www.jetbrains.com/products/#type=ide) (Intellij, PYCharm, PHPStorm, WebStorm, ...) - Install the plugin [IdeaVim](https://plugins.jetbrains.com/plugin/164-ideavim) directly from the plugin section in the IDE settings.
+* :heavy_plus_sign: Visual Studio Code - Install the [Vim plugin](https://github.com/VSCodeVim/Vim) directly in the plugin section in the IDE settings.
 
 ## Text Editors
 We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have Vi(m) keybindings so let's skip those here (Vim, NeoVim, vile, ...)
@@ -46,7 +50,6 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
 * :white_check_mark: [oni2 (onivim)](https://github.com/onivim/oni2)
 
 ## CLI
-### Programs
 ### Shells
 * :white_check_mark: [readline](https://man.archlinux.org/man/readline.3) Readline is a library used by many CLI programs to read input from users. By configuring readline to use vi key bindings, you automatically get it for programs like `bash`, `irb`. By default, readlines has Emacs-like keybindings but you can change that by putting this in your `~/.inputrc`:
   * ```
@@ -61,10 +64,26 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
   * ```bash
     bindkey -v
     ```
-* :white_check_mark: fish - just add to you `~/.config/fish/config.fish` ([reference](https://stackoverflow.com/a/28445450/265508)):
+* :white_check_mark: [fish](https://fishshell.com/) - just add to your `~/.config/fish/config.fish` ([reference](https://stackoverflow.com/a/28445450/265508)):
   * ```bash
     fish_vi_key_bindings
     ```
+* :white_check_mark: [tcsh](https://www.tcsh.org/) - put this in your ksh startup file e.g. `~/.kshrc` ([reference](https://www.oreilly.com/library/view/mac-os-x/0596004583/ch04s02.html)):
+  * ```bash
+    bindkey -v
+    ```
+* :white_check_mark: [ksh](https://en.wikipedia.org/wiki/KornShell) - put this in your ksh startup file e.g. `~/.kshrc`:
+  * ```bash
+    set -o vi
+    ```
+
+### Programs
+* :white_check_mark: [tmux](https://github.com/tmux/tmux) - the terminal multiplexer, superseding GNU Screen. just put this in your `~/.config/tmux/tmux.conf`:
+  * ```bash
+    set-option -g status-keys vi	# Use Vi bindings in tmux command prompt.
+    set-window-option -g mode-keys vi	# Use Vi bindings in copy and choice mode.
+    ```
+
 
 
 # Contributing
