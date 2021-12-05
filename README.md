@@ -2,7 +2,7 @@
 [![<magic-marker-nbr-native>](https://img.shields.io/badge/Native%20programs%20listed-15-brightgreen)](#)
 [![<magic-marker-nbr-extensions>](https://img.shields.io/badge/Extensions%20listed-9-blue)](#)
 [![OSS Lifecycle](https://img.shields.io/osslifecycle/erikw/vim-keybindings-everywhere-the-ultimate-list)](https://github.com/Netflix/osstracker)
-[![License](https://img.shields.io/github/license/erikw/vim-keybindings-everywhere-the-ultimate-list)](LICENSE.txt)
+[![License](https://img.shields.io/github/license/erikw/vim-keybindings-everywhere-the-ultimate-list?color=lightgrey)](LICENSE.txt)
 
 
 [![Contributors](https://img.shields.io/github/contributors/erikw/vim-keybindings-everywhere-the-ultimate-list)](https://github.com/erikw/vim-keybindings-everywhere-the-ultimate-list/graphs/contributors) including these top contributors:<br>
