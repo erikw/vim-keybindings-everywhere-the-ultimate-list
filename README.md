@@ -66,36 +66,47 @@ The following symbols are used with each list item to make it clearer what kind 
 
 # Music players
 * :white_check_mark: [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) - An ncurses client for [mpd](https://www.musicpd.org/). The navigation can quite easily be made to behave like vim with some keyboard configurations.
-<details>
-<summary>~/.config/ncmpcpp/bindings</summary>
-```
-  def_key "j"
-    scroll_down
-  def_key "k"
-    scroll_up
-  def_key "h"
-    previous_column
-  def_key "l"
-    next_column
-  def_key "ctrl-b"
-    page_up
-  def_key "ctrl-u"
-    page_up
-  def_key "ctrl-f"
-    page_down
-  def_key "ctrl-d"
-    page_down
-  def_key "g"
-    move_home
-  def_key "G"
-    move_end
-  def_key "n"
-    next_found_item
-  def_key "N"
-    previous_found_item
- ```
-</details>
+  * <details>
+      <summary>~/.config/ncmpcpp/bindings</summary>
+  
+      ```
+        def_key "j"
+          scroll_down
+        def_key "k"
+          scroll_up
+        def_key "h"
+          previous_column
+        def_key "l"
+          next_column
+        def_key "ctrl-b"
+          page_up
+        def_key "ctrl-u"
+          page_up
+        def_key "ctrl-f"
+          page_down
+        def_key "ctrl-d"
+          page_down
+        def_key "g"
+          move_home
+        def_key "G"
+          move_end
+        def_key "n"
+          next_found_item
+        def_key "N"
+          previous_found_item
+       ```
+    </details >
 
+
+<details>
+  <summary>Click to expand!</summary>
+  
+  ```javascript
+    function logSometing(something) {
+      console.log(`Logging: ${something}`);
+    }
+  ```
+</details>
 
 ## PDF viewers
 * :white_check_mark: [apvlv](https://github.com/naihe2010/apvlv) - A PDF Viewer that acts Like Vim
