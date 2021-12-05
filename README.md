@@ -134,7 +134,6 @@ Please:
     $ cd vim-keybindings-everywhere-the-ultimate-list/
     $ git config core.hooksPath .githooks
   ```
-`
 
 # Acknowledgments
 Hats off to [@funbike](https://www.reddit.com/user/funbike/) who already created a great [list](https://www.reddit.com/r/vim/comments/3tluqr/my_list_of_applications_with_vi_keybindings/) some years ago giving a good start for this list!
