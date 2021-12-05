@@ -35,16 +35,16 @@ The following symbols are used with each list item to make it clearer what kind 
 
 ## CLI
 ### Shells
-* :white_check_mark: [readline](https://man.archlinux.org/man/readline.3) Readline is a library used by many CLI programs to read input from users. By configuring readline to use vi key bindings, you automatically get it for programs like `bash`, `irb`. By default, readlines has Emacs-like keybindings but you can change that by putting this in your `~/.inputrc`:
+* :white_check_mark: [readline](https://man.archlinux.org/man/readline.3) - Readline is a library used by many CLI programs to read input from users. By configuring readline to use vi key bindings, you automatically get it for programs like `bash`, `irb`. By default, readlines has Emacs-like keybindings but you can change that by putting this in your `~/.inputrc`:
   * ```
      set editing-mode vi
      set keymap vi-insert
   ```
-* :white_check_mark: Bash - The preferred method is to set Vi mode in `~/.inputrc` via readline, as you will get Vi mode automatically in all programs using the library. However if you just want this for bash, put this in your bash startup file e.g. `~/.bashrc`:
+* :white_check_mark: [Bash](https://www.gnu.org/software/bash/) - The preferred method is to set Vi mode in `~/.inputrc` via readline, as you will get Vi mode automatically in all programs using the library. However if you just want this for bash, put this in your bash startup file e.g. `~/.bashrc`:
   * ```bash
     set -o vi
     ```
-* :white_check_mark: ZSH - just put this in your ZSH startup file, most likely `~/.zshrc`:
+* :white_check_mark: [zsh](https://en.wikipedia.org/wiki/Z_shell) - just put this in your ZSH startup file, most likely `~/.zshrc`:
   * ```bash
     bindkey -v
     ```
