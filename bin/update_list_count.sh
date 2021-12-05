@@ -25,7 +25,7 @@ update_count() {
 
 	img_tag=$(printf $template $count)
 	sed -i.bak -e "s|^.*${search}.*$|${img_tag}|" README.md
-	test -e README.md.bak && rm -f README.md.bak
+	test -e README.md.bak && rm README.md.bak
 }
 
 count_native=$(count_occurences $SIGN_NATIVE)
