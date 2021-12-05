@@ -1,6 +1,6 @@
 # Vim Keybindings Everywhere - The Ultimate List [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20Vim%20keybindings%20everywhere%20-%20the%20ultimate%20list%20of%20programs%20with%20native%20support%20or%20extensions%20providing%20it&url=https://github.com/erikw/vim-keybindings-everywhere-the-ultimate-list&via=erik_westrup&hashtags=vim,keybindings,list)
-[![<magic-marker-nbr-native>](https://img.shields.io/badge/Native%20programs%20listed-23-brightgreen)](#)
-[![<magic-marker-nbr-extensions>](https://img.shields.io/badge/Extensions%20listed-18-blue)](#)
+[![<magic-marker-nbr-native>](https://img.shields.io/badge/Native%20programs%20listed-25-brightgreen)](#)
+[![<magic-marker-nbr-extensions>](https://img.shields.io/badge/Extensions%20listed-20-blue)](#)
 [![OSS Lifecycle](https://img.shields.io/osslifecycle/erikw/vim-keybindings-everywhere-the-ultimate-list)](https://github.com/Netflix/osstracker)
 [![License](https://img.shields.io/github/license/erikw/vim-keybindings-everywhere-the-ultimate-list?color=lightgrey)](LICENSE.txt)
 
@@ -16,15 +16,20 @@ Once your fingers have [learned](https://www.thejach.com/view/2012/07/vims_learn
 
 The intention of this collaborative list is to:
 * learn which programs/apps that you already use which you can enhance with Vim keybindings. Search in your browser with `ctrl/cmd + f`.
-* discover new programs that supports Vim keybindings. In the need for a new file manager? Why not get one that has Vim keybindigns?
+* discover new programs that supports Vim keybindings. In the need for a new file manager? Why not get one that has Vim keybindings?
 * be up to date and alive -- add new programs and extensions as they evolve!
 
 There are of course already lists like this one floating around on the internet (see [Acknowledgments](#Acknowledgments)). While they are great, the issue is that they are not up to date with the latest developments. There are Vim-emulator add-ons being developed all the time! This is why this collaborative list was created.
+
+(yes, technically it is **vi**-like keybindings we talk about here, but most people know and Google for vim, thus vim is used here instead of vi).
 
 # The Ultimate Vim Keybinding List
 The following symbols are used with each list item to make it clearer what kind of Vim keybindings support exist
 * :white_check_mark: - built-in support (possibly via a setting)
 * :heavy_plus_sign: - via addon/extension
+
+Terminology:
+* [TUI](https://itlaw.fandom.com/wiki/Text_user_interface) - Text User Interface
 
 **Tip**: navigate this file easily by using GitHub's built-in markdown Table of Contents in the top left corner:
 <a href="#" title="GitHub built-in Table of Contents for markdown files."><img src="img/github_md_toc.png" width="256" alt="ToC"></a>
@@ -45,34 +50,14 @@ The following symbols are used with each list item to make it clearer what kind 
   * :heavy_plus_sign: [vim_mode](https://github.com/shabble/irssi-scripts/tree/master/vim-mode) plugin.
 
 ## Development
+* :white_check_mark: [ipython](https://ipython.org/) - Interactive Python shell. It no longer uses readline for input, so it must be configured in the ipython profile `~/.ipython/profile_default/ipython_config.py` itself ([reference](https://gist.github.com/sstirlin/c3c207b1052b613ab9554b4ebdfc3f35)):
+  * ```
+    c.TerminalInteractiveShell.editing_mode = "vi"
+    ```
 * :white_check_mark: [GHCi](https://wiki.haskell.org/GHC/GHCi) - Interactive Haskell environment. It uses [haskeline](https://hackage.haskell.org/package/haskeline) instead of readline. Put this in `~/haskeline`:
-  * ```bash
+  * ```
     editMode: Vi
     ```
-* :white_check_mark: [git](https://git-scm.com/) - Nothing's better than the real deal. Tell git to use vim/nvim when editing commit messages, interactive rebase etc. by putting in your `~/.config/git/config`:
-  * ```ini
-    [user]
-        editor = vim
-    ```
-* :white_check_mark: [hg/mercurical](https://www.mercurial-scm.org/) - Put in your `~/.config/hg/hgrc`:
-  * ```ini
-    [ui]
-    editor = vim
-    ```
-* :white_check_mark: [tig](https://jonas.github.io/tig/) - Text interface for git. Works mostly like vim out of the box, but can be enhanced:
-  * <details>
-      <summary>~/.config/tig/config</summary>
-  
-      ```conf
-      bind generic <Ctrl-f>   scroll-page-down
-      bind generic <Ctrl-b>   scroll-page-up
-      bind generic g move-first-line			# Move cursor to top.
-      bind generic G move-last-line			# Move cursor to bottom.
-
-      bind main B :toggle commit-title-graph		# Rebind G to B.
-      bind main G move-last-line			# Move cursor to bottom.
-      ```
-    </details>
 
 ## Debuggers
 * :white_check_mark: [cgdb](http://cgdb.github.io/) - a curses interface on top of the GDB debuger with keybindings modeled after vim.
@@ -134,6 +119,38 @@ The following symbols are used with each list item to make it clearer what kind 
   * :heavy_plus_sign: [viplugin](https://marketplace.eclipse.org/content/viplugin)
   * :heavy_plus_sign: [viable](https://marketplace.eclipse.org/content/viable-vim-eclipse)
 
+## News/RSS Readers
+* :heavy_plus_sign: [Newsboat](https://newsboat.org/) - RSS/Atom reader with a TUI.
+* :heavy_plus_sign: ~~[Newsbeuter](https://github.com/akrennmair/newsbeuter)~~ - Unmaintained, see Newsboat./
+
+
+## Source Code Management
+* :white_check_mark: [git](https://git-scm.com/) - Nothing's better than the real deal. Tell git to use vim/nvim when editing commit messages, interactive rebase etc. by putting in your `~/.config/git/config`:
+  * ```ini
+    [user]
+        editor = vim
+    ```
+* :white_check_mark: [tig](https://jonas.github.io/tig/) - Text interface for git. Works mostly like vim out of the box, but can be enhanced:
+  * <details>
+      <summary>~/.config/tig/config</summary>
+  
+      ```conf
+      bind generic <Ctrl-f>   scroll-page-down
+      bind generic <Ctrl-b>   scroll-page-up
+      bind generic g move-first-line			# Move cursor to top.
+      bind generic G move-last-line			# Move cursor to bottom.
+
+      bind main B :toggle commit-title-graph		# Rebind G to B.
+      bind main G move-last-line			# Move cursor to bottom.
+      ```
+    </details>
+* :white_check_mark: [hg/mercurical](https://www.mercurial-scm.org/) - Put in your `~/.config/hg/hgrc`:
+  * ```ini
+    [ui]
+    editor = vim
+    ```
+
+
 ## Shells
 * :white_check_mark: [readline](https://man.archlinux.org/man/readline.3) - Readline is a library used by many CLI programs to read input from users. By configuring readline to use vi key bindings, you automatically get it for programs like `bash`, `irb`, `octave` etc.. By default, readlines has Emacs-like keybindings but you can change that by putting this in your `~/.inputrc`:
   * ```
@@ -164,6 +181,9 @@ The following symbols are used with each list item to make it clearer what kind 
 ## System Tools
 * :white_check_mark: [htop-vim](https://aur.archlinux.org/packages/htop-vim/) - A patched version the [htop](https://htop.dev/) interactive process viewer that has vim keybindings for navigation.
 * :white_check_mark: [aptitude](https://wiki.debian.org/Aptitude) - ncurses interface for APT on Debian-derived Linux distros. The [keybindings](https://www.debian.org/doc/manuals/aptitude/ch02s05s02.en.html) are already vim-like.
+
+# File Management
+* :white_check_mark: [vifm](https://vifm.info/) - TUI file manager with vi keybindings.
 * :white_check_mark: [ncdu](https://dev.yorhel.nl/ncdu) - ncurses disk usage explorer.
 
 
