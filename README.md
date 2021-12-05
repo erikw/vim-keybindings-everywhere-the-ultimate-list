@@ -135,3 +135,4 @@ Hats off to [@funbike](https://www.reddit.com/user/funbike/) who already created
 
 # testing pre-commit
   * :heavy_plus_sign: ~~[evil-mode](https://www.emacswiki.org/emacs/Evil)~~ Deprecated, check out Vimpulse or Vim Mode.
+  * :heavy_plus_sign: ~~[evil-mode](https://www.emacswiki.org/emacs/Evil)~~ Deprecated, check out Vimpulse or Vim Mode.
