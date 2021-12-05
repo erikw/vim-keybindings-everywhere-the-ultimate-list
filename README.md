@@ -1,6 +1,6 @@
 # Vim Keybindings Everywhere - The Ultimate List [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20Vim%20keybindings%20everywhere%20-%20the%20ultimate%20list%20of%20programs%20with%20native%20support%20or%20extensions%20providing%20it&url=https://github.com/erikw/vim-keybindings-everywhere-the-ultimate-list&via=erik_westrup&hashtags=vim,keybindings,list)
-[![<magic-marker-nbr-native>](https://img.shields.io/badge/Native%20programs%20listed-21-brightgreen)](#)
-[![<magic-marker-nbr-extensions>](https://img.shields.io/badge/Extensions%20listed-10-blue)](#)
+[![<magic-marker-nbr-native>](https://img.shields.io/badge/Native%20programs%20listed-23-brightgreen)](#)
+[![<magic-marker-nbr-extensions>](https://img.shields.io/badge/Extensions%20listed-18-blue)](#)
 [![OSS Lifecycle](https://img.shields.io/osslifecycle/erikw/vim-keybindings-everywhere-the-ultimate-list)](https://github.com/Netflix/osstracker)
 [![License](https://img.shields.io/github/license/erikw/vim-keybindings-everywhere-the-ultimate-list?color=lightgrey)](LICENSE.txt)
 
@@ -43,7 +43,6 @@ The following symbols are used with each list item to make it clearer what kind 
     </details>
 * [irssi](https://github.com/shabble/irssi-scripts/tree/master/vim-mode) - the popular IRC client.
   * :heavy_plus_sign: [vim_mode](https://github.com/shabble/irssi-scripts/tree/master/vim-mode) plugin.
-* :white_check_mark: [htop-vim](https://aur.archlinux.org/packages/htop-vim/) - A patched version the [htop](https://htop.dev/) interactive process viewer that has vim keybindings for navigation.
 
 ## Development
 * :white_check_mark: [GHCi](https://wiki.haskell.org/GHC/GHCi) - Interactive Haskell environment. It uses [haskeline](https://hackage.haskell.org/package/haskeline) instead of readline. Put this in `~/haskeline`:
@@ -82,6 +81,8 @@ The following symbols are used with each list item to make it clearer what kind 
 ## E-Mail
 * :white_check_mark: [Mutt](http://www.mutt.org/) - The vim of email, a TUI email client
 * :white_check_mark: [NeoMutt](https://neomutt.org/) - A fork of mutt, intendted to reignite the development.
+* [Thunderbird](https://www.thunderbird.net/en-US/) 
+  * :heavy_plus_sign: [Muttator](https://addons.thunderbird.net/en-US/thunderbird/addon/muttator/) - Like Vimperator but for thunderbird.
 
 # Music players
 * :white_check_mark: [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) - An ncurses client for [mpd](https://www.musicpd.org/). The navigation can quite easily be made to behave like vim with some keyboard configurations.
@@ -128,6 +129,10 @@ The following symbols are used with each list item to make it clearer what kind 
   * :heavy_plus_sign: [Vim plugin](https://github.com/VSCodeVim/Vim) - install it directly in the plugin section in the IDE settings.
 * [XCode](https://github.com/XVimProject/XVim) - Apple's IDE
   * :heavy_plus_sign: [XVim](https://github.com/XVimProject/XVim) plugin
+* [Eclipse](https://www.eclipse.org/ide/)
+  * :heavy_plus_sign: [vrapper-vim](https://marketplace.eclipse.org/content/vrapper-vim)
+  * :heavy_plus_sign: [viplugin](https://marketplace.eclipse.org/content/viplugin)
+  * :heavy_plus_sign: [viable](https://marketplace.eclipse.org/content/viable-vim-eclipse)
 
 ## Shells
 * :white_check_mark: [readline](https://man.archlinux.org/man/readline.3) - Readline is a library used by many CLI programs to read input from users. By configuring readline to use vi key bindings, you automatically get it for programs like `bash`, `irb`, `octave` etc.. By default, readlines has Emacs-like keybindings but you can change that by putting this in your `~/.inputrc`:
@@ -156,6 +161,11 @@ The following symbols are used with each list item to make it clearer what kind 
     set -o vi
     ```
 
+## System Tools
+* :white_check_mark: [htop-vim](https://aur.archlinux.org/packages/htop-vim/) - A patched version the [htop](https://htop.dev/) interactive process viewer that has vim keybindings for navigation.
+* :white_check_mark: [aptitude](https://wiki.debian.org/Aptitude) - ncurses interface for APT on Debian-derived Linux distros. The [keybindings](https://www.debian.org/doc/manuals/aptitude/ch02s05s02.en.html) are already vim-like.
+* :white_check_mark: [ncdu](https://dev.yorhel.nl/ncdu) - ncurses disk usage explorer.
+
 
 
 ## Text Editors
@@ -173,10 +183,15 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
 ## Web browsers
 * Firefox
   * :heavy_plus_sign: [tridactyl-vim](https://addons.mozilla.org/en-US/firefox/addon/tridactyl-vim/) 
+  * :heavy_plus_sign: [Vimium-FF](https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/) 
 * Chrome
+  * :heavy_plus_sign: [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
   * :heavy_plus_sign: [cVim](https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh)
+  * :heavy_plus_sign: [wasavi](https://chrome.google.com/webstore/detail/wasavi/dgogifpkoilgiofhhhodbodcfgomelhe) - Transform text areas into a vi editor.
 * Safari
 * Edge
+* Opera
+  * :heavy_plus_sign: [wasavi](https://chrome.google.com/webstore/detail/wasavi/dgogifpkoilgiofhhhodbodcfgomelhe) - Transform text areas into a vi editor.
 
 
 # Contributing
