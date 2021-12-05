@@ -26,7 +26,7 @@ The following symbols are used with each list item to make it clearer what kind 
 * :white_check_mark: - built-in support (possibly via a setting)
 * :heavy_plus_sign: - via addon/extension
 
-**Tip**: use GitHub's built-in markdown Table of Contents in the top left corner of this file:
+**Tip**: navigate this file easily by using GitHub's built-in markdown Table of Contents in the top left corner:
 <a href="#" title="GitHub built-in Table of Contents for markdown files."><img src="img/github_md_toc.png" width="256" alt="ToC"></a>
 
 
