@@ -1,4 +1,4 @@
-# Vim Keybindings Everywhere - The Ultimate List [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20a%20nifty%20tooltip%20for%20term%20definitions%20in%20your%20Jekyll%20blog%20with%20this%20plugin&url=https://github.com/erikw/jekyll-glossary_tooltip&via=erik_westrup&hashtags=jekyll,plugin)
+# Vim Keybindings Everywhere - The Ultimate List [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20Vim%20keybindings%20everywhere%20-%20the%20ultimate%20list%20of%20programs%20with%20native%20support%20or%20extensions%20providing%20it&url=https://github.com/erikw/vim-keybindings-everywhere-the-ultimate-list&via=erik_westrup&hashtags=vim,keybindings,list)
 [![<magic-marker-nbr-native>](https://img.shields.io/badge/Native%20programs%20listed-15-brightgreen)](#)
 [![<magic-marker-nbr-extensions>](https://img.shields.io/badge/Extensions%20listed-9-blue)](#)
 [![OSS Lifecycle](https://img.shields.io/osslifecycle/erikw/vim-keybindings-everywhere-the-ultimate-list)](https://github.com/Netflix/osstracker)
@@ -15,7 +15,7 @@
 Once your fingers have [learned](https://www.thejach.com/view/2012/07/vims_learning_curve_is_wrong) to speak Vim, they do'nt not want to speak anything else! It's simply a very effective way of navigating, creating and editing text. Thus, it's natual that one would like to get Vim-like keybindings in as many programs we use as possible.
 
 The intention of this collaborative list is to:
-* learn which programs/apps that you already use which you can enhance with Vim keybindings
+* learn which programs/apps that you already use which you can enhance with Vim keybindings. Search in your browser with `ctrl/cmd + f`.
 * discover new programs that supports Vim keybindings. In the need for a new file manager? Why not get one that has Vim keybindigns?
 * be up to date and alive -- add new programs and extensions as they evolve!
 
