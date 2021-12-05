@@ -132,3 +132,6 @@ Please:
 # Acknowledgments
 Hats off to [@funbike](https://www.reddit.com/user/funbike/) who already created a great [list](https://www.reddit.com/r/vim/comments/3tluqr/my_list_of_applications_with_vi_keybindings/) some years ago giving a good start for this list!
 
+
+# testing pre-commit
+  * :heavy_plus_sign: ~~[evil-mode](https://www.emacswiki.org/emacs/Evil)~~ Deprecated, check out Vimpulse or Vim Mode.

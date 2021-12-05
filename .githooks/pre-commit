@@ -1,4 +1,4 @@
 #!/bin/sh
 
 ../../bin/update_list_count.sh
-git add REDME.md
+git add README.md
