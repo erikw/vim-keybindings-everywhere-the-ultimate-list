@@ -152,7 +152,7 @@ Terminology:
 * :white_check_mark: [hg/mercurical](https://www.mercurial-scm.org/) - Put in your `~/.config/hg/hgrc`:
   * ```ini
     [ui]
-    editor = vim
+        editor = vim
     ```
 
 
