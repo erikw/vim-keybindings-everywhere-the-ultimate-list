@@ -9,8 +9,8 @@ SIGN_NATIVE=:white_check_mark:
 SIGN_EXTENSIONS=:heavy_plus_sign:
 
 
-TEMPLATE_NATIVE="[![<magic-marker-nbr-native>](https://img.shields.io/badge/Native%%20programs-%d-brightgreen)](#)"
-TEMPLATE_EXTENSIONS="[![<magic-marker-nbr-extensions>](https://img.shields.io/badge/Extensions-%d-blue)](#)"
+TEMPLATE_NATIVE="[![<magic-marker-nbr-native>](https://img.shields.io/badge/Native%%20programs%%20listed-%d-brightgreen)](#)"
+TEMPLATE_EXTENSIONS="[![<magic-marker-nbr-extensions>](https://img.shields.io/badge/Extensions%%20listed-%d-blue)](#)"
 
 count_occurences() {
 	local sign="$1"
