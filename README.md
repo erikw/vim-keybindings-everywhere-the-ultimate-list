@@ -55,7 +55,7 @@ Terminology:
     c.TerminalInteractiveShell.editing_mode = "vi"
     ```
 * :white_check_mark: [GHCi](https://wiki.haskell.org/GHC/GHCi) - Interactive Haskell environment. It uses [haskeline](https://hackage.haskell.org/package/haskeline) instead of readline. Put this in `~/haskeline`:
-  * ```ini
+  * ```yaml
     editMode: Vi
     ```
 
