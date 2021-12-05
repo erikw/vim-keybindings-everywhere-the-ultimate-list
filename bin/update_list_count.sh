@@ -5,12 +5,11 @@
 MARKER_NATIVE="<magic-marker-nbr-native>"
 MARKER_EXTENSIONS="<magic-marker-nbr-extensions>"
 
-SIGN_NATIVE=:white_check_mark:
-SIGN_EXTENSIONS=:heavy_plus_sign:
-
-
 TEMPLATE_NATIVE="[![${MARKER_NATIVE}](https://img.shields.io/badge/Native%%20programs%%20listed-%d-brightgreen)](#)"
 TEMPLATE_EXTENSIONS="[![${MARKER_EXTENSIONS}](https://img.shields.io/badge/Extensions%%20listed-%d-blue)](#)"
+
+SIGN_NATIVE=:white_check_mark:
+SIGN_EXTENSIONS=:heavy_plus_sign:
 
 count_occurences() {
 	local sign="$1"
