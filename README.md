@@ -1,5 +1,5 @@
 # Vim Keybindings Everywhere - The Ultimate List [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20Vim%20keybindings%20everywhere%20-%20the%20ultimate%20list%20of%20programs%20with%20native%20support%20or%20extensions%20providing%20it&url=https://github.com/erikw/vim-keybindings-everywhere-the-ultimate-list&via=erik_westrup&hashtags=vim,keybindings,list)
-[![<magic-marker-nbr-native>](https://img.shields.io/badge/Native%20programs%20listed-19-brightgreen)](#)
+[![<magic-marker-nbr-native>](https://img.shields.io/badge/Native%20programs%20listed-20-brightgreen)](#)
 [![<magic-marker-nbr-extensions>](https://img.shields.io/badge/Extensions%20listed-9-blue)](#)
 [![OSS Lifecycle](https://img.shields.io/osslifecycle/erikw/vim-keybindings-everywhere-the-ultimate-list)](https://github.com/Netflix/osstracker)
 [![License](https://img.shields.io/github/license/erikw/vim-keybindings-everywhere-the-ultimate-list?color=lightgrey)](LICENSE.txt)
@@ -32,11 +32,15 @@ The following symbols are used with each list item to make it clearer what kind 
 
 ## General
 * :white_check_mark: [vim-anywhere](https://github.com/cknadler/vim-anywhere) - spawn a vim buffer from any text input in the operating system.
-* :white_check_mark: [tmux](https://github.com/tmux/tmux) - the terminal multiplexer, superseding GNU Screen. just put this in your `~/.config/tmux/tmux.conf`:
-  * ```bash
-    set-option -g status-keys vi	# Use Vi bindings in tmux command prompt.
-    set-window-option -g mode-keys vi	# Use Vi bindings in copy and choice mode.
-    ```
+* :white_check_mark: [tmux](https://github.com/tmux/tmux) - the terminal multiplexer, superseding GNU Screen.
+  * <details>
+      <summary>~/.config/tmux/tmux.conf</summary>
+  
+      ```conf
+       set-option -g status-keys vi	# Use Vi bindings in tmux command prompt.
+       set-window-option -g mode-keys vi	# Use Vi bindings in copy and choice mode.
+       ```
+    </details>
 * [irssi](https://github.com/shabble/irssi-scripts/tree/master/vim-mode) - the popular IRC client.
   * :heavy_plus_sign: [vim_mode](https://github.com/shabble/irssi-scripts/tree/master/vim-mode) plugin.
 * :white_check_mark: [htop-vim](https://aur.archlinux.org/packages/htop-vim/) - A patched version the [htop](https://htop.dev/) interactive process viewer that has vim keybindings for navigation.
@@ -59,6 +63,7 @@ The following symbols are used with each list item to make it clearer what kind 
 
 ## Debuggers
 * :white_check_mark: [cgdb](http://cgdb.github.io/) - a curses interface on top of the GDB debuger with keybindings modeled after vim.
+* :white_check_mark: [vimpdb](https://github.com/gotcha/vimpdb) - An integration of the python debugger `pdb` and vim.
 
 ## E-Mail
 * :white_check_mark: [Mutt](http://www.mutt.org/) - The vim of email, a TUI email client
@@ -95,18 +100,8 @@ The following symbols are used with each list item to make it clearer what kind 
         def_key "N"
           previous_found_item
        ```
-    </details >
+    </details>
 
-
-<details>
-  <summary>Click to expand!</summary>
-  
-  ```javascript
-    function logSometing(something) {
-      console.log(`Logging: ${something}`);
-    }
-  ```
-</details>
 
 ## PDF viewers
 * :white_check_mark: [apvlv](https://github.com/naihe2010/apvlv) - A PDF Viewer that acts Like Vim
@@ -121,7 +116,7 @@ The following symbols are used with each list item to make it clearer what kind 
   * :heavy_plus_sign: [XVim](https://github.com/XVimProject/XVim) plugin
 
 ## Shells
-* :white_check_mark: [readline](https://man.archlinux.org/man/readline.3) - Readline is a library used by many CLI programs to read input from users. By configuring readline to use vi key bindings, you automatically get it for programs like `bash`, `irb`. By default, readlines has Emacs-like keybindings but you can change that by putting this in your `~/.inputrc`:
+* :white_check_mark: [readline](https://man.archlinux.org/man/readline.3) - Readline is a library used by many CLI programs to read input from users. By configuring readline to use vi key bindings, you automatically get it for programs like `bash`, `irb`, `octave` etc.. By default, readlines has Emacs-like keybindings but you can change that by putting this in your `~/.inputrc`:
   * ```
      set editing-mode vi
      set keymap vi-insert
