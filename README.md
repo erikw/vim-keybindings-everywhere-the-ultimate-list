@@ -1,5 +1,5 @@
 # Vim Keybindings Everywhere - The Ultimate List [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20Vim%20keybindings%20everywhere%20-%20the%20ultimate%20list%20of%20programs%20with%20native%20support%20or%20extensions%20providing%20it&url=https://github.com/erikw/vim-keybindings-everywhere-the-ultimate-list&via=erik_westrup&hashtags=vim,keybindings,list)
-[![<magic-marker-nbr-native>](https://img.shields.io/badge/Native%20programs%20listed-20-brightgreen)](#)
+[![<magic-marker-nbr-native>](https://img.shields.io/badge/Native%20programs%20listed-21-brightgreen)](#)
 [![<magic-marker-nbr-extensions>](https://img.shields.io/badge/Extensions%20listed-10-blue)](#)
 [![OSS Lifecycle](https://img.shields.io/osslifecycle/erikw/vim-keybindings-everywhere-the-ultimate-list)](https://github.com/Netflix/osstracker)
 [![License](https://img.shields.io/github/license/erikw/vim-keybindings-everywhere-the-ultimate-list?color=lightgrey)](LICENSE.txt)
@@ -60,6 +60,20 @@ The following symbols are used with each list item to make it clearer what kind 
     [ui]
     editor = vim
     ```
+* :white_check_mark: [tig](https://jonas.github.io/tig/) - Text interface for git. Works mostly like vim out of the box, but can be enhanced:
+  * <details>
+      <summary>~/.config/tig/config</summary>
+  
+      ```conf
+      bind generic <Ctrl-f>   scroll-page-down
+      bind generic <Ctrl-b>   scroll-page-up
+      bind generic g move-first-line			# Move cursor to top.
+      bind generic G move-last-line			# Move cursor to bottom.
+
+      bind main B :toggle commit-title-graph		# Rebind G to B.
+      bind main G move-last-line			# Move cursor to bottom.
+      ```
+    </details>
 
 ## Debuggers
 * :white_check_mark: [cgdb](http://cgdb.github.io/) - a curses interface on top of the GDB debuger with keybindings modeled after vim.
@@ -75,30 +89,30 @@ The following symbols are used with each list item to make it clearer what kind 
       <summary>~/.config/ncmpcpp/bindings</summary>
   
       ```
-        def_key "j"
-          scroll_down
-        def_key "k"
-          scroll_up
-        def_key "h"
-          previous_column
-        def_key "l"
-          next_column
-        def_key "ctrl-b"
-          page_up
-        def_key "ctrl-u"
-          page_up
-        def_key "ctrl-f"
-          page_down
-        def_key "ctrl-d"
-          page_down
-        def_key "g"
-          move_home
-        def_key "G"
-          move_end
-        def_key "n"
-          next_found_item
-        def_key "N"
-          previous_found_item
+      def_key "j"
+        scroll_down
+      def_key "k"
+        scroll_up
+      def_key "h"
+        previous_column
+      def_key "l"
+        next_column
+      def_key "ctrl-b"
+        page_up
+      def_key "ctrl-u"
+        page_up
+      def_key "ctrl-f"
+        page_down
+      def_key "ctrl-d"
+        page_down
+      def_key "g"
+        move_home
+      def_key "G"
+        move_end
+      def_key "n"
+        next_found_item
+      def_key "N"
+        previous_found_item
        ```
     </details>
 
