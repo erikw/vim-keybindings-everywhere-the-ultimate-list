@@ -1,5 +1,5 @@
 # Vim Keybindings Everywhere - The Ultimate List [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20Vim%20keybindings%20everywhere%20-%20the%20ultimate%20list%20of%20programs%20with%20native%20support%20or%20extensions%20providing%20it&url=https://github.com/erikw/vim-keybindings-everywhere-the-ultimate-list&via=erik_westrup&hashtags=vim,keybindings,list)
-[![<magic-marker-nbr-native>](https://img.shields.io/badge/Native%20programs%20listed-16-brightgreen)](#)
+[![<magic-marker-nbr-native>](https://img.shields.io/badge/Native%20programs%20listed-18-brightgreen)](#)
 [![<magic-marker-nbr-extensions>](https://img.shields.io/badge/Extensions%20listed-9-blue)](#)
 [![OSS Lifecycle](https://img.shields.io/osslifecycle/erikw/vim-keybindings-everywhere-the-ultimate-list)](https://github.com/Netflix/osstracker)
 [![License](https://img.shields.io/github/license/erikw/vim-keybindings-everywhere-the-ultimate-list?color=lightgrey)](LICENSE.txt)
@@ -30,38 +30,8 @@ The following symbols are used with each list item to make it clearer what kind 
 <a href="#" title="GitHub built-in Table of Contents for markdown files."><img src="img/github_md_toc.png" width="256" alt="ToC"></a>
 
 
-# General
+## General
 * :white_check_mark: [vim-anywhere](https://github.com/cknadler/vim-anywhere) - spawn a vim buffer from any text input in the operating system.
-
-## CLI
-### Shells
-* :white_check_mark: [readline](https://man.archlinux.org/man/readline.3) - Readline is a library used by many CLI programs to read input from users. By configuring readline to use vi key bindings, you automatically get it for programs like `bash`, `irb`. By default, readlines has Emacs-like keybindings but you can change that by putting this in your `~/.inputrc`:
-  * ```
-     set editing-mode vi
-     set keymap vi-insert
-  ```
-* :white_check_mark: [Bash](https://www.gnu.org/software/bash/) - The preferred method is to set Vi mode in `~/.inputrc` via readline, as you will get Vi mode automatically in all programs using the library. However if you just want this for bash, put this in your bash startup file e.g. `~/.bashrc`:
-  * ```bash
-    set -o vi
-    ```
-* :white_check_mark: [zsh](https://en.wikipedia.org/wiki/Z_shell) - just put this in your ZSH startup file, most likely `~/.zshrc`:
-  * ```bash
-    bindkey -v
-    ```
-* :white_check_mark: [fish](https://fishshell.com/) - just add to your `~/.config/fish/config.fish` ([reference](https://stackoverflow.com/a/28445450/265508)):
-  * ```bash
-    fish_vi_key_bindings
-    ```
-* :white_check_mark: [tcsh](https://www.tcsh.org/) - put this in your ksh startup file e.g. `~/.kshrc` ([reference](https://www.oreilly.com/library/view/mac-os-x/0596004583/ch04s02.html)):
-  * ```bash
-    bindkey -v
-    ```
-* :white_check_mark: [ksh](https://en.wikipedia.org/wiki/KornShell) - put this in your ksh startup file e.g. `~/.kshrc`:
-  * ```bash
-    set -o vi
-    ```
-
-### Programs
 * :white_check_mark: [tmux](https://github.com/tmux/tmux) - the terminal multiplexer, superseding GNU Screen. just put this in your `~/.config/tmux/tmux.conf`:
   * ```bash
     set-option -g status-keys vi	# Use Vi bindings in tmux command prompt.
@@ -90,6 +60,10 @@ The following symbols are used with each list item to make it clearer what kind 
 ## Debuggers
 * :white_check_mark: [cgdb](http://cgdb.github.io/) - a curses interface on top of the GDB debuger with keybindings modeled after vim.
 
+## E-Mail
+* :white_check_mark: [Mutt](http://www.mutt.org/) - The vim of email, a TUI email client
+* :white_check_mark: [NeoMutt](https://neomutt.org/) - A fork of mutt, intendted to reignite the development.
+
 ## PDF viewers
 * :white_check_mark: [apvlv](https://github.com/naihe2010/apvlv) - A PDF Viewer that acts Like Vim
 
@@ -101,6 +75,34 @@ The following symbols are used with each list item to make it clearer what kind 
   * :heavy_plus_sign: [Vim plugin](https://github.com/VSCodeVim/Vim) - install it directly in the plugin section in the IDE settings.
 * [XCode](https://github.com/XVimProject/XVim) - Apple's IDE
   * :heavy_plus_sign: [XVim](https://github.com/XVimProject/XVim) plugin
+
+## Shells
+* :white_check_mark: [readline](https://man.archlinux.org/man/readline.3) - Readline is a library used by many CLI programs to read input from users. By configuring readline to use vi key bindings, you automatically get it for programs like `bash`, `irb`. By default, readlines has Emacs-like keybindings but you can change that by putting this in your `~/.inputrc`:
+  * ```
+     set editing-mode vi
+     set keymap vi-insert
+  ```
+* :white_check_mark: [Bash](https://www.gnu.org/software/bash/) - The preferred method is to set Vi mode in `~/.inputrc` via readline, as you will get Vi mode automatically in all programs using the library. However if you just want this for bash, put this in your bash startup file e.g. `~/.bashrc`:
+  * ```bash
+    set -o vi
+    ```
+* :white_check_mark: [zsh](https://en.wikipedia.org/wiki/Z_shell) - just put this in your ZSH startup file, most likely `~/.zshrc`:
+  * ```bash
+    bindkey -v
+    ```
+* :white_check_mark: [fish](https://fishshell.com/) - just add to your `~/.config/fish/config.fish` ([reference](https://stackoverflow.com/a/28445450/265508)):
+  * ```bash
+    fish_vi_key_bindings
+    ```
+* :white_check_mark: [tcsh](https://www.tcsh.org/) - put this in your ksh startup file e.g. `~/.kshrc` ([reference](https://www.oreilly.com/library/view/mac-os-x/0596004583/ch04s02.html)):
+  * ```bash
+    bindkey -v
+    ```
+* :white_check_mark: [ksh](https://en.wikipedia.org/wiki/KornShell) - put this in your ksh startup file e.g. `~/.kshrc`:
+  * ```bash
+    set -o vi
+    ```
+
 
 
 ## Text Editors
