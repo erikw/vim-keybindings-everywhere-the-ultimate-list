@@ -1,5 +1,6 @@
 #!/bin/sh
 
+# Only update the counts if README.md is staged, to prevent accidental commit of unstaged changes. Not bullet proof of the file is both staged and modifier in the workspace though. 
 if (git status --porcelain | grep -q "^M  README.md$"); then
 	bin/update_list_count.sh
 	git add README.md
