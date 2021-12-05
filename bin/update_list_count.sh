@@ -15,8 +15,7 @@ TEMPLATE_EXTENSIONS="[![${MARKER_EXTENSIONS}](https://img.shields.io/badge/Exten
 count_occurences() {
 	local sign="$1"
 	c=$(grep "$sign" README.md | wc -l)
-	#echo $(($c-1))  # Listed in explanation - does not count!
-	($c-1)  # Listed in explanation - does not count!
+	echo $(($c-1))  # Listed in explanation - does not count!
 }
 
 update_count() {
