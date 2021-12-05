@@ -75,6 +75,16 @@ The following symbols are used with each list item to make it clearer what kind 
   * ```bash
     editMode: Vi
     ```
+* :white_check_mark: [git](https://git-scm.com/) - Nothing's better than the real deal. Tell git to use vim/nvim when editing commit messages, interactive rebase etc. by putting in your `~/.config/git/config`:
+  * ```ini
+    [user]
+        editor = vim
+    ```
+* :white_check_mark: [hg/mercurical](https://www.mercurial-scm.org/) - Put in your `~/.config/hg/hgrc`:
+  * ```ini
+    [ui]
+    editor = vim
+    ```
 
 ## Debuggers
 * :white_check_mark: [cgdb](http://cgdb.github.io/) - a curses interface on top of the GDB debuger with keybindings modeled after vim.
@@ -114,6 +124,10 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
 
 # Contributing
 This is a collaborative list -- please fork and make a pull request to add or improve the entries here! The initial contributions by the repo owner is limited to the tools he uses or knows of, so there is a lot of room for further additions here!
+
+Please:
+* add links to references for configuration if you have any.
+* use [XDG paths](https://wiki.archlinux.org/title/XDG_Base_Directory) when possible.
 
 # Acknowledgments
 Hats off to [@funbike](https://www.reddit.com/user/funbike/) who already created a great [list](https://www.reddit.com/r/vim/comments/3tluqr/my_list_of_applications_with_vi_keybindings/) some years ago giving a good start for this list!
