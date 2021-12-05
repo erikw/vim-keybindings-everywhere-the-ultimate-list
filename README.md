@@ -41,7 +41,7 @@ Terminology:
   * <details>
       <summary>~/.config/tmux/tmux.conf</summary>
   
-      ```conf
+      ```ini
        set-option -g status-keys vi		# Use Vi bindings in tmux command prompt.
        set-window-option -g mode-keys vi	# Use Vi bindings in copy and choice mode.
        ```
@@ -55,7 +55,7 @@ Terminology:
     c.TerminalInteractiveShell.editing_mode = "vi"
     ```
 * :white_check_mark: [GHCi](https://wiki.haskell.org/GHC/GHCi) - Interactive Haskell environment. It uses [haskeline](https://hackage.haskell.org/package/haskeline) instead of readline. Put this in `~/haskeline`:
-  * ```
+  * ```ini
     editMode: Vi
     ```
 
@@ -139,7 +139,7 @@ Terminology:
   * <details>
       <summary>~/.config/tig/config</summary>
   
-      ```conf
+      ```
       bind generic <Ctrl-f>   scroll-page-down
       bind generic <Ctrl-b>   scroll-page-up
       bind generic g move-first-line			# Move cursor to top.
