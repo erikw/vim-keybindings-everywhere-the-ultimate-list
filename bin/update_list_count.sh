@@ -28,7 +28,7 @@ update_count() {
 	test -e README.md && rm -f README.md.bak
 }
 
-count_native=$(count_occurences $SIGN_NATIVE | tr -d '\n')
+count_native=$(count_occurences $SIGN_NATIVE)
 count_extensions=$(count_occurences $SIGN_EXTENSIONS)
 
 update_count $count_native $TEMPLATE_NATIVE $SEARCH_NATIVE
