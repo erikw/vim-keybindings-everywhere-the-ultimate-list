@@ -19,7 +19,7 @@ The intention of this collaborative list is to:
 * discover new programs that supports Vim keybindings. In the need for a new file manager? Why not get one that has Vim keybindigns?
 * be up to date and alive -- add new programs and extensions as they evolve!
 
-There are of course already lists like this one ([1](https://www.slant.co/topics/7131/~programming-text-editors-with-vim-key-bindings), [2](https://www.reddit.com/r/vim/comments/3tluqr/my_list_of_applications_with_vi_keybindings/)) floating around on the internet. While they are great, the issue is that they are not up to date with the latest developments. There are Vim-emulator addons being developed all the time! This is why this collaborative list was created.
+There are of course already lists like this one floating around on the internet (see #Acknowledgments). While they are great, the issue is that they are not up to date with the latest developments. There are Vim-emulator add-ons being developed all the time! This is why this collaborative list was created.
 
 # The Ultimate Vim Keybinding List
 The following symbols are used with each list item to make it clearer what kind of Vim keybindings support exist
@@ -37,7 +37,7 @@ The following symbols are used with each list item to make it clearer what kind 
       <summary>~/.config/tmux/tmux.conf</summary>
   
       ```conf
-       set-option -g status-keys vi	# Use Vi bindings in tmux command prompt.
+       set-option -g status-keys vi		# Use Vi bindings in tmux command prompt.
        set-window-option -g mode-keys vi	# Use Vi bindings in copy and choice mode.
        ```
     </details>
@@ -178,4 +178,7 @@ Please:
   ```
 
 # Acknowledgments
-Hats off to [@funbike](https://www.reddit.com/user/funbike/) who already created a great [list](https://www.reddit.com/r/vim/comments/3tluqr/my_list_of_applications_with_vi_keybindings/) some years ago giving a good start for this list!
+Hats off to the authors of these articles that helped kick-starting this list together with the author's own expereicnes.
+* [#1](https://www.reddit.com/r/vim/comments/3tluqr/my_list_of_applications_with_vi_keybindings/)
+* [#2](https://reversed.top/2016-08-13/big-list-of-vim-like-software/)
+* [#3](https://www.slant.co/topics/7131/~programming-text-editors-with-vim-key-bindings)
