@@ -205,7 +205,8 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
 ## WYSIWYG Editors
 
 * :white_check_mark: [zettlr](https://www.zettlr.com) - Markdown document editor on the fly, vim+emacs keybindings.
- 
+* :white_check_mark: [VNote](https://vnotex.github.io/vnote/en_us/) - A note taking app.
+  
 ## Web browsers
 * Firefox
   * :heavy_plus_sign: [tridactyl-vim](https://addons.mozilla.org/en-US/firefox/addon/tridactyl-vim/) 
