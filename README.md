@@ -187,6 +187,30 @@ Terminology:
   * ```bash
     set -o vi
     ```
+ 
+ * ✅ [pwsh](https://learn.microsoft.com/en-us/powershell/) - The Readline module offers support for convenient vim support. Add this to your `$Profile`:
+   *
+    ```
+     Import-Module PSReadLine
+     # enable Vim on the shell and as editor
+     $OnViModeChange = [scriptblock]{
+        if ($args[0] -eq 'Command') {
+            # Set the cursor to a blinking block.
+            Write-Host -NoNewLine "`e[2 q"
+        }
+        else {
+            # Set the cursor to a blinking line.
+            Write-Host -NoNewLine "`e[5 q"
+        }
+     }
+
+     Set-PsReadLineOption -EditMode Vi
+     Set-PSReadLineOption -ViModeIndicator Script -ViModeChangeHandler $OnViModeChange
+    ```
+   * This was collected from many github issues and posts. Powershell 5.1 for one reason or another refuses to change the cursor so the script to give
+    feedback does not work. Just remove it and it will still work, just no feedback of the mode you're in.
+
+
 
 ## System Tools
 * :white_check_mark: [htop-vim](https://aur.archlinux.org/packages/htop-vim/) - A patched version the [htop](https://htop.dev/) interactive process viewer that has vim keybindings for navigation.
