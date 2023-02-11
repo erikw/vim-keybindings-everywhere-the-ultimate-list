@@ -12,14 +12,14 @@
 
 
 # What is this list?
-Once your fingers have [learned](https://www.thejach.com/view/2012/07/vims_learning_curve_is_wrong) to speak Vim, they do'nt not want to speak anything else! It's simply a very effective way of navigating, creating and editing text. Thus, it's natual that one would like to get Vim-like keybindings in as many programs we use as possible.
+Once your fingers have [learned](https://www.thejach.com/view/2012/07/vims_learning_curve_is_wrong) to speak Vim, they don't want to speak anything else! It's simply a very effective way of navigating, creating and editing text. Thus, it's natural that one would like to get Vim-like keybindings in as many programs we use as possible.
 
 The intention of this collaborative list is to:
 * learn which programs/apps that you already use which you can enhance with Vim keybindings. Search in your browser with `ctrl/cmd + f`.
-* discover new programs that supports Vim keybindings. In the need for a new file manager? Why not get one that has Vim keybindings?
-* be up to date and alive -- add new programs and extensions as they evolve!
+* discover new programs that support Vim keybindings. In the need for a new file manager? Why not get one that has Vim keybindings?
+* be up-to-date and alive -- add new programs and extensions as they evolve!
 
-There are of course already lists like this one floating around on the internet (see [Acknowledgments](#Acknowledgments)). While they are great, the issue is that they are not up to date with the latest developments. There are Vim-emulator add-ons being developed all the time! This is why this collaborative list was created.
+There are of course already lists like this one floating around on the internet (see [Acknowledgments](#Acknowledgments)). While they are great, the issue is that they are not up-to-date with the latest developments. There are Vim-emulator add-ons being developed all the time! This is why this collaborative list was created.
 
 (yes, technically it is **vi**-like keybindings we talk about here, but most people know and Google for vim, thus vim is used here instead of vi).
 
@@ -31,7 +31,7 @@ The following symbols are used with each list item to make it clearer what kind 
 Terminology:
 * [TUI](https://itlaw.fandom.com/wiki/Text_user_interface) - Text User Interface
 
-**Tip**: navigate this file easily by using GitHub's built-in markdown Table of Contents in the top left corner:
+**Tip**: navigate this file easily by using GitHub's built-in Markdown Table of Contents in the top left corner:
 <a href="#" title="GitHub built-in Table of Contents for markdown files."><img src="img/github_md_toc.png" width="256" alt="ToC"></a>
 
 
@@ -162,12 +162,12 @@ Terminology:
 
 
 ## Shells
-* :white_check_mark: [readline](https://man.archlinux.org/man/readline.3) - Readline is a library used by many CLI programs to read input from users. By configuring readline to use vi key bindings, you automatically get it for programs like `bash`, `irb`, `octave` etc.. By default, readlines has Emacs-like keybindings but you can change that by putting this in your `~/.inputrc`:
+* :white_check_mark: [readline](https://man.archlinux.org/man/readline.3) - Readline is a library used by many CLI programs to read input from users. By configuring readline to use vi key bindings, you automatically get it for programs like `bash`, `irb`, `octave` etc. By default, readline has Emacs-like keybindings, but you can change that by putting this in your `~/.inputrc`:
   * ```
      set editing-mode vi
      set keymap vi-insert
   ```
-* :white_check_mark: [Bash](https://www.gnu.org/software/bash/) - The preferred method is to set Vi mode in `~/.inputrc` via readline, as you will get Vi mode automatically in all programs using the library. However if you just want this for bash, put this in your bash startup file e.g. `~/.bashrc`:
+* :white_check_mark: [Bash](https://www.gnu.org/software/bash/) - The preferred method is to set Vi mode in `~/.inputrc` via readline, as you will get Vi mode automatically in all programs using the library. However, if you just want this for bash, put this in your bash startup file e.g. `~/.bashrc`:
   * ```bash
     set -o vi
     ```
@@ -263,4 +263,4 @@ Please:
 * It's okay to list deprecated or unmaintained software for the sake of completness, but let's put a ~~strigke-through~~ on them.
 
 # Acknowledgments
-Hats off to the authors of these articles that helped kick-starting this list together with the author's own experiences:  [#1](https://www.reddit.com/r/vim/comments/3tluqr/my_list_of_applications_with_vi_keybindings/), [#2](https://reversed.top/2016-08-13/big-list-of-vim-like-software/), [#3](https://www.slant.co/topics/7131/~programming-text-editors-with-vim-key-bindings), [#4](https://vim.reversed.top/).
+Hats off to the authors of these articles that helped kick-start this list together with the author's own experiences: [#1](https://www.reddit.com/r/vim/comments/3tluqr/my_list_of_applications_with_vi_keybindings/), [#2](https://reversed.top/2016-08-13/big-list-of-vim-like-software/), [#3](https://www.slant.co/topics/7131/~programming-text-editors-with-vim-key-bindings), [#4](https://vim.reversed.top/).
