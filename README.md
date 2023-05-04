@@ -280,5 +280,3 @@ Please:
 
 # Acknowledgments
 Hats off to the authors of these articles that helped kick-start this list together with the author's own experiences: [#1](https://www.reddit.com/r/vim/comments/3tluqr/my_list_of_applications_with_vi_keybindings/), [#2](https://reversed.top/2016-08-13/big-list-of-vim-like-software/), [#3](https://www.slant.co/topics/7131/~programming-text-editors-with-vim-key-bindings), [#4](https://vim.reversed.top/).
-
-* :white_check_mark: tmp test
