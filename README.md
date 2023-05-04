@@ -235,6 +235,8 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
 * :white_check_mark: [VNote](https://vnotex.github.io/vnote/en_us/) - A note taking app.
   
 ## Web browsers
+* :white_check_mark: [qutebrowser](https://qutebrowser.org/)
+* :white_check_mark: [Vieb](https://vieb.dev/) - Vim bindings for the web by design (electron based)
 * Firefox
   * :heavy_plus_sign: [tridactyl-vim](https://addons.mozilla.org/en-US/firefox/addon/tridactyl-vim/) 
   * :heavy_plus_sign: [Vimium-FF](https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/) 
@@ -246,7 +248,6 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
 * Edge
 * Opera
   * :heavy_plus_sign: [wasavi](https://chrome.google.com/webstore/detail/wasavi/dgogifpkoilgiofhhhodbodcfgomelhe) - Transform text areas into a vi editor.
-* :white_check_mark: [qutebrowser](https://qutebrowser.org/)
 
 
 # Contributing
