@@ -1,6 +1,6 @@
 # Vim Keybindings Everywhere - The Ultimate List [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20Vim%20keybindings%20everywhere%20-%20the%20ultimate%20list%20of%20programs%20with%20native%20support%20or%20extensions%20providing%20it&url=https://github.com/erikw/vim-keybindings-everywhere-the-ultimate-list&via=erik_westrup&hashtags=vim,keybindings,list)
-[![<magic-marker-nbr-native>](https://img.shields.io/badge/Native%20programs%20listed-32-brightgreen)](#)
-[![<magic-marker-nbr-extensions>](https://img.shields.io/badge/Extensions%20listed-21-blue)](#)
+[![<magic-marker-nbr-native>](https://img.shields.io/badge/Native%20programs%20listed-34-brightgreen)](#)
+[![<magic-marker-nbr-extensions>](https://img.shields.io/badge/Extensions%20listed-25-blue)](#)
 [![OSS Lifecycle](https://img.shields.io/osslifecycle/erikw/vim-keybindings-everywhere-the-ultimate-list)](https://github.com/Netflix/osstracker)
 [![License](https://img.shields.io/github/license/erikw/vim-keybindings-everywhere-the-ultimate-list?color=lightgrey)](LICENSE.txt)
 
@@ -60,6 +60,10 @@ Terminology:
     ```
     
 * :heavy_plus_sign: [Jupyter Lab](https://pypi.org/project/jupyterlab-vim/) - Science and Data Development notebook environment. Add this package [jupyterlab-vim](https://pypi.org/project/jupyterlab-vim/) and restart the server. It is available for both `pip` and `conda` managed environments (and their derivatives).
+* :white_check_mark: [LINQPad](https://www.linqpad.net/) - The .NET Programmer’s Playground.  vi mode available in settings. Go to Edit > Preferences > General UI to enable
+
+* [Azure Data Studio](https://azure.microsoft.com/en-us/products/data-studio/) - Database tool similar to Microsoft SQL Server Management Studio. Supports VSCode extensions.
+  * :heavy_plus_sign: [Vim plugin](https://github.com/VSCodeVim/Vim) - Cannot be installed directly in the plugin section. Go to [Vim plugin release page](https://github.com/VSCodeVim/Vim/releases) and download `.vsix` file. Then open the file in Azure Data Studio. If you see error that the extension is not compatible with current VS Code engine version try older release.
 
 ## Debuggers
 * :white_check_mark: [cgdb](http://cgdb.github.io/) - a curses interface on top of the GDB debuger with keybindings modeled after vim.
@@ -129,6 +133,8 @@ Terminology:
   * :heavy_plus_sign: [vrapper-vim](https://marketplace.eclipse.org/content/vrapper-vim)
   * :heavy_plus_sign: [viplugin](https://marketplace.eclipse.org/content/viplugin)
   * :heavy_plus_sign: [viable](https://marketplace.eclipse.org/content/viable-vim-eclipse)
+* [Visual Studio 2015 and above](https://visualstudio.microsoft.com/)
+  * :heavy_plus_sign: [VsVim](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim) - install through the extensions inside Visual Studio
 
 ## News/RSS Readers
 * :heavy_plus_sign: [Newsboat](https://newsboat.org/) - RSS/Atom reader with a TUI.
