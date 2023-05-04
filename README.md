@@ -82,6 +82,20 @@ Terminology:
 * :white_check_mark: [lf](https://github.com/gokcehan/lf) - TUI file manager similar to ranger.
 * :white_check_mark: [ncdu](https://dev.yorhel.nl/ncdu) - ncurses disk usage explorer.
 
+## IDEs
+* [Jetbrain's IDEs](https://www.jetbrains.com/products/#type=ide) (Intellij, PYCharm, PHPStorm, WebStorm, ...)
+  * :heavy_plus_sign: [IdeaVim](https://plugins.jetbrains.com/plugin/164-ideavim) - install it directly from the plugin section in the IDE settings.
+* [Visual Studio Code](https://code.visualstudio.com/)
+  * :heavy_plus_sign: [Vim plugin](https://github.com/VSCodeVim/Vim) - install it directly in the plugin section in the IDE settings.
+  * :heavy_plus_sign: [NVim plugin](https://github.com/vscode-neovim/vscode-neovim) - alternative to the VIM plugin, uses a full nvim instance in the background instead of just emulating VIM
+* :white_check_mark: [XCode](https://developer.apple.com/xcode/) - Apple's IDE. Vim mode can be enabled under the "Editor" menu without use of plugins.
+  * :heavy_plus_sign: ~[XVim2](https://github.com/XVimProject/XVim2)~ plugin. Deprecated, use native keybindings (above) instead.
+* [Eclipse](https://www.eclipse.org/ide/)
+  * :heavy_plus_sign: [vrapper-vim](https://marketplace.eclipse.org/content/vrapper-vim)
+  * :heavy_plus_sign: [viplugin](https://marketplace.eclipse.org/content/viplugin)
+  * :heavy_plus_sign: [viable](https://marketplace.eclipse.org/content/viable-vim-eclipse)
+* [Visual Studio 2015 and above](https://visualstudio.microsoft.com/)
+  * :heavy_plus_sign: [VsVim](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim) - install through the extensions inside Visual Studio
 
 ## Music players
 * :white_check_mark: [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) - An ncurses client for [mpd](https://www.musicpd.org/). The navigation can quite easily be made to behave like vim with some keyboard configurations.
@@ -116,6 +130,9 @@ Terminology:
        ```
     </details>
 
+## News/RSS Readers
+* :heavy_plus_sign: [Newsboat](https://newsboat.org/) - RSS/Atom reader with a TUI.
+* :heavy_plus_sign: ~~[Newsbeuter](https://github.com/akrennmair/newsbeuter)~~ - Unmaintained, see Newsboat./
 
 ## PDF viewers
 * :white_check_mark: [apvlv](https://github.com/naihe2010/apvlv) - A PDF Viewer that acts Like Vim
@@ -123,29 +140,10 @@ Terminology:
 * :white_check_mark: [zathura](https://pwmt.org/projects/zathura) - Document reader, vim-keybindings, partly based on MuPDF. Linux only.
 * :white_check_mark: [SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader) - Document reader, vim-keybindings. Windows only.
 
- ## Personal Knowledge Management
+## Personal Knowledge Management
 * :white_check_mark: [Obsidian](https://obsidian.md/) - under "Editor" options
 * [Logseq](https://logseq.com/)
   * :heavy_plus_sign: [logseq-plugin-vim-shortcuts](https://github.com/vipzhicheng/logseq-plugin-vim-shortcuts) - normal mode commands deal with whole blocks, editing text is only possible in edit mode
-
-## IDEs
-* [Jetbrain's IDEs](https://www.jetbrains.com/products/#type=ide) (Intellij, PYCharm, PHPStorm, WebStorm, ...)
-  * :heavy_plus_sign: [IdeaVim](https://plugins.jetbrains.com/plugin/164-ideavim) - install it directly from the plugin section in the IDE settings.
-* [Visual Studio Code](https://code.visualstudio.com/)
-  * :heavy_plus_sign: [Vim plugin](https://github.com/VSCodeVim/Vim) - install it directly in the plugin section in the IDE settings.
-  * :heavy_plus_sign: [NVim plugin](https://github.com/vscode-neovim/vscode-neovim) - alternative to the VIM plugin, uses a full nvim instance in the background instead of just emulating VIM
-* :white_check_mark: [XCode](https://developer.apple.com/xcode/) - Apple's IDE. Vim mode can be enabled under the "Editor" menu without use of plugins.
-  * :heavy_plus_sign: ~[XVim2](https://github.com/XVimProject/XVim2)~ plugin. Deprecated, use native keybindings (above) instead.
-* [Eclipse](https://www.eclipse.org/ide/)
-  * :heavy_plus_sign: [vrapper-vim](https://marketplace.eclipse.org/content/vrapper-vim)
-  * :heavy_plus_sign: [viplugin](https://marketplace.eclipse.org/content/viplugin)
-  * :heavy_plus_sign: [viable](https://marketplace.eclipse.org/content/viable-vim-eclipse)
-* [Visual Studio 2015 and above](https://visualstudio.microsoft.com/)
-  * :heavy_plus_sign: [VsVim](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim) - install through the extensions inside Visual Studio
-
-## News/RSS Readers
-* :heavy_plus_sign: [Newsboat](https://newsboat.org/) - RSS/Atom reader with a TUI.
-* :heavy_plus_sign: ~~[Newsbeuter](https://github.com/akrennmair/newsbeuter)~~ - Unmaintained, see Newsboat./
 
 
 ## Source Code Management
@@ -231,7 +229,6 @@ Terminology:
     ```
    * This was collected from many github issues and posts. Powershell 5.1 for one reason or another refuses to change the cursor so the script to give
     feedback does not work. Just remove it and it will still work, just no feedback of the mode you're in.
-
 
 
 ## System Tools
