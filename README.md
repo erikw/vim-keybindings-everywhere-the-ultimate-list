@@ -237,10 +237,13 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
 ## Web browsers
 * Firefox
   * :heavy_plus_sign: [tridactyl-vim](https://addons.mozilla.org/en-US/firefox/addon/tridactyl-vim/) 
-  * :heavy_plus_sign: [Vimium-FF](https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/) 
+  * :heavy_plus_sign: [Vimium-FF](https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/)
+  * :heavy_plus_sign: [Surfingkeys](https://addons.mozilla.org/en-US/firefox/addon/surfingkeys_ff/) 
+
 * Chrome
   * :heavy_plus_sign: [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
   * :heavy_plus_sign: [cVim](https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh)
+  * :heavy_plus_sign: [Surfingkeys](https://chrome.google.com/webstore/detail/surfingkeys/gfbliohnnapiefjpjlpjnehglfpaknnc) 
   * :heavy_plus_sign: [wasavi](https://chrome.google.com/webstore/detail/wasavi/dgogifpkoilgiofhhhodbodcfgomelhe) - Transform text areas into a vi editor.
 * Safari
 * Edge
