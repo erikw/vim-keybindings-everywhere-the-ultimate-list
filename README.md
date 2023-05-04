@@ -247,6 +247,8 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
 * Opera
   * :heavy_plus_sign: [wasavi](https://chrome.google.com/webstore/detail/wasavi/dgogifpkoilgiofhhhodbodcfgomelhe) - Transform text areas into a vi editor.
 * :white_check_mark: [qutebrowser](https://qutebrowser.org/)
+* Various
+  * :heavy_plus_sign: [firenvim](https://github.com/glacambre/firenvim) - Transform text areas into a neovim instance that inherits your existing config (keymaps, plugins, etc).
 
 
 # Contributing
