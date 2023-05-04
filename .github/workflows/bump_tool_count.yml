@@ -34,5 +34,5 @@ jobs:
         uses: EndBug/add-and-commit@v9.1.2
         with:
           message: "chore: Update tool count"
-          actor: github-actions
+          default_author: github-actions
           add: "README.md"
