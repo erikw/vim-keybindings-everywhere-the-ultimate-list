@@ -124,8 +124,7 @@ Terminology:
   * :heavy_plus_sign: [IdeaVim](https://plugins.jetbrains.com/plugin/164-ideavim) - install it directly from the plugin section in the IDE settings.
 * [Visual Studio Code](https://code.visualstudio.com/)
   * :heavy_plus_sign: [Vim plugin](https://github.com/VSCodeVim/Vim) - install it directly in the plugin section in the IDE settings.
-* [XCode](https://github.com/XVimProject/XVim) - Apple's IDE
-  * :heavy_plus_sign: [XVim](https://github.com/XVimProject/XVim) plugin
+* [XCode](https://developer.apple.com/xcode/) - Apple's IDE. Vim mode can be enabled under the "Editor" menu without use of pluggins.
 * [Eclipse](https://www.eclipse.org/ide/)
   * :heavy_plus_sign: [vrapper-vim](https://marketplace.eclipse.org/content/vrapper-vim)
   * :heavy_plus_sign: [viplugin](https://marketplace.eclipse.org/content/viplugin)
