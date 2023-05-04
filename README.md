@@ -243,6 +243,7 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
   * :heavy_plus_sign: [cVim](https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh)
   * :heavy_plus_sign: [wasavi](https://chrome.google.com/webstore/detail/wasavi/dgogifpkoilgiofhhhodbodcfgomelhe) - Transform text areas into a vi editor.
 * Safari
+  * :heavy_plus_sign: [Vimari](https://apps.apple.com/us/app/vimari/id1480933944?ls=1&mt=12)
 * Edge
 * Opera
   * :heavy_plus_sign: [wasavi](https://chrome.google.com/webstore/detail/wasavi/dgogifpkoilgiofhhhodbodcfgomelhe) - Transform text areas into a vi editor.
