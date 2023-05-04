@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 # Update the count of listed programs / extension in the README.md
 # TODO set this up as a GitHub action to run on merge on master?
 
