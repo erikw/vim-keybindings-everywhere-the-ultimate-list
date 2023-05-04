@@ -118,12 +118,17 @@ Terminology:
 * :white_check_mark: [zathura](https://pwmt.org/projects/zathura) - Document reader, vim-keybindings, partly based on MuPDF. Linux only.
 * :white_check_mark: [SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader) - Document reader, vim-keybindings. Windows only.
 
+ ## Personal Knowledge Management
+* :white_check_mark: [Obsidian](https://obsidian.md/) - under "Editor" options
+* [Logseq](https://logseq.com/)
+  * :heavy_plus_sign: [logseq-plugin-vim-shortcuts](https://github.com/vipzhicheng/logseq-plugin-vim-shortcuts) - normal mode commands deal with whole blocks, editing text is only possible in edit mode
 
 ## IDEs
 * [Jetbrain's IDEs](https://www.jetbrains.com/products/#type=ide) (Intellij, PYCharm, PHPStorm, WebStorm, ...)
   * :heavy_plus_sign: [IdeaVim](https://plugins.jetbrains.com/plugin/164-ideavim) - install it directly from the plugin section in the IDE settings.
 * [Visual Studio Code](https://code.visualstudio.com/)
   * :heavy_plus_sign: [Vim plugin](https://github.com/VSCodeVim/Vim) - install it directly in the plugin section in the IDE settings.
+  * :heavy_plus_sign: [NVim plugin](https://github.com/vscode-neovim/vscode-neovim) - alternative to the VIM plugin, uses a full nvim instance in the background instead of just emulating VIM
 * :white_check_mark: [XCode](https://developer.apple.com/xcode/) - Apple's IDE. Vim mode can be enabled under the "Editor" menu without use of plugins.
   * :heavy_plus_sign: ~[XVim2](https://github.com/XVimProject/XVim2)~ plugin. Deprecated, use native keybindings (above) instead.
 * [Eclipse](https://www.eclipse.org/ide/)
