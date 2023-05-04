@@ -79,6 +79,7 @@ Terminology:
 ## File Management
 * :white_check_mark: [vifm](https://vifm.info/) - TUI file manager with vi keybindings.
 * :white_check_mark: [ranger](https://github.com/ranger/ranger) - Another TUI file manager.
+* :white_check_mark: [lf](https://github.com/gokcehan/lf) - TUI file manager similar to ranger.
 * :white_check_mark: [ncdu](https://dev.yorhel.nl/ncdu) - ncurses disk usage explorer.
 
 
@@ -258,6 +259,7 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
   * :heavy_plus_sign: [tridactyl-vim](https://addons.mozilla.org/en-US/firefox/addon/tridactyl-vim/)
   * :heavy_plus_sign: [Vimium-FF](https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/)
   * :heavy_plus_sign: [Surfingkeys](https://addons.mozilla.org/en-US/firefox/addon/surfingkeys_ff/)
+  * :heavy_plus_sign: [Vim Vixen](https://addons.mozilla.org/en-US/firefox/addon/vim-vixen/)
 
 * Chrome
   * :heavy_plus_sign: [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
