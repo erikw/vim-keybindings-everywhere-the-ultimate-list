@@ -223,10 +223,9 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
 * Atom
   * :heavy_plus_sign: [atom-vim-mode-plus](https://github.com/t9md/atom-vim-mode-plus)
 * Emacs
-  * :white_check_mark: [spacemacs](https://www.spacemacs.org/) - An emacs distribution with built-in Vim keybindings.
-  * :heavy_plus_sign: [Vimpulse](https://www.emacswiki.org/emacs/Vimpulse)
-  * :heavy_plus_sign: [Vim Mode](https://www.emacswiki.org/emacs/VimMode)
-  * :heavy_plus_sign: ~~[evil-mode](https://www.emacswiki.org/emacs/Evil)~~ Deprecated, check out Vimpulse or Vim Mode.
+  * :white_check_mark: [evil-mode](https://www.emacswiki.org/emacs/Evil) - Extensible vi layer for Emacs.
+  * :heavy_plus_sign: [spacemacs](https://www.spacemacs.org/) - Emacs configuration package that improves the Emacs experience, including vim bindings via `evil-mode`. Features a vim-like leader (space) for common commands.
+  * :heavy_plus_sign: [doom emacs](https://github.com/doomemacs/doomemacs) - Configuration package that provides a similar experience to Spacemacs (including `evil-mode`. Also implements spacebar-as-leader-key.
 * :white_check_mark: [oni2 (onivim)](https://github.com/onivim/oni2)
 
 ## WYSIWYG Editors
