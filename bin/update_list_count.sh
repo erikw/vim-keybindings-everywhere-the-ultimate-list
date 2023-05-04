@@ -1,6 +1,11 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 # Update the count of listed programs / extension in the README.md
 # TODO set this up as a GitHub action to run on merge on master?
+
+set -o errexit
+set -o nounset
+set -o pipefail
+[[ "${TRACE-0}" =~ ^1|t|y|true|yes$ ]] && set -o xtrace
 
 MARKER_NATIVE="<magic-marker-nbr-native>"
 MARKER_EXTENSIONS="<magic-marker-nbr-extensions>"
@@ -29,6 +34,9 @@ update_count() {
 
 count_native=$(count_occurences $SIGN_NATIVE)
 count_extensions=$(count_occurences $SIGN_EXTENSIONS)
+
+printf "Found %d native entries\n" "$count_native"
+printf "Found %d extension entries\n" "$count_extensions"
 
 update_count $count_native $TEMPLATE_NATIVE $MARKER_NATIVE
 update_count $count_extensions $TEMPLATE_EXTENSIONS $MARKER_EXTENSIONS
