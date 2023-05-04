@@ -1,6 +1,6 @@
 # Vim Keybindings Everywhere - The Ultimate List [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20Vim%20keybindings%20everywhere%20-%20the%20ultimate%20list%20of%20programs%20with%20native%20support%20or%20extensions%20providing%20it&url=https://github.com/erikw/vim-keybindings-everywhere-the-ultimate-list&via=erik_westrup&hashtags=vim,keybindings,list)
-[![<magic-marker-nbr-native>](https://img.shields.io/badge/Native%20programs%20listed-32-brightgreen)](#)
-[![<magic-marker-nbr-extensions>](https://img.shields.io/badge/Extensions%20listed-21-blue)](#)
+[![<magic-marker-nbr-native>](https://img.shields.io/badge/Native%20programs%20listed-33-brightgreen)](#)
+[![<magic-marker-nbr-extensions>](https://img.shields.io/badge/Extensions%20listed-25-blue)](#)
 [![OSS Lifecycle](https://img.shields.io/osslifecycle/erikw/vim-keybindings-everywhere-the-ultimate-list)](https://github.com/Netflix/osstracker)
 [![License](https://img.shields.io/github/license/erikw/vim-keybindings-everywhere-the-ultimate-list?color=lightgrey)](LICENSE.txt)
 
@@ -234,6 +234,9 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
   * :white_check_mark: [evil-mode](https://www.emacswiki.org/emacs/Evil) - Extensible vi layer for Emacs.
   * :heavy_plus_sign: [spacemacs](https://www.spacemacs.org/) - Emacs configuration package that improves the Emacs experience, including vim bindings via `evil-mode`. Features a vim-like leader (space) for common commands.
   * :heavy_plus_sign: [doom emacs](https://github.com/doomemacs/doomemacs) - Configuration package that provides a similar experience to Spacemacs (including `evil-mode`. Also implements spacebar-as-leader-key.
+  * :heavy_plus_sign: [doom emacs](https://github.com/doomemacs/doomemacs) - Configuration package that provides a similar experience to Spacemacs (including `evil-mode`. Also implements spacebar-as-leader-key.
+  * :heavy_plus_sign: ~~[Vimpulse](https://www.emacswiki.org/emacs/Vimpulse)~~ Deprecated, check out Evil.
+  * :heavy_plus_sign: ~~[Vim Mode](https://www.emacswiki.org/emacs/VimMode)~~ Deprecated, check out Evil.
 * :white_check_mark: [oni2 (onivim)](https://github.com/onivim/oni2)
 
 ## WYSIWYG Editors
