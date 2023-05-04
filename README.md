@@ -72,13 +72,13 @@ Terminology:
 * [Thunderbird](https://www.thunderbird.net/en-US/)
   * :heavy_plus_sign: [Muttator](https://addons.thunderbird.net/en-US/thunderbird/addon/muttator/) - Like Vimperator but for thunderbird.
 
-# File Management
+## File Management
 * :white_check_mark: [vifm](https://vifm.info/) - TUI file manager with vi keybindings.
 * :white_check_mark: [ranger](https://github.com/ranger/ranger) - Another TUI file manager.
 * :white_check_mark: [ncdu](https://dev.yorhel.nl/ncdu) - ncurses disk usage explorer.
 
 
-# Music players
+## Music players
 * :white_check_mark: [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) - An ncurses client for [mpd](https://www.musicpd.org/). The navigation can quite easily be made to behave like vim with some keyboard configurations.
   * <details>
       <summary>~/.config/ncmpcpp/bindings</summary>
