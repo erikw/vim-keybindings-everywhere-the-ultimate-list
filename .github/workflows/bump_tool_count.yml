@@ -1,0 +1,24 @@
+# Updates the README counts in the badges.
+
+name: Bump count of tools listed
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run script
+        run: ./bin/update_list_count.sh
+      - name: Commit
+        uses: EndBug/add-and-commit@v9.1.2
+        with:
+          message: "chore: Update tool count"
+          default_author: github_actions
+          add: "README.md"

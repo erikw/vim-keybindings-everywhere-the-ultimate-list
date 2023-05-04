@@ -1,5 +1,12 @@
 #!/bin/sh
-# This can be bypassed like 
+# NOTE this is no longer needed as of the GitHub Action ../.github/workflows/bump_tool_count.yml
+#
+# Setup:
+#   $ git clone git@github.com:erikw/vim-keybindings-everywhere-the-ultimate-list.git
+#   $ cd vim-keybindings-everywhere-the-ultimate-list/
+#   $ git config core.hooksPath .githooks
+#
+# This can be bypassed like
 # $ git commit --no-verify
 
 # Only update the counts if README.md is staged, to prevent accidental commit of unstaged changes. Not bullet proof of the file is both staged and modifier in the workspace though.
