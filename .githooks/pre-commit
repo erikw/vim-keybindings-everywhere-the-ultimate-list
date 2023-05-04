@@ -1,4 +1,11 @@
 #!/bin/sh
+# NOTE this is no longer needed as of the GitHub Action ../.github/workflows/bump_tool_count.yml
+#
+# Setup:
+#   $ git clone git@github.com:erikw/vim-keybindings-everywhere-the-ultimate-list.git
+#   $ cd vim-keybindings-everywhere-the-ultimate-list/
+#   $ git config core.hooksPath .githooks
+#
 # This can be bypassed like
 # $ git commit --no-verify
 

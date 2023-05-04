@@ -268,15 +268,9 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
 # Contributing
 This is a collaborative list -- please fork and make a pull request to add or improve the entries here! The initial contributions by the repo owner is limited to the tools he uses or knows of, so there is a lot of room for further additions here!
 
-Please:
-* add links to references for configuration if you have any.
-* use [XDG paths](https://wiki.archlinux.org/title/XDG_Base_Directory) when possible.
-* set up the git pre-commit hook that updates the counts in the 2 badges by running:
-  * ```console
-    $ git clone git@github.com:erikw/vim-keybindings-everywhere-the-ultimate-list.git
-    $ cd vim-keybindings-everywhere-the-ultimate-list/
-    $ git config core.hooksPath .githooks
-  ```
+* Please:
+  * add links to references for configuration if you have any.
+  * use [XDG paths](https://wiki.archlinux.org/title/XDG_Base_Directory) when possible.
 * It's okay to list deprecated or unmaintained software for the sake of completness, but let's put a ~~strigke-through~~ on them.
 
 # Acknowledgments
