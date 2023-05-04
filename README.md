@@ -188,6 +188,14 @@ Terminology:
   * ```bash
     set -o vi
     ```
+* :white_check_mark: [nushell](https://www.nushell.sh) - put this in your config file e.g. `$nu.config-path`:
+  * ```nu
+    let-env config = {
+      # ...
+      edit_mode: vi,
+      # ...
+    }
+    ```
  
  * ✅ [pwsh](https://learn.microsoft.com/en-us/powershell/) - The Readline module offers support for convenient vim support. Add this to your `$Profile`:
    *
