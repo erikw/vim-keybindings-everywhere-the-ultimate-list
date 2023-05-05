@@ -1,6 +1,6 @@
 # Vim Keybindings Everywhere - The Ultimate List [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20Vim%20keybindings%20everywhere%20-%20the%20ultimate%20list%20of%20programs%20with%20native%20support%20or%20extensions%20providing%20it&url=https://github.com/erikw/vim-keybindings-everywhere-the-ultimate-list&via=erik_westrup&hashtags=vim,keybindings,list)
 [![<magic-marker-nbr-native>](https://img.shields.io/badge/Native%20programs%20listed-42-brightgreen)](#)
-[![<magic-marker-nbr-extensions>](https://img.shields.io/badge/Extensions%20listed-35-blue)](#)
+[![<magic-marker-nbr-extensions>](https://img.shields.io/badge/Extensions%20listed-36-blue)](#)
 [![OSS Lifecycle](https://img.shields.io/osslifecycle/erikw/vim-keybindings-everywhere-the-ultimate-list)](https://github.com/Netflix/osstracker)
 [![License](https://img.shields.io/github/license/erikw/vim-keybindings-everywhere-the-ultimate-list?color=lightgrey)](LICENSE.txt)
 [![Bump count of tools listed](https://github.com/erikw/vim-keybindings-everywhere-the-ultimate-list/actions/workflows/bump_tool_count.yml/badge.svg)](https://github.com/erikw/vim-keybindings-everywhere-the-ultimate-list/actions/workflows/bump_tool_count.yml)
@@ -104,7 +104,8 @@ Terminology:
   * :heavy_plus_sign: [viplugin](https://marketplace.eclipse.org/content/viplugin)
   * :heavy_plus_sign: [viable](https://marketplace.eclipse.org/content/viable-vim-eclipse)
 * [Visual Studio 2015 and above](https://visualstudio.microsoft.com/)
-  * :heavy_plus_sign: [VsVim](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim) - install through the extensions inside Visual Studio
+  * :heavy_plus_sign: [VsVim (Visual Studio 2015-2019)](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim) - install through the extensions inside Visual Studio
+  * :heavy_plus_sign: [VsVim 2022 (Visual Studio 2022)](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim2022Preview) - install through the extensions inside Visual Studio
 
 ## Music players
 * :white_check_mark: [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) - An ncurses client for [mpd](https://www.musicpd.org/). The navigation can quite easily be made to behave like vim with some keyboard configurations.
