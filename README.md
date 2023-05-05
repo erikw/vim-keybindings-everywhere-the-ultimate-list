@@ -107,6 +107,8 @@ Terminology:
 * [Visual Studio 2015 and above](https://visualstudio.microsoft.com/)
   * :heavy_plus_sign: [VsVim (Visual Studio 2015-2019)](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim) - install through the extensions inside Visual Studio
   * :heavy_plus_sign: [VsVim 2022 (Visual Studio 2022)](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim2022Preview) - install through the extensions inside Visual Studio
+* [Geany](https://www.geany.org/)
+  * :heavy_plus_sign: [vimode](https://github.com/geany/geany-plugins/blob/master/vimode/README) - The vimode plugin can be enabled from the settings.
 
 ## Music players
 * :white_check_mark: [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) - An ncurses client for [mpd](https://www.musicpd.org/). The navigation can quite easily be made to behave like vim with some keyboard configurations.
@@ -279,6 +281,7 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
 * :white_check_mark: [Sublime Text](https://www.sublimetext.com/) has a bult-in [Vintage mode](https://www.sublimetext.com/docs/vintage.html) that can be enabled.
   * :heavy_plus_sign: [NeoVintageous](https://github.com/NeoVintageous/NeoVintageous) - An advanced Vim emulation layer.
 * :white_check_mark: ~[oni2 (onivim)](https://github.com/onivim/oni2)~ [Deprecated](https://github.com/onivim/oni2/issues/3861).
+
 
 ## WYSIWYG Editors
 
