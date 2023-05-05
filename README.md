@@ -187,6 +187,18 @@ Terminology:
   * ```bash
     bindkey -v
     ```
+
+    And if you want some text objects:
+    ```bash
+    # text object extension -- eg ci" da(:
+    autoload -U select-quoted
+    zle -N select-quoted
+    for m in visual viopp; do
+        for c in {a,i}{\',\",\`}; do
+            bindkey -M $m $c select-quoted
+        done
+    done
+    ```
 * :white_check_mark: [fish](https://fishshell.com/) - just add to your `~/.config/fish/config.fish` ([reference](https://stackoverflow.com/a/28445450/265508)):
   * ```bash
     fish_vi_key_bindings
