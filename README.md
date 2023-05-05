@@ -139,6 +139,7 @@ Terminology:
         previous_found_item
        ```
     </details>
+* :white_check_mark: [cmus](https://github.com/cmus/cmus) - A console music player with vim-like [keybindings](https://man.archlinux.org/man/cmus.1.en#KEYBINDINGS).
 
 ## News/RSS Readers
 * :heavy_plus_sign: [Newsboat](https://newsboat.org/) - RSS/Atom reader with a TUI.
