@@ -145,6 +145,7 @@ Terminology:
        ```
     </details>
 * :white_check_mark: [cmus](https://github.com/cmus/cmus) - A console music player with vim-like [keybindings](https://man.archlinux.org/man/cmus.1.en#KEYBINDINGS).
+* :white_check_mark: [vimpc](https://github.com/boysetsfrog/vimpc) - A console mpd client that provides a vim-like interface. Default keybindings in the [help file](https://github.com/boysetsfrog/vimpc/blob/master/doc/help.txt)
 
 ## News/RSS Readers
 * :heavy_plus_sign: [Newsboat](https://newsboat.org/) - RSS/Atom reader with a TUI.
