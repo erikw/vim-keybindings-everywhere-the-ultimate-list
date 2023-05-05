@@ -244,7 +244,6 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
   * :white_check_mark: [evil-mode](https://www.emacswiki.org/emacs/Evil) - Extensible vi layer for Emacs.
   * :heavy_plus_sign: [spacemacs](https://www.spacemacs.org/) - Emacs configuration package that improves the Emacs experience, including vim bindings via `evil-mode`. Features a vim-like leader (space) for common commands.
   * :heavy_plus_sign: [doom emacs](https://github.com/doomemacs/doomemacs) - Configuration package that provides a similar experience to Spacemacs (including `evil-mode`. Also implements spacebar-as-leader-key.
-  * :heavy_plus_sign: [doom emacs](https://github.com/doomemacs/doomemacs) - Configuration package that provides a similar experience to Spacemacs (including `evil-mode`. Also implements spacebar-as-leader-key.
   * :heavy_plus_sign: ~~[Vimpulse](https://www.emacswiki.org/emacs/Vimpulse)~~ Deprecated, check out Evil.
   * :heavy_plus_sign: ~~[Vim Mode](https://www.emacswiki.org/emacs/VimMode)~~ Deprecated, check out Evil.
 * :white_check_mark: [oni2 (onivim)](https://github.com/onivim/oni2)
