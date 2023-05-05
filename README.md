@@ -139,8 +139,8 @@ Terminology:
 * :white_check_mark: [MuPDF](https://mupdf.com) - PDF and ebook reader with [vim keybindings](http://tuxdiary.com/2015/04/18/mupdf/).
 * :white_check_mark: [zathura](https://pwmt.org/projects/zathura) - Document reader, vim-keybindings, partly based on MuPDF. Linux only.
 * :white_check_mark: [SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader) - Document reader, vim-keybindings. Windows only.
-* ➕ Preview.app - macOS native document viewer:
-  - [preview-vim](https://github.com/xrisk/preview-vim) - works via Karabiner Elements
+* Preview.app - macOS native document viewer:
+  * :heavy_plus_sign: [preview-vim](https://github.com/xrisk/preview-vim) - adds vim-like keybindings, works via Karabiner Elements.
 
 ## Personal Knowledge Management
 * :white_check_mark: [Obsidian](https://obsidian.md/) - under "Editor" options
