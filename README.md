@@ -45,6 +45,13 @@ Terminology:
       ```ini
        set-option -g status-keys vi		# Use Vi bindings in tmux command prompt.
        set-window-option -g mode-keys vi	# Use Vi bindings in copy and choice mode.
+
+       # Optional: some Vi-like navigation for smart pane switching.
+       # NOTE this could override default keybindigns like <prefix>-l.
+       bind h select-pane -L
+       bind j select-pane -D
+       bind k select-pane -U
+       bind l select-pane -R
        ```
     </details>
 * [irssi](https://github.com/shabble/irssi-scripts/tree/master/vim-mode) - the popular IRC client.
