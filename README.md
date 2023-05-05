@@ -38,6 +38,8 @@ Terminology:
 
 ## General
 * :white_check_mark: [vim-anywhere](https://github.com/cknadler/vim-anywhere) - spawn a vim buffer from any text input in the operating system.
+* :white_check_mark: [Homerow](https://www.homerow.app/) - add vim-like navigation to any macOS app.
+* :white_check_mark: [kindaVim](https://kindavim.app/) - get vim-like navigation in any macOS text field.
 * :white_check_mark: [tmux](https://github.com/tmux/tmux) - the terminal multiplexer, superseding GNU Screen.
   * <details>
       <summary>~/.config/tmux/tmux.conf</summary>
