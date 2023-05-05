@@ -91,6 +91,8 @@ Terminology:
 * :white_check_mark: [ranger](https://github.com/ranger/ranger) - Another TUI file manager.
 * :white_check_mark: [lf](https://github.com/gokcehan/lf) - TUI file manager similar to ranger.
 * :white_check_mark: [ncdu](https://dev.yorhel.nl/ncdu) - ncurses disk usage explorer.
+* [Total Commander](https://www.ghisler.com/)
+  * :heavy_plus_sign: [ViATc](https://github.com/magicstep/ViATc-English) - adds a Vim mode to Total Commander.
 
 ## IDEs
 * [Jetbrain's IDEs](https://www.jetbrains.com/products/#type=ide) (Intellij, PYCharm, PHPStorm, WebStorm, ...)
