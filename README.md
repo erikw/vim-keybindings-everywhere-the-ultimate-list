@@ -46,7 +46,8 @@ Terminology:
        set-option -g status-keys vi		# Use Vi bindings in tmux command prompt.
        set-window-option -g mode-keys vi	# Use Vi bindings in copy and choice mode.
 
-       # some Vi like navigation for smart pane switching
+       # Optional: some Vi-like navigation for smart pane switching.
+       # NOTE this could override default keybindigns like <prefix>-l.
        bind h select-pane -L
        bind j select-pane -D
        bind k select-pane -U
