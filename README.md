@@ -41,6 +41,7 @@ Terminology:
 * :white_check_mark: [vim-anywhere](https://github.com/cknadler/vim-anywhere) - spawn a vim buffer from any text input in the operating system.
 * :white_check_mark: [Homerow](https://www.homerow.app/) - add vim-like navigation to any macOS app.
 * :white_check_mark: [kindaVim](https://kindavim.app/) - get vim-like navigation in any macOS text field.
+* :white_check_mark: [sketchyvim](https://github.com/FelixKratz/SketchyVim) - get vim-like navigation in any macOS text field.
 * :white_check_mark: [tmux](https://github.com/tmux/tmux) - the terminal multiplexer, superseding GNU Screen.
   * <details>
       <summary>~/.config/tmux/tmux.conf</summary>
@@ -93,7 +94,9 @@ Terminology:
 * :white_check_mark: [ncdu](https://dev.yorhel.nl/ncdu) - ncurses disk usage explorer.
 * [Total Commander](https://www.ghisler.com/)
   * :heavy_plus_sign: [ViATc](https://github.com/magicstep/ViATc-English) - adds a Vim mode to Total Commander.
-
+* macOS Finder
+  * :heavy_plus_sign: [Finder Vim Mode](https://github.com/chrisgrieser/finder-vim-mode) - adds extensive vim-like/ranger-like keybindings, works via Karabiner Elements.
+ 
 ## IDEs
 * [Jetbrain's IDEs](https://www.jetbrains.com/products/#type=ide) (Intellij, PYCharm, PHPStorm, WebStorm, ...)
   * :heavy_plus_sign: [IdeaVim](https://plugins.jetbrains.com/plugin/164-ideavim) - install it directly from the plugin section in the IDE settings.
