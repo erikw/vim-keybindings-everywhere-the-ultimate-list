@@ -169,6 +169,7 @@ Terminology:
 
 ## Social
 * :white_check_mark: [matui](https://github.com/pkulak/matui) - a Matrix TUI with vim-like navigation.
+* :white_check_mark: [tut](https://github.com/RasmusLindroth/tut) - a Mastodon client with vim-like navigation
 
 ## Source Code Management
 * :white_check_mark: [git](https://git-scm.com/) - Nothing's better than the real deal. Tell git to use vim/nvim when editing commit messages, interactive rebase etc. by putting in your `~/.config/git/config`:
