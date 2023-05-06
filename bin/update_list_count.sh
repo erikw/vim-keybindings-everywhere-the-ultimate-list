@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # Update the count of listed programs / extension in the README.md
-# TODO set this up as a GitHub action to run on merge on master?
 
 set -o errexit
 set -o nounset
@@ -18,7 +17,7 @@ SIGN_EXTENSIONS=:heavy_plus_sign:
 
 count_occurences() {
 	local sign="$1"
-	c=$(grep "$sign" README.md | wc -l)
+	c=$(grep --count "$sign" README.md)
 	echo $(($c-1))  # Listed in explanation - does not count!
 }
 
@@ -27,7 +26,7 @@ update_count() {
 	local template="$2"
 	local search="$3"
 
-	img_tag=$(printf $template $count)
+	img_tag=$(printf "$template" "$count")
 	sed -i.bak -e "s|^.*${search}.*$|${img_tag}|" README.md
 	test -e README.md.bak && rm README.md.bak
 }
@@ -38,5 +37,5 @@ count_extensions=$(count_occurences $SIGN_EXTENSIONS)
 printf "Found %d native entries\n" "$count_native"
 printf "Found %d extension entries\n" "$count_extensions"
 
-update_count $count_native $TEMPLATE_NATIVE $MARKER_NATIVE
-update_count $count_extensions $TEMPLATE_EXTENSIONS $MARKER_EXTENSIONS
+update_count "$count_native" "$TEMPLATE_NATIVE" "$MARKER_NATIVE"
+update_count "$count_extensions" "$TEMPLATE_EXTENSIONS" "$MARKER_EXTENSIONS"
