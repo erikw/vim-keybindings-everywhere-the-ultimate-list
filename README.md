@@ -72,10 +72,10 @@ Terminology:
     ```
 
 * :heavy_plus_sign: [Jupyter Lab](https://pypi.org/project/jupyterlab-vim/) - Science and Data Development notebook environment. Add this package [jupyterlab-vim](https://pypi.org/project/jupyterlab-vim/) and restart the server. It is available for both `pip` and `conda` managed environments (and their derivatives).
-* :white_check_mark: [LINQPad](https://www.linqpad.net/) - The .NET Programmer’s Playground. vi mode available in settings. Go to Edit > Preferences > General UI to enable.
+* :white_check_mark: [LINQPad](https://www.linqpad.net/) - The .NET Programmer’s Playground. vi mode available in settings. To enable go to Edit > Preferences > vi mode. Quite limited, doesn't support ex commands, registers and macros.
 
 * [Azure Data Studio](https://azure.microsoft.com/en-us/products/data-studio/) - Database tool similar to Microsoft SQL Server Management Studio. Supports VSCode extensions.
-  * :heavy_plus_sign: [Vim plugin](https://github.com/VSCodeVim/Vim) - Cannot be installed directly in the plugin section. Go to [Vim plugin release page](https://github.com/VSCodeVim/Vim/releases) and download `.vsix` file. Then open the file in Azure Data Studio. If you see error that the extension is not compatible with current VS Code engine version try older release.
+  * :heavy_plus_sign: [Vim plugin](https://github.com/VSCodeVim/Vim) - Cannot be installed directly in the plugin section. Go to [Vim plugin release page](https://github.com/VSCodeVim/Vim/releases) and download `.vsix` file. Inside Azure Data Studio navigate to Extensions > three dots at the top > Install from VSXI. You will likely see message: "Unable to install extension 'vscodevim.vim' as it is not compatible with the current VS Code engine version". If you see that message you should try earlier release.
 
 ## Debuggers
 * :white_check_mark: [cgdb](http://cgdb.github.io/) - a curses interface on top of the GDB debuger with keybindings modeled after vim.
