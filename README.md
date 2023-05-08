@@ -312,7 +312,7 @@ Terminology:
 * :white_check_mark: ~[Termine](https://github.com/thestinger/termite)~ - See alacritty instead.
 
 ## Text Editors
-We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have Vi(m) keybindings so let's skip those here (Vim, NeoVim, vile, ...)
+We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have Vi(m) keybindings so let's skip those here (Vim, NeoVim, vile, elvis, nvi, vis, pyvim, jVi ...)
 
 * Atom
   * :heavy_plus_sign: [atom-vim-mode-plus](https://github.com/t9md/atom-vim-mode-plus)
@@ -325,6 +325,7 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
 * :white_check_mark: [Sublime Text](https://www.sublimetext.com/) has a bult-in [Vintage mode](https://www.sublimetext.com/docs/vintage.html) that can be enabled.
   * :heavy_plus_sign: [NeoVintageous](https://github.com/NeoVintageous/NeoVintageous) - An advanced Vim emulation layer.
 * :white_check_mark: ~[oni2 (onivim)](https://github.com/onivim/oni2)~ [Deprecated](https://github.com/onivim/oni2/issues/3861).
+* :white_check_mark: [bviplus](https://bviplus.sourceforge.net/) - An ncurses based hex editor with a Vim-like interface.
 
 
 ## WYSIWYG Editors
