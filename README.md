@@ -37,29 +37,7 @@ Terminology:
 <a href="#" title="GitHub built-in Table of Contents for markdown files."><img src="img/github_md_toc.png" width="256" alt="ToC"></a>
 
 
-## General
-* :white_check_mark: [vim-anywhere](https://github.com/cknadler/vim-anywhere) - spawn a vim buffer from any text input in the operating system.
-* :white_check_mark: [Homerow](https://www.homerow.app/) - add vim-like navigation to any macOS app.
-* :white_check_mark: [kindaVim](https://kindavim.app/) - get vim-like navigation in any macOS text field.
-* :white_check_mark: [sketchyvim](https://github.com/FelixKratz/SketchyVim) - get vim-like navigation in any macOS text field.
-* :white_check_mark: [tmux](https://github.com/tmux/tmux) - the terminal multiplexer, superseding GNU Screen.
-  * <details>
-      <summary>~/.config/tmux/tmux.conf</summary>
 
-      ```ini
-       set-option -g status-keys vi		# Use Vi bindings in tmux command prompt.
-       set-window-option -g mode-keys vi	# Use Vi bindings in copy and choice mode.
-
-       # Optional: some Vi-like navigation for smart pane switching.
-       # NOTE this could override default keybindigns like <prefix>-l.
-       bind h select-pane -L
-       bind j select-pane -D
-       bind k select-pane -U
-       bind l select-pane -R
-       ```
-    </details>
-* [irssi](https://github.com/shabble/irssi-scripts/tree/master/vim-mode) - the popular IRC client.
-  * :heavy_plus_sign: [vim_mode](https://github.com/shabble/irssi-scripts/tree/master/vim-mode) plugin.
 
 ## Development
 * :white_check_mark: [ipython](https://ipython.org/) - Interactive Python shell. It no longer uses readline for input, so it must be configured in the ipython profile `~/.ipython/profile_default/ipython_config.py` itself ([reference](https://gist.github.com/sstirlin/c3c207b1052b613ab9554b4ebdfc3f35)):
@@ -116,6 +94,25 @@ Terminology:
   * :heavy_plus_sign: [vimode](https://github.com/geany/geany-plugins/blob/master/vimode/README) - The vimode plugin can be enabled from the settings.
 * [RStudio](https://posit.co/download/rstudio-desktop/) - There's a built-in [Vim Editing Mode](https://stackoverflow.com/a/47208291).
 
+# Misc
+* :white_check_mark: [tmux](https://github.com/tmux/tmux) - the terminal multiplexer, superseding GNU Screen.
+  * <details>
+      <summary>~/.config/tmux/tmux.conf</summary>
+
+      ```ini
+       set-option -g status-keys vi		# Use Vi bindings in tmux command prompt.
+       set-window-option -g mode-keys vi	# Use Vi bindings in copy and choice mode.
+
+       # Optional: some Vi-like navigation for smart pane switching.
+       # NOTE this could override default keybindigns like <prefix>-l.
+       bind h select-pane -L
+       bind j select-pane -D
+       bind k select-pane -U
+       bind l select-pane -R
+       ```
+    </details>
+
+
 ## Music players
 * :white_check_mark: [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) - An ncurses client for [mpd](https://www.musicpd.org/). The navigation can quite easily be made to behave like vim with some keyboard configurations.
   * <details>
@@ -171,6 +168,8 @@ Terminology:
 ## Social
 * :white_check_mark: [matui](https://github.com/pkulak/matui) - a Matrix TUI with vim-like navigation.
 * :white_check_mark: [tut](https://github.com/RasmusLindroth/tut) - a Mastodon client with vim-like navigation
+* [irssi](https://github.com/shabble/irssi-scripts/tree/master/vim-mode) - the popular IRC client.
+  * :heavy_plus_sign: [vim_mode](https://github.com/shabble/irssi-scripts/tree/master/vim-mode) plugin.
 
 ## Source Code Management
 * :white_check_mark: [git](https://git-scm.com/) - Nothing's better than the real deal. Tell git to use vim/nvim when editing commit messages, interactive rebase etc. by putting in your `~/.config/git/config`:
@@ -269,6 +268,12 @@ Terminology:
     ```
    * This was collected from many github issues and posts. Powershell 5.1 for one reason or another refuses to change the cursor so the script to give
     feedback does not work. Just remove it and it will still work, just no feedback of the mode you're in.
+
+## System-wide
+* :white_check_mark: [vim-anywhere](https://github.com/cknadler/vim-anywhere) - spawn a vim buffer from any text input in the operating system.
+* :white_check_mark: [Homerow](https://www.homerow.app/) - add vim-like navigation to any macOS app.
+* :white_check_mark: [kindaVim](https://kindavim.app/) - get vim-like navigation in any macOS text field.
+* :white_check_mark: [sketchyvim](https://github.com/FelixKratz/SketchyVim) - get vim-like navigation in any macOS text field.
 
 
 ## System Tools
