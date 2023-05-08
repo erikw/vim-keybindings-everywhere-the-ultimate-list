@@ -111,6 +111,7 @@ Terminology:
        bind l select-pane -R
        ```
     </details>
+* :white_check_mark: [gollum](https://github.com/gollum/gollum) - a Git-powered wiki with built-in vim editing mode. Start with `--default-keybind vim`.
 
 
 ## Music players
