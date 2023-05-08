@@ -62,6 +62,7 @@ Terminology:
 ## E-Mail
 * :white_check_mark: [Mutt](http://www.mutt.org/) - The vim of email, a TUI email client
 * :white_check_mark: [NeoMutt](https://neomutt.org/) - A fork of mutt, intendted to reignite the development.
+* :white_check_mark: [sup](https://sup-heliotrope.github.io/) - a console-based email client for people with a lot of email with Vim-inspired [keyboard shortcuts](https://github.com/sup-heliotrope/sup/wiki/Keyboard-reference).
 * [Thunderbird](https://www.thunderbird.net/en-US/)
   * :heavy_plus_sign: [Muttator](https://addons.thunderbird.net/en-US/thunderbird/addon/muttator/) - Like Vimperator but for thunderbird.
 
@@ -340,10 +341,21 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
   * :heavy_plus_sign: [Surfingkeys](https://microsoftedge.microsoft.com/addons/detail/surfingkeys/kgnghhfkloifoabeaobjkgagcecbnppg)
 * Opera
   * :heavy_plus_sign: [wasavi](https://chrome.google.com/webstore/detail/wasavi/dgogifpkoilgiofhhhodbodcfgomelhe) - Transform text areas into a vi editor.
+* :white_check_mark: [w3m](https://w3m.sourceforge.net/) - A text-based web browser with some Vim-like [keyboard shortcuts](https://cheatsheetfactory.geekyhacker.com/linux/w3m).
+* :white_check_mark: [vimb](https://fanglingsu.github.io/vimb/) - The vim like browser.
+* :white_check_mark: [jumanji](https://pwmt.org/projects/jumanji) - A keyboard driven web browser.
+* :white_check_mark: [luakit](https://luakit.github.io/) - A highly configurable browser with [Vim-like](https://wiki.archlinux.org/title/Luakit) navigation.
 * :white_check_mark: ~[Vimprobable](https://github.com/ThomasAdam/vimprobable)~
+* :white_check_mark: ~[dwb](https://github.com/diab0l/dwb)~ - See qutebrowser instead.
+* :white_check_mark: ~[uzbl](https://www.uzbl.org/)~
+* :white_check_mark: ~[xombrero](https://github.com/conformal/xombrero)~ - a minimalist web browser with vi-like keyboard commands.
 * Various
   * :heavy_plus_sign: [firenvim](https://github.com/glacambre/firenvim) - Transform text areas into a neovim instance that inherits your existing config (keymaps, plugins, etc).
 
+## Window Managers
+* :white_check_mark: [howm](https://github.com/HarveyHunt/howm) - A lightweight, X11 tiling window manager that behaves like vim.
+* :white_check_mark: [qutebrowser](https://i3wm.org/) - A tilling window manager with Vim-like [keyboard shortcuts](https://i3wm.org/docs/refcard.html).
+* :white_check_mark: [wmii](https://github.com/0intro/wmii) - A small and scriptable window manager that can be configured with Vim-like [keyboard shortcuts](https://wiki.debian.org/Wmii#Basic_Configuration).
 
 
 # Contributing
