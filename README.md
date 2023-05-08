@@ -88,34 +88,19 @@ Terminology:
   * :heavy_plus_sign: [vrapper-vim](https://marketplace.eclipse.org/content/vrapper-vim)
   * :heavy_plus_sign: [viplugin](https://marketplace.eclipse.org/content/viplugin)
   * :heavy_plus_sign: [viable](https://marketplace.eclipse.org/content/viable-vim-eclipse)
-* [Visual Studio 2015 and above](https://visualstudio.microsoft.com/)
+* [Visual Studio](https://visualstudio.microsoft.com/)
   * :heavy_plus_sign: [VsVim (Visual Studio 2015-2019)](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim) - install through the extensions inside Visual Studio
   * :heavy_plus_sign: [VsVim 2022 (Visual Studio 2022)](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim2022Preview) - install through the extensions inside Visual Studio
+  * :heavy_plus_sign: [viemu](http://www.viemu.com/) - add Vim emulation to Visual Studio, SQL Server, Word & Outlook.
 * [Geany](https://www.geany.org/)
   * :heavy_plus_sign: [vimode](https://github.com/geany/geany-plugins/blob/master/vimode/README) - The vimode plugin can be enabled from the settings.
-* [RStudio](https://posit.co/download/rstudio-desktop/) - There's a built-in [Vim Editing Mode](https://stackoverflow.com/a/47208291).
+* :white_check_mark: [RStudio](https://posit.co/download/rstudio-desktop/) - There's a built-in [Vim Editing Mode](https://stackoverflow.com/a/47208291).
 
 ## Image Viewers
 * :white_check_mark: [xzgv](https://sourceforge.net/projects/xzgv/) - keyboard driven image viewer with Vim-style navigation.
 * :white_check_mark: ~[sxiv](https://github.com/xyb3rt/sxiv)~
 
 # Misc
-* :white_check_mark: [tmux](https://github.com/tmux/tmux) - the terminal multiplexer, superseding GNU Screen.
-  * <details>
-      <summary>~/.config/tmux/tmux.conf</summary>
-
-      ```ini
-       set-option -g status-keys vi		# Use Vi bindings in tmux command prompt.
-       set-window-option -g mode-keys vi	# Use Vi bindings in copy and choice mode.
-
-       # Optional: some Vi-like navigation for smart pane switching.
-       # NOTE this could override default keybindigns like <prefix>-l.
-       bind h select-pane -L
-       bind j select-pane -D
-       bind k select-pane -U
-       bind l select-pane -R
-       ```
-    </details>
 * :white_check_mark: [gollum](https://github.com/gollum/gollum) - a Git-powered wiki with built-in vim editing mode. Start with `--default-keybind vim`.
 
 
@@ -159,11 +144,19 @@ Terminology:
 * :heavy_plus_sign: [Newsboat](https://newsboat.org/) - RSS/Atom reader with a TUI.
 * :heavy_plus_sign: ~[Newsbeuter](https://github.com/akrennmair/newsbeuter)~ - Unmaintained, see Newsboat./
 
+## Office Productivity
+* [LibreOffice](https://www.libreoffice.org/)
+  * :heavy_plus_sign: [vibreoffice](https://github.com/seanyeh/vibreoffice) - Vi Mode for LibreOffice/OpenOffice.
+* [AbiWord](http://www.abisource.com/) - An OSS word processor.
+  * :heavy_plus_sign: It can be [configured](http://recycledelectron.blogspot.com/2009/01/vi-and-emacs-key-bindings-in-abiword.html) to get Vim keybindings.
+* :white_check_mark: [sc](https://en.wikipedia.org/wiki/Sc_(spreadsheet_calculator)) - The venerable Spreadsheet Calculator with Vim-like [keybindings](https://www.linuxjournal.com/article/10699).
+* :white_check_mark: [sc-im](https://github.com/andmarti1424/sc-im) - Like sc but improved, a Vim-like spreadsheet calculator.
+
 ## Pagers
 * :white_check_mark: [less](https://en.wikipedia.org/wiki/Less_(Unix))
 * :white_check_mark: [bat](https://github.com/sharkdp/bat)
 
-## PDF viewers
+## PDF Viewers
 * :white_check_mark: [apvlv](https://github.com/naihe2010/apvlv) - A PDF Viewer that acts Like Vim
 * :white_check_mark: [MuPDF](https://mupdf.com) - PDF and ebook reader with [vim keybindings](http://tuxdiary.com/2015/04/18/mupdf/).
 * :white_check_mark: [zathura](https://pwmt.org/projects/zathura) - Document reader, vim-keybindings, partly based on MuPDF. Linux only.
@@ -181,6 +174,8 @@ Terminology:
 * :white_check_mark: [tut](https://github.com/RasmusLindroth/tut) - a Mastodon client with vim-like navigation
 * [irssi](https://github.com/shabble/irssi-scripts/tree/master/vim-mode) - the popular IRC client.
   * :heavy_plus_sign: [vim_mode](https://github.com/shabble/irssi-scripts/tree/master/vim-mode) plugin.
+* [weechat](https://weechat.org/) - IRC client with Vim-like [keyboard shortcuts](https://blog.jasonmeridth.com/posts/weechat-keyboard-shortcuts/).
+* ~[rtv](https://github.com/michael-lazar/rtv)~ - A Reddit TUI viewer
 
 ## Source Code Management
 * :white_check_mark: [git](https://git-scm.com/) - Nothing's better than the real deal. Tell git to use vim/nvim when editing commit messages, interactive rebase etc. by putting in your `~/.config/git/config`:
@@ -295,6 +290,26 @@ Terminology:
 ## Task Management
 * :white_check_mark: [TuDu](https://code.meskio.net/tudu/) - a comand line interface to manage hierarchical todos.
 * :white_check_mark: [calcurse](https://calcurse.org/) - a calendar and scheduling application for the command line with default [vim-like keybindings](http://culot.org/calcurse/manual_en.html#options_keys).
+
+## Terminal Emulators/*
+* :white_check_mark: [tmux](https://github.com/tmux/tmux) - the terminal multiplexer, superseding GNU Screen.
+  * <details>
+      <summary>~/.config/tmux/tmux.conf</summary>
+
+      ```ini
+       set-option -g status-keys vi		# Use Vi bindings in tmux command prompt.
+       set-window-option -g mode-keys vi	# Use Vi bindings in copy and choice mode.
+
+       # Optional: some Vi-like navigation for smart pane switching.
+       # NOTE this could override default keybindigns like <prefix>-l.
+       bind h select-pane -L
+       bind j select-pane -D
+       bind k select-pane -U
+       bind l select-pane -R
+       ```
+    </details>
+* :white_check_mark: [alacritty](https://github.com/alacritty/alacritty) - A cross-platform, OpenGL terminal emulator with Vim-like keybindings by default.
+* :white_check_mark: ~[Termine](https://github.com/thestinger/termite)~ - See alacritty instead.
 
 ## Text Editors
 We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have Vi(m) keybindings so let's skip those here (Vim, NeoVim, vile, ...)
