@@ -114,6 +114,7 @@ Terminology:
   * :heavy_plus_sign: [VsVim 2022 (Visual Studio 2022)](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim2022Preview) - install through the extensions inside Visual Studio
 * [Geany](https://www.geany.org/)
   * :heavy_plus_sign: [vimode](https://github.com/geany/geany-plugins/blob/master/vimode/README) - The vimode plugin can be enabled from the settings.
+* [RStudio](https://posit.co/download/rstudio-desktop/) - There's a built-in [Vim Editing Mode](https://stackoverflow.com/a/47208291).
 
 ## Music players
 * :white_check_mark: [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) - An ncurses client for [mpd](https://www.musicpd.org/). The navigation can quite easily be made to behave like vim with some keyboard configurations.
@@ -299,13 +300,17 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
 * :white_check_mark: [qutebrowser](https://qutebrowser.org/)
 * :white_check_mark: [Vieb](https://vieb.dev/) - Vim bindings for the web by design (electron based)
 * Firefox
-  * :heavy_plus_sign: [tridactyl-vim](https://addons.mozilla.org/en-US/firefox/addon/tridactyl-vim/)
+  * :heavy_plus_sign: [Tridactyl](https://addons.mozilla.org/en-US/firefox/addon/tridactyl-vim/)
   * :heavy_plus_sign: [Vimium-FF](https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/)
+  * :heavy_plus_sign: [Vimium C](https://addons.mozilla.org/en-US/firefox/addon/vimium-c/)
   * :heavy_plus_sign: [Surfingkeys](https://addons.mozilla.org/en-US/firefox/addon/surfingkeys_ff/)
   * :heavy_plus_sign: [Vim Vixen](https://addons.mozilla.org/en-US/firefox/addon/vim-vixen/)
-
+  * :heavy_plus_sign: [vimkeybindings](https://addons.mozilla.org/en-US/firefox/addon/vimkeybindings/) - Small addon adding just basic keyboard navigation shortcuts.
+  * :heavy_plus_sign: ~[Vimperator](http://vimperator.org/vimperator)~ - See Tridactyl instead
+  * :heavy_plus_sign: ~[Pentadactyl](https://en.wikipedia.org/wiki/Pentadactyl)~ - See Tridactyl instead
 * Chrome
   * :heavy_plus_sign: [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
+  * :heavy_plus_sign: [Vimium C](https://chrome.google.com/webstore/detail/vimium-c-all-by-keyboard/hfjbmagddngcpeloejdejnfgbamkjaeg?hl=en)
   * :heavy_plus_sign: [cVim](https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh)
   * :heavy_plus_sign: [Surfingkeys](https://chrome.google.com/webstore/detail/surfingkeys/gfbliohnnapiefjpjlpjnehglfpaknnc)
   * :heavy_plus_sign: [wasavi](https://chrome.google.com/webstore/detail/wasavi/dgogifpkoilgiofhhhodbodcfgomelhe) - Transform text areas into a vi editor.
