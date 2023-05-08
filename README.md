@@ -94,6 +94,10 @@ Terminology:
   * :heavy_plus_sign: [vimode](https://github.com/geany/geany-plugins/blob/master/vimode/README) - The vimode plugin can be enabled from the settings.
 * [RStudio](https://posit.co/download/rstudio-desktop/) - There's a built-in [Vim Editing Mode](https://stackoverflow.com/a/47208291).
 
+## Image Viewers
+* :white_check_mark: [xzgv](https://sourceforge.net/projects/xzgv/) - keyboard driven image viewer with Vim-style navigation.
+* :white_check_mark: ~[sxiv](https://github.com/xyb3rt/sxiv)~
+
 # Misc
 * :white_check_mark: [tmux](https://github.com/tmux/tmux) - the terminal multiplexer, superseding GNU Screen.
   * <details>
@@ -147,11 +151,16 @@ Terminology:
        ```
     </details>
 * :white_check_mark: [cmus](https://github.com/cmus/cmus) - A console music player with vim-like [keybindings](https://man.archlinux.org/man/cmus.1.en#KEYBINDINGS).
+* :white_check_mark: [vimus](https://github.com/vimus/vimus) - An MPD client with Vim-like keybindings.
 * :white_check_mark: [vimpc](https://github.com/boysetsfrog/vimpc) - A console mpd client that provides a vim-like interface. Default keybindings in the [help file](https://github.com/boysetsfrog/vimpc/blob/master/doc/help.txt)
 
 ## News/RSS Readers
 * :heavy_plus_sign: [Newsboat](https://newsboat.org/) - RSS/Atom reader with a TUI.
-* :heavy_plus_sign: ~~[Newsbeuter](https://github.com/akrennmair/newsbeuter)~~ - Unmaintained, see Newsboat./
+* :heavy_plus_sign: ~[Newsbeuter](https://github.com/akrennmair/newsbeuter)~ - Unmaintained, see Newsboat./
+
+## Pagers
+* :white_check_mark: [less](https://en.wikipedia.org/wiki/Less_(Unix))
+* :white_check_mark: [bat](https://github.com/sharkdp/bat)
 
 ## PDF viewers
 * :white_check_mark: [apvlv](https://github.com/naihe2010/apvlv) - A PDF Viewer that acts Like Vim
@@ -281,6 +290,11 @@ Terminology:
 * :white_check_mark: [htop-vim](https://aur.archlinux.org/packages/htop-vim/) - A patched version the [htop](https://htop.dev/) interactive process viewer that has vim keybindings for navigation.
 * :white_check_mark: [aptitude](https://wiki.debian.org/Aptitude) - ncurses interface for APT on Debian-derived Linux distros. The [keybindings](https://www.debian.org/doc/manuals/aptitude/ch02s05s02.en.html) are already vim-like.
 
+
+## Task Management
+* :white_check_mark: [TuDu](https://code.meskio.net/tudu/) - a comand line interface to manage hierarchical todos.
+* :white_check_mark: [calcurse](https://calcurse.org/) - a calendar and scheduling application for the command line with default [vim-like keybindings](http://culot.org/calcurse/manual_en.html#options_keys).
+
 ## Text Editors
 We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have Vi(m) keybindings so let's skip those here (Vim, NeoVim, vile, ...)
 
@@ -298,7 +312,6 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
 
 
 ## WYSIWYG Editors
-
 * :white_check_mark: [zettlr](https://www.zettlr.com) - Markdown document editor on the fly, vim+emacs keybindings.
 * :white_check_mark: [VNote](https://vnotex.github.io/vnote/en_us/) - A note taking app.
 
@@ -327,6 +340,7 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
   * :heavy_plus_sign: [Surfingkeys](https://microsoftedge.microsoft.com/addons/detail/surfingkeys/kgnghhfkloifoabeaobjkgagcecbnppg)
 * Opera
   * :heavy_plus_sign: [wasavi](https://chrome.google.com/webstore/detail/wasavi/dgogifpkoilgiofhhhodbodcfgomelhe) - Transform text areas into a vi editor.
+* :white_check_mark: ~[Vimprobable](https://github.com/ThomasAdam/vimprobable)~
 * Various
   * :heavy_plus_sign: [firenvim](https://github.com/glacambre/firenvim) - Transform text areas into a neovim instance that inherits your existing config (keymaps, plugins, etc).
 
