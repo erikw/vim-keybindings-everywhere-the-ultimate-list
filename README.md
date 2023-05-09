@@ -65,6 +65,11 @@ Terminology:
 * :white_check_mark: [sup](https://sup-heliotrope.github.io/) - a console-based email client for people with a lot of email with Vim-inspired [keyboard shortcuts](https://github.com/sup-heliotrope/sup/wiki/Keyboard-reference).
 * [Thunderbird](https://www.thunderbird.net/en-US/)
   * :heavy_plus_sign: [Muttator](https://addons.thunderbird.net/en-US/thunderbird/addon/muttator/) - Like Vimperator but for thunderbird.
+* :white_check_mark: [aerc](https://aerc-mail.org/) - Terminal email client with Vim keybindings.
+* :white_check_mark: [meli](https://meli.delivery/) - A TUI email client with Vim-like keybindings.
+
+## Economy
+* :white_check_mark: [cointop](https://github.com/cointop-sh/cointop) - interactive terminal based UI application for tracking and monitoring cryptocurrency.
 
 ## File Management
 * :white_check_mark: [vifm](https://vifm.info/) - TUI file manager with vi keybindings.
@@ -75,7 +80,9 @@ Terminology:
   * :heavy_plus_sign: [ViATc](https://github.com/magicstep/ViATc-English) - adds a Vim mode to Total Commander.
 * macOS Finder
   * :heavy_plus_sign: [Finder Vim Mode](https://github.com/chrisgrieser/finder-vim-mode) - adds extensive vim-like/ranger-like keybindings, works via Karabiner Elements.
- 
+* :white_check_mark: ~[jvifm](https://sourceforge.net/projects/jvifm/)~ - A Java implementation of vifm; a file manager with Vim-like keybindings.
+* :white_check_mark: ~[vide](https://github.com/xaizek/vide)~ - The graphical predecessor of vifm that uses GTK+
+
 ## IDEs
 * [Jetbrain's IDEs](https://www.jetbrains.com/products/#type=ide) (Intellij, PYCharm, PHPStorm, WebStorm, ...)
   * :heavy_plus_sign: [IdeaVim](https://plugins.jetbrains.com/plugin/164-ideavim) - install it directly from the plugin section in the IDE settings.
@@ -95,13 +102,30 @@ Terminology:
 * [Geany](https://www.geany.org/)
   * :heavy_plus_sign: [vimode](https://github.com/geany/geany-plugins/blob/master/vimode/README) - The vimode plugin can be enabled from the settings.
 * :white_check_mark: [RStudio](https://posit.co/download/rstudio-desktop/) - There's a built-in [Vim Editing Mode](https://stackoverflow.com/a/47208291).
+* :white_check_mark: [MonoDevelop](https://www.monodevelop.com/) - Cross platform IDE for C#, F# and more, with [Vi-mode](https://www.monodevelop.com/archived/developers/tasks/source-editing/vi-mode/).
+* :white_check_mark: ~[pida](https://launchpad.net/pida)~ - An IDE that aims to use the tools you wish to use(including Vim and Emacs).
 
-## Image Viewers
-* :white_check_mark: [xzgv](https://sourceforge.net/projects/xzgv/) - keyboard driven image viewer with Vim-style navigation.
+## Image Viewers/Editor
+* :white_check_mark: [xzgv](https://sourceforge.net/projects/xzgv/) - Keyboard driven image viewer with Vim-style navigation.
+* :white_check_mark: [rx](https://rx.cloudhead.io/) - A pixel editor.
+* :white_check_mark: [ViPaint](https://gitlab.com/jgkamat/ViPaint) - A modal Vi-like painting program.
 * :white_check_mark: ~[sxiv](https://github.com/xyb3rt/sxiv)~
 
+## Hex editors
+* :white_check_mark: [bvi](https://bvi.sourceforge.net/) - A Hex editor for those familiar with Vi-like keybindings
+* :white_check_mark: [hed](https://repo.or.cz/w/hed.git) - A terminal hexadecimal editor with Vim-like controls.
+* :white_check_mark: [hexer](https://devel.ringlet.net/editors/hexer/) - a Vi-like binary editor.
+* :white_check_mark: [hx](https://github.com/krpors/hx) - Hex editor for the terminal with simple Vim-like keybindings.
+* :white_check_mark: ~[HEdit](https://github.com/95ulisse/hedit)~ - A Vim-like terminal-based hex editor scriptable with JS.
+* :white_check_mark: ~[bviplus](https://bviplus.sourceforge.net/)~ - An ncurses based Gex editor with a Vim-like interface.
+
 # Misc
-* :white_check_mark: [gollum](https://github.com/gollum/gollum) - a Git-powered wiki with built-in vim editing mode. Start with `--default-keybind vim`.
+* :white_check_mark: [gollum](https://github.com/gollum/gollum) - A Git-powered wiki with built-in vim editing mode. Start with `--default-keybind vim`.
+* :white_check_mark: [pipedial](https://code.reversed.top/user/xaizek/pipedial) - A terminal selector with basic Vim-like keybindings.
+* :white_check_mark: [sentaku](https://github.com/rcmdnk/sentaku) - A terminal selector with Vim-like keybindings.
+* :white_check_mark: [stig](https://github.com/rndusr/stig) - TUI/CLI for the BitTorrent client Transmission.
+* :white_check_mark: [termshark](https://termshark.io/) - a UI for tshark with Vim-navigation.
+* :white_check_mark: ~[Yzis](https://github.com/chrizel/Yzis)~ - A vi/vim engine that is easy to integrate in any graphical application.
 
 
 ## Music players
@@ -139,6 +163,11 @@ Terminology:
 * :white_check_mark: [cmus](https://github.com/cmus/cmus) - A console music player with vim-like [keybindings](https://man.archlinux.org/man/cmus.1.en#KEYBINDINGS).
 * :white_check_mark: [vimus](https://github.com/vimus/vimus) - An MPD client with Vim-like keybindings.
 * :white_check_mark: [vimpc](https://github.com/boysetsfrog/vimpc) - A console mpd client that provides a vim-like interface. Default keybindings in the [help file](https://github.com/boysetsfrog/vimpc/blob/master/doc/help.txt)
+* :white_check_mark: [vitunes](http://vitunes.org/) - An MPD client with Vi-like bindings.
+* :white_check_mark: [pms](https://ambientsound.github.io/pms/) - A frontend to MPD with Vim-like keybindings.
+* :white_check_mark: [siren](https://www.kariliq.nl/siren/) - A text-based audio player with [Vim-like](https://www.kariliq.nl/man/siren.1.html) keybindings.
+* :white_check_mark: ~[pineapple-tracker](https://github.com/pineapple-tracker/pineapple-tracker)~ - A console-based sequencer with a vi-style UI.
+* :white_check_mark: ~[herrie](https://github.com/EdSchouten/herrie)~ - a MPD player with Vim-like [keybindings](https://github.com/EdSchouten/herrie/blob/master/herrie/man/00-man).
 
 ## News/RSS Readers
 * :heavy_plus_sign: [Newsboat](https://newsboat.org/) - RSS/Atom reader with a TUI.
@@ -174,8 +203,10 @@ Terminology:
 * :white_check_mark: [tut](https://github.com/RasmusLindroth/tut) - a Mastodon client with vim-like navigation
 * [irssi](https://github.com/shabble/irssi-scripts/tree/master/vim-mode) - the popular IRC client.
   * :heavy_plus_sign: [vim_mode](https://github.com/shabble/irssi-scripts/tree/master/vim-mode) plugin.
-* [weechat](https://weechat.org/) - IRC client with Vim-like [keyboard shortcuts](https://blog.jasonmeridth.com/posts/weechat-keyboard-shortcuts/).
+* :white_check_mark: [weechat](https://weechat.org/) - IRC client with Vim-like [keyboard shortcuts](https://blog.jasonmeridth.com/posts/weechat-keyboard-shortcuts/).
+* :white_check_mark: [scli](https://github.com/isamert/scli) - Signal messenger TUI with Vim-like keybindings.
 * ~[rtv](https://github.com/michael-lazar/rtv)~ - A Reddit TUI viewer
+* ~[vchatter](https://vchatter.sourceforge.net/)~ - A Vi-like Jabber chat client.
 
 ## Source Code Management
 * :white_check_mark: [git](https://git-scm.com/) - Nothing's better than the real deal. Tell git to use vim/nvim when editing commit messages, interactive rebase etc. by putting in your `~/.config/git/config`:
@@ -276,10 +307,12 @@ Terminology:
     feedback does not work. Just remove it and it will still work, just no feedback of the mode you're in.
 
 ## System-wide
-* :white_check_mark: [vim-anywhere](https://github.com/cknadler/vim-anywhere) - spawn a vim buffer from any text input in the operating system.
-* :white_check_mark: [Homerow](https://www.homerow.app/) - add vim-like navigation to any macOS app.
-* :white_check_mark: [kindaVim](https://kindavim.app/) - get vim-like navigation in any macOS text field.
-* :white_check_mark: [sketchyvim](https://github.com/FelixKratz/SketchyVim) - get vim-like navigation in any macOS text field.
+* :white_check_mark: [vim-anywhere](https://github.com/cknadler/vim-anywhere) - Spawn a vim buffer from any text input in the operating system.
+* :white_check_mark: [Homerow](https://www.homerow.app/) - Add vim-like navigation to any macOS app.
+* :white_check_mark: [kindaVim](https://kindavim.app/) - Get vim-like navigation in any macOS text field.
+* :white_check_mark: [sketchyvim](https://github.com/FelixKratz/SketchyVim) - Get vim-like navigation in any macOS text field.
+* :white_check_mark: [athame](https://github.com/ardagnir/athame) - Patches your shell to add full Vim support by routing your keystrokes through an actual Vim process.
+* :white_check_mark: ~[kommand](https://www.autohotkey.com/board/topic/42706-kommand-a-cross-application-vim-like-hot-key-solution/)~ - A cross-application Vim-like hot key solution.
 
 
 ## System Tools
@@ -288,8 +321,10 @@ Terminology:
 
 
 ## Task Management
-* :white_check_mark: [TuDu](https://code.meskio.net/tudu/) - a comand line interface to manage hierarchical todos.
-* :white_check_mark: [calcurse](https://calcurse.org/) - a calendar and scheduling application for the command line with default [vim-like keybindings](http://culot.org/calcurse/manual_en.html#options_keys).
+* :white_check_mark: [TuDu](https://code.meskio.net/tudu/) - A comand line interface to manage hierarchical todos.
+* :white_check_mark: [calcurse](https://calcurse.org/) - A calendar and scheduling application for the command line with default [vim-like keybindings](http://culot.org/calcurse/manual_en.html#options_keys).
+* :white_check_mark: [taskell](https://taskell.app/) - Command-line Kanban board/task management.
+* :white_check_mark: [vit](https://github.com/vit-project/vit) - An TUI for [Taskwarrior](https://taskwarrior.org/) Vim-like keybindings.
 
 ## Terminal Emulators/*
 * :white_check_mark: [tmux](https://github.com/tmux/tmux) - the terminal multiplexer, superseding GNU Screen.
@@ -312,7 +347,7 @@ Terminology:
 * :white_check_mark: ~[Termine](https://github.com/thestinger/termite)~ - See alacritty instead.
 
 ## Text Editors
-We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have Vi(m) keybindings so let's skip those here (Vim, NeoVim, vile, elvis, nvi, vis, pyvim, jVi ...)
+We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have Vi(m) keybindings so let's skip those here (Vim, NeoVim, vile, elvis, nvi, vis, pyvim, jVi, ex-vi ...)
 
 * Atom
   * :heavy_plus_sign: [atom-vim-mode-plus](https://github.com/t9md/atom-vim-mode-plus)
@@ -324,9 +359,18 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
   * :heavy_plus_sign: ~~[Vim Mode](https://www.emacswiki.org/emacs/VimMode)~~ Deprecated, check out Evil.
 * :white_check_mark: [Sublime Text](https://www.sublimetext.com/) has a bult-in [Vintage mode](https://www.sublimetext.com/docs/vintage.html) that can be enabled.
   * :heavy_plus_sign: [NeoVintageous](https://github.com/NeoVintageous/NeoVintageous) - An advanced Vim emulation layer.
-* :white_check_mark: ~[oni2 (onivim)](https://github.com/onivim/oni2)~ [Deprecated](https://github.com/onivim/oni2/issues/3861).
-* :white_check_mark: [bviplus](https://bviplus.sourceforge.net/) - An ncurses based hex editor with a Vim-like interface.
-
+* :white_check_mark: [amp](https://amp.rs/) - A modal terminal text.
+* :white_check_mark: [kakoune](https://github.com/mawww/kakoune) - A modal text editor inspired by Vim-navigation.
+* :white_check_mark: [moe](https://editor.moe/) - A modal text editor with a Vim-like mode.
+* :white_check_mark: [kate](https://kate-editor.org/) - A text editor with a [Vi-mode](https://kate-editor.org/kate-vi-mode/).
+* :white_check_mark: [Komodo Edit](https://www.activestate.com/products/komodo-edit/) - Has [Vi emulation](https://www.activestate.com/blog/komodos-vi-emulation/).
+* :white_check_mark: [rim](https://github.com/mathall/rim) - The aspiring Vim-like text editor.
+* :white_check_mark: [slickedit](https://www.slickedit.com/) - A Code editor with [Vim emulation](https://www.slickedit.com/images/stories/products/slickedit/emulation_charts/Vim_Emulation.pdf).
+* :white_check_mark: [vy](https://github.com/vyapp/vy) - A Vim-like in python made from scratch.
+* :white_check_mark: [WinVi](https://winvi.de/en/) - A Windows text editor highly compatible with Vi.
+* :white_check_mark: [VNote](http://app.vnote.fun/en_us/) - A note-taking editor with Vi mode and Vi-like navigation.
+* :white_check_mark: ~[oni2 (onivim)](https://github.com/onivim/oni2)~ - [Deprecated](https://github.com/onivim/oni2/issues/3861).
+* :white_check_mark: ~[editra](https://github.com/cjprecord/editra)~ - Developers Text Editor, with a Vi-mode.
 
 ## WYSIWYG Editors
 * :white_check_mark: [zettlr](https://www.zettlr.com) - Markdown document editor on the fly, vim+emacs keybindings.
@@ -358,13 +402,18 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
 * Opera
   * :heavy_plus_sign: [wasavi](https://chrome.google.com/webstore/detail/wasavi/dgogifpkoilgiofhhhodbodcfgomelhe) - Transform text areas into a vi editor.
 * :white_check_mark: [w3m](https://w3m.sourceforge.net/) - A text-based web browser with some Vim-like [keyboard shortcuts](https://cheatsheetfactory.geekyhacker.com/linux/w3m).
+* :white_check_mark: [netrik](https://netrik.sourceforge.net/) - A text-based web browser with Vi-inspired keyboard commands.
 * :white_check_mark: [vimb](https://fanglingsu.github.io/vimb/) - The vim like browser.
 * :white_check_mark: [jumanji](https://pwmt.org/projects/jumanji) - A keyboard driven web browser.
 * :white_check_mark: [luakit](https://luakit.github.io/) - A highly configurable browser with [Vim-like](https://wiki.archlinux.org/title/Luakit) navigation.
+* :white_check_mark: [nyxt](https://github.com/atlas-engineer/nyxt) - A keyboard-driven web browser inspired by Vim and Emacs.
+* :white_check_mark: [wyeb](https://github.com/jun7/wyeb) - A Vim-like webkit2gtk web browser.
+* :white_check_mark: [bombadillo](https://bombadillo.colorfield.space/) - A non-web browser but for other protocols e.g. Gopher, Gemini, Finger.
 * :white_check_mark: ~[Vimprobable](https://github.com/ThomasAdam/vimprobable)~
 * :white_check_mark: ~[dwb](https://github.com/diab0l/dwb)~ - See qutebrowser instead.
 * :white_check_mark: ~[uzbl](https://www.uzbl.org/)~
-* :white_check_mark: ~[xombrero](https://github.com/conformal/xombrero)~ - a minimalist web browser with vi-like keyboard commands.
+* :white_check_mark: ~[xombrero](https://github.com/conformal/xombrero)~ - A minimalist web browser with vi-like keyboard commands.
+* :white_check_mark: ~[Cream-Browser](https://github.com/linkdd/cream-browser)~ - A browser developped in C with GTK+ having the same interface as Vimperator.
 * Various
   * :heavy_plus_sign: [firenvim](https://github.com/glacambre/firenvim) - Transform text areas into a neovim instance that inherits your existing config (keymaps, plugins, etc).
 
