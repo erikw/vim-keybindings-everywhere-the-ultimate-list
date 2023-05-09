@@ -370,7 +370,7 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
 
 ## Window Managers
 * :white_check_mark: [howm](https://github.com/HarveyHunt/howm) - A lightweight, X11 tiling window manager that behaves like vim.
-* :white_check_mark: [qutebrowser](https://i3wm.org/) - A tilling window manager with Vim-like [keyboard shortcuts](https://i3wm.org/docs/refcard.html).
+* :white_check_mark: [i3wm](https://i3wm.org/) - A tilling window manager with Vim-like [keyboard shortcuts](https://i3wm.org/docs/refcard.html).
 * :white_check_mark: [wmii](https://github.com/0intro/wmii) - A small and scriptable window manager that can be configured with Vim-like [keyboard shortcuts](https://wiki.debian.org/Wmii#Basic_Configuration).
 
 
