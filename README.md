@@ -238,9 +238,9 @@ Terminology:
 ## Shells
 * :white_check_mark: [readline](https://man.archlinux.org/man/readline.3) - Readline is a library used by many CLI programs to read input from users. By configuring readline to use vi key bindings, you automatically get it for programs like `bash`, `irb`, `octave` etc. By default, readline has Emacs-like keybindings, but you can change that by putting this in your `~/.inputrc`:
   * ```
-     set editing-mode vi
-     set keymap vi-insert
-  ```
+    set editing-mode vi
+    set keymap vi-insert
+    ```
 * :white_check_mark: [Bash](https://www.gnu.org/software/bash/) - The preferred method is to set Vi mode in `~/.inputrc` via readline, as you will get Vi mode automatically in all programs using the library. However, if you just want this for bash, put this in your bash startup file e.g. `~/.bashrc`:
   * ```bash
     set -o vi
