@@ -13,7 +13,7 @@
 
 **:rocket: PRs are welcome**
 
-# What is this list?
+## What is this list?
 Once your fingers have [learned](https://www.thejach.com/view/2012/07/vims_learning_curve_is_wrong) to speak Vim, they don't want to speak anything else! It's simply a very effective way of navigating, creating and editing text. Thus, it's natural that one would like to get Vim-like keybindings in as many programs we use as possible.
 
 The intention of this collaborative list is to:
