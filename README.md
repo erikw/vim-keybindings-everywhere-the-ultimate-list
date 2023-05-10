@@ -65,6 +65,7 @@ Terminology:
 * :white_check_mark: [sup](https://sup-heliotrope.github.io/) - a console-based email client for people with a lot of email with Vim-inspired [keyboard shortcuts](https://github.com/sup-heliotrope/sup/wiki/Keyboard-reference).
 * [Thunderbird](https://www.thunderbird.net/en-US/)
   * :heavy_plus_sign: [Muttator](https://addons.thunderbird.net/en-US/thunderbird/addon/muttator/) - Like Vimperator but for thunderbird.
+  * :heavy_plus_sign: ~[teledactyl](https://github.com/5digits/dactyl/tree/master/teledactyl)~
 * :white_check_mark: [aerc](https://aerc-mail.org/) - Terminal email client with Vim keybindings.
 * :white_check_mark: [meli](https://meli.delivery/) - A TUI email client with Vim-like keybindings.
 
@@ -82,19 +83,27 @@ Terminology:
   * :heavy_plus_sign: [Finder Vim Mode](https://github.com/chrisgrieser/finder-vim-mode) - adds extensive vim-like/ranger-like keybindings, works via Karabiner Elements.
 * :white_check_mark: ~[jvifm](https://sourceforge.net/projects/jvifm/)~ - A Java implementation of vifm; a file manager with Vim-like keybindings.
 * :white_check_mark: ~[vide](https://github.com/xaizek/vide)~ - The graphical predecessor of vifm that uses GTK+
+* [fman](https://fman.io/) - A dual-pane file manager.
+  * :heavy_plus_sign: [VimNavigation](https://github.com/raguay/VimNavigation) - Adds Vim-style keyboard navigation to the fman file manager.
 
 ## IDEs
 * [Jetbrain's IDEs](https://www.jetbrains.com/products/#type=ide) (Intellij, PYCharm, PHPStorm, WebStorm, ...)
-  * :heavy_plus_sign: [IdeaVim](https://plugins.jetbrains.com/plugin/164-ideavim) - install it directly from the plugin section in the IDE settings.
-* [Visual Studio Code](https://code.visualstudio.com/)
-  * :heavy_plus_sign: [Vim plugin](https://github.com/VSCodeVim/Vim) - install it directly in the plugin section in the IDE settings.
-  * :heavy_plus_sign: [NVim plugin](https://github.com/vscode-neovim/vscode-neovim) - alternative to the VIM plugin, uses a full nvim instance in the background instead of just emulating VIM
+  * :heavy_plus_sign: [IdeaVim](https://plugins.jetbrains.com/plugin/164-ideavim) - Install it directly from the plugin section in the IDE settings.
+* [Visual Studio Code (VSCode)](https://code.visualstudio.com/)
+  * :heavy_plus_sign: [Vim plugin](https://github.com/VSCodeVim/Vim) - Install it directly in the plugin section in the IDE settings.
+  * :heavy_plus_sign: [NVim plugin](https://github.com/vscode-neovim/vscode-neovim) - Vim emulation for Visual Studio Code [GitHub](https://github.com/VSCodeVim/Vim).
+  * :heavy_plus_sign: [VSCodeVim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim) - Alternative to the VIM plugin, uses a full nvim instance in the background instead of just emulating VIM
 * :white_check_mark: [XCode](https://developer.apple.com/xcode/) - Apple's IDE. Vim mode can be enabled under the "Editor" menu without use of plugins.
+  * :heavy_plus_sign: ~[XVim](https://github.com/XVimProject/XVim)~ plugin. Deprecated, use native keybindings (above) instead.
   * :heavy_plus_sign: ~[XVim2](https://github.com/XVimProject/XVim2)~ plugin. Deprecated, use native keybindings (above) instead.
 * [Eclipse](https://www.eclipse.org/ide/)
-  * :heavy_plus_sign: [vrapper-vim](https://marketplace.eclipse.org/content/vrapper-vim)
+  * :heavy_plus_sign: [vrapper-vim](https://marketplace.eclipse.org/content/vrapper-vim) - A wrapper that provides a Vim-like input scheme for moving around and editing text.
   * :heavy_plus_sign: [viplugin](https://marketplace.eclipse.org/content/viplugin)
   * :heavy_plus_sign: [viable](https://marketplace.eclipse.org/content/viable-vim-eclipse)
+  * :heavy_plus_sign: ~[vimplugin](https://sourceforge.net/projects/vimplugin/)~
+* [NetBeans](https://netbeans.apache.org/) - Java IDE
+  * :heavy_plus_sign: [jVI](https://jvi.sourceforge.net/) - A Vim-editor clone for the NetBeans IDE.
+  * :heavy_plus_sign: ~[viex](https://sourceforge.net/projects/viex/)~
 * [Visual Studio](https://visualstudio.microsoft.com/)
   * :heavy_plus_sign: [VsVim (Visual Studio 2015-2019)](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim) - install through the extensions inside Visual Studio
   * :heavy_plus_sign: [VsVim 2022 (Visual Studio 2022)](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim2022Preview) - install through the extensions inside Visual Studio
@@ -104,6 +113,8 @@ Terminology:
 * :white_check_mark: [RStudio](https://posit.co/download/rstudio-desktop/) - There's a built-in [Vim Editing Mode](https://stackoverflow.com/a/47208291).
 * :white_check_mark: [MonoDevelop](https://www.monodevelop.com/) - Cross platform IDE for C#, F# and more, with [Vi-mode](https://www.monodevelop.com/archived/developers/tasks/source-editing/vi-mode/).
 * :white_check_mark: ~[pida](https://launchpad.net/pida)~ - An IDE that aims to use the tools you wish to use(including Vim and Emacs).
+* DrRacket - IDE for learning the Racket language.
+  * :heavy_plus_sign: ~[DrRacket Vim Tool](https://github.com/takikawa/drracket-vim-tool)~ - An IDE that aims to use the tools you wish to use(including Vim and Emacs).
 
 ## Image Viewers/Editor
 * :white_check_mark: [xzgv](https://sourceforge.net/projects/xzgv/) - Keyboard driven image viewer with Vim-style navigation.
@@ -127,8 +138,10 @@ Terminology:
 * :white_check_mark: [termshark](https://termshark.io/) - a UI for tshark with Vim-navigation.
 * :white_check_mark: ~[Yzis](https://github.com/chrizel/Yzis)~ - A vi/vim engine that is easy to integrate in any graphical application.
 
+# Misc Extensions
+* :heavy_plus_sign: ~[cubiclevim](https://sourceforge.net/projects/cubiclevim/)~ - Dditing Microsoft Outlook messages Vim-style.
 
-## Music players
+## Music Players
 * :white_check_mark: [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) - An ncurses client for [mpd](https://www.musicpd.org/). The navigation can quite easily be made to behave like vim with some keyboard configurations.
   * <details>
       <summary>~/.config/ncmpcpp/bindings</summary>
@@ -166,8 +179,12 @@ Terminology:
 * :white_check_mark: [vitunes](http://vitunes.org/) - An MPD client with Vi-like bindings.
 * :white_check_mark: [pms](https://ambientsound.github.io/pms/) - A frontend to MPD with Vim-like keybindings.
 * :white_check_mark: [siren](https://www.kariliq.nl/siren/) - A text-based audio player with [Vim-like](https://www.kariliq.nl/man/siren.1.html) keybindings.
-* :white_check_mark: ~[pineapple-tracker](https://github.com/pineapple-tracker/pineapple-tracker)~ - A console-based sequencer with a vi-style UI.
 * :white_check_mark: ~[herrie](https://github.com/EdSchouten/herrie)~ - a MPD player with Vim-like [keybindings](https://github.com/EdSchouten/herrie/blob/master/herrie/man/00-man).
+
+## Music Production
+* :white_check_mark: ~[pineapple-tracker](https://github.com/pineapple-tracker/pineapple-tracker)~ - A console-based sequencer with a vi-style UI.
+* [Reaper](https://www.reaper.fm/) - A DAW.
+* :heavy_plus_sign: [Reaper-Keys](https://github.com/gwatcha/reaper-keys) - Bringing a modal editor to the Reaper DAW.
 
 ## News/RSS Readers
 * :heavy_plus_sign: [Newsboat](https://newsboat.org/) - RSS/Atom reader with a TUI.
@@ -263,19 +280,20 @@ Terminology:
     done
     ```
     </details>
-* :white_check_mark: [fish](https://fishshell.com/) - just add to your `~/.config/fish/config.fish` ([reference](https://stackoverflow.com/a/28445450/265508)):
+  * :heavy_plus_sign: [zsh-vi-mode](https://github.com/jeffreytse/zsh-vi-mode) - A better and friendly Vim-mode plugin for zsh. 
+* :white_check_mark: [fish](https://fishshell.com/) - Just add to your `~/.config/fish/config.fish` ([reference](https://stackoverflow.com/a/28445450/265508)):
   * ```bash
     fish_vi_key_bindings
     ```
-* :white_check_mark: [tcsh](https://www.tcsh.org/) - put this in your ksh startup file e.g. `~/.kshrc` ([reference](https://www.oreilly.com/library/view/mac-os-x/0596004583/ch04s02.html)):
+* :white_check_mark: [tcsh](https://www.tcsh.org/) - Put this in your ksh startup file e.g. `~/.kshrc` ([reference](https://www.oreilly.com/library/view/mac-os-x/0596004583/ch04s02.html)):
   * ```bash
     bindkey -v
     ```
-* :white_check_mark: [ksh](https://en.wikipedia.org/wiki/KornShell) - put this in your ksh startup file e.g. `~/.kshrc`:
+* :white_check_mark: [ksh](https://en.wikipedia.org/wiki/KornShell) - Put this in your ksh startup file e.g. `~/.kshrc`:
   * ```bash
     set -o vi
     ```
-* :white_check_mark: [nushell](https://www.nushell.sh) - put this in your config file e.g. `$nu.config-path`:
+* :white_check_mark: [nushell](https://www.nushell.sh) - Put this in your config file e.g. `$nu.config-path`:
   * ```nu
     let-env config = {
       # ...
@@ -349,8 +367,6 @@ Terminology:
 ## Text Editors
 We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have Vi(m) keybindings so let's skip those here (Vim, NeoVim, vile, elvis, nvi, vis, pyvim, jVi, ex-vi ...)
 
-* Atom
-  * :heavy_plus_sign: [atom-vim-mode-plus](https://github.com/t9md/atom-vim-mode-plus)
 * Emacs
   * :white_check_mark: [evil-mode](https://www.emacswiki.org/emacs/Evil) - Extensible vi layer for Emacs.
   * :heavy_plus_sign: [spacemacs](https://www.spacemacs.org/) - Emacs configuration package that improves the Emacs experience, including vim bindings via `evil-mode`. Features a vim-like leader (space) for common commands.
@@ -359,6 +375,11 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
   * :heavy_plus_sign: ~~[Vim Mode](https://www.emacswiki.org/emacs/VimMode)~~ Deprecated, check out Evil.
 * :white_check_mark: [Sublime Text](https://www.sublimetext.com/) has a bult-in [Vintage mode](https://www.sublimetext.com/docs/vintage.html) that can be enabled.
   * :heavy_plus_sign: [NeoVintageous](https://github.com/NeoVintageous/NeoVintageous) - An advanced Vim emulation layer.
+  * :heavy_plus_sign: ~[Vintageous](https://github.com/guillermooo/Vintageous)~
+  * :heavy_plus_sign: ~[VintageEx](https://github.com/SublimeText/VintageEx)~
+  * :heavy_plus_sign: ~[Six](https://packagecontrol.io/packages/Six)~
+* QTextEdit/QPlainTextEdit
+  * :heavy_plus_sign: [FakeVim](https://github.com/hluk/FakeVim)
 * :white_check_mark: [amp](https://amp.rs/) - A modal terminal text.
 * :white_check_mark: [kakoune](https://github.com/mawww/kakoune) - A modal text editor inspired by Vim-navigation.
 * :white_check_mark: [moe](https://editor.moe/) - A modal text editor with a Vim-like mode.
@@ -371,6 +392,11 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
 * :white_check_mark: [VNote](http://app.vnote.fun/en_us/) - A note-taking editor with Vi mode and Vi-like navigation.
 * :white_check_mark: ~[oni2 (onivim)](https://github.com/onivim/oni2)~ - [Deprecated](https://github.com/onivim/oni2/issues/3861).
 * :white_check_mark: ~[editra](https://github.com/cjprecord/editra)~ - Developers Text Editor, with a Vi-mode.
+* [Inkdrop](https://www.inkdrop.app/) - A Markdown note taking app.
+  * :heavy_plus_sign: [inkdrop-vim](https://github.com/inkdropapp/inkdrop-vim) - Provides a Vim modal control for Inkdrop.
+* ~Atom~ - [Discontinued](https://github.blog/2022-06-08-sunsetting-atom/)
+  * :heavy_plus_sign: ![atom-vim-mode-plus](https://github.com/atom/vim-mode)~
+  * :heavy_plus_sign: ~[atom-vim-mode-plus](https://github.com/t9md/atom-vim-mode-plus)~
 
 ## WYSIWYG Editors
 * :white_check_mark: [zettlr](https://www.zettlr.com) - Markdown document editor on the fly, vim+emacs keybindings.
@@ -386,6 +412,7 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
   * :heavy_plus_sign: [Surfingkeys](https://addons.mozilla.org/en-US/firefox/addon/surfingkeys_ff/)
   * :heavy_plus_sign: [Vim Vixen](https://addons.mozilla.org/en-US/firefox/addon/vim-vixen/)
   * :heavy_plus_sign: [vimkeybindings](https://addons.mozilla.org/en-US/firefox/addon/vimkeybindings/) - Small addon adding just basic keyboard navigation shortcuts.
+  * :heavy_plus_sign: [Krabby](https://krabby.netlify.app/) - keyboard-based navigation inspired by Kakoune.
   * :heavy_plus_sign: ~[Vimperator](http://vimperator.org/vimperator)~ - See Tridactyl instead
   * :heavy_plus_sign: ~[Pentadactyl](https://en.wikipedia.org/wiki/Pentadactyl)~ - See Tridactyl instead
 * Chrome
@@ -394,13 +421,17 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
   * :heavy_plus_sign: [cVim](https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh)
   * :heavy_plus_sign: [Surfingkeys](https://chrome.google.com/webstore/detail/surfingkeys/gfbliohnnapiefjpjlpjnehglfpaknnc)
   * :heavy_plus_sign: [wasavi](https://chrome.google.com/webstore/detail/wasavi/dgogifpkoilgiofhhhodbodcfgomelhe) - Transform text areas into a vi editor.
+  * :heavy_plus_sign: [Krabby](https://krabby.netlify.app/) - keyboard-based navigation inspired by Kakoune.
+  * :heavy_plus_sign: ~[ViChrome](https://github.com/k2nr/ViChrome)~
+  * :heavy_plus_sign: ~[vrome](https://github.com/jinzhu/vrome)~
 * Safari
   * :heavy_plus_sign: [Surfingkeys](https://apps.apple.com/us/app/surfingkeys/id1609752330)
-  * :heavy_plus_sign: [Vimari](https://apps.apple.com/us/app/vimari/id1480933944?ls=1&mt=12)
+  * :heavy_plus_sign: [Vimari](https://apps.apple.com/us/app/vimari/id1480933944?ls=1&mt=12) -  A Safari [extension](https://televator.net/vimari/) that provides vim style keyboard based navigation, based on Vimium.
 * Edge
   * :heavy_plus_sign: [Surfingkeys](https://microsoftedge.microsoft.com/addons/detail/surfingkeys/kgnghhfkloifoabeaobjkgagcecbnppg)
 * Opera
   * :heavy_plus_sign: [wasavi](https://chrome.google.com/webstore/detail/wasavi/dgogifpkoilgiofhhhodbodcfgomelhe) - Transform text areas into a vi editor.
+  * :heavy_plus_sign: ~[VimOperate](https://github.com/rscircus/VimOperate)~
 * :white_check_mark: [w3m](https://w3m.sourceforge.net/) - A text-based web browser with some Vim-like [keyboard shortcuts](https://cheatsheetfactory.geekyhacker.com/linux/w3m).
 * :white_check_mark: [netrik](https://netrik.sourceforge.net/) - A text-based web browser with Vi-inspired keyboard commands.
 * :white_check_mark: [vimb](https://fanglingsu.github.io/vimb/) - The vim like browser.
