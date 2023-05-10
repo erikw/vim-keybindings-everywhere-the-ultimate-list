@@ -141,7 +141,7 @@ Terminology:
 * :white_check_mark: ~[HEdit](https://github.com/95ulisse/hedit)~ - A Vim-like terminal-based hex editor scriptable with JS.
 * :white_check_mark: ~[bviplus](https://bviplus.sourceforge.net/)~ - An ncurses based Gex editor with a Vim-like interface.
 
-# Misc
+## Misc
 * :white_check_mark: [gollum](https://github.com/gollum/gollum) - A Git-powered wiki with built-in vim editing mode. Start with `--default-keybind vim`.
 * :white_check_mark: [pipedial](https://code.reversed.top/user/xaizek/pipedial) - A terminal selector with basic Vim-like keybindings.
 * :white_check_mark: [sentaku](https://github.com/rcmdnk/sentaku) - A terminal selector with Vim-like keybindings.
