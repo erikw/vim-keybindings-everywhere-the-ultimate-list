@@ -41,6 +41,11 @@ Terminology:
 
 # The Ultimate Vim Keybinding List
 
+## Debuggers
+* :white_check_mark: [cgdb](http://cgdb.github.io/) - a curses interface on top of the GDB debuger with keybindings modeled after vim.
+* :white_check_mark: [vimpdb](https://github.com/gotcha/vimpdb) - An integration of the python debugger `pdb` and vim.
+
+
 ## Development
 * :white_check_mark: [ipython](https://ipython.org/) - Interactive Python shell. It no longer uses readline for input, so it must be configured in the ipython profile `~/.ipython/profile_default/ipython_config.py` itself ([reference](https://gist.github.com/sstirlin/c3c207b1052b613ab9554b4ebdfc3f35)):
   * ```ini
@@ -57,9 +62,6 @@ Terminology:
 * [Azure Data Studio](https://azure.microsoft.com/en-us/products/data-studio/) - Database tool similar to Microsoft SQL Server Management Studio. Supports VSCode extensions.
   * :heavy_plus_sign: [Vim plugin](https://github.com/VSCodeVim/Vim) - Cannot be installed directly in the plugin section. Go to [Vim plugin release page](https://github.com/VSCodeVim/Vim/releases) and download `.vsix` file. Inside Azure Data Studio navigate to Extensions > three dots at the top > Install from VSXI. You will likely see message: "Unable to install extension 'vscodevim.vim' as it is not compatible with the current VS Code engine version". If you see that message you should try earlier release.
 
-## Debuggers
-* :white_check_mark: [cgdb](http://cgdb.github.io/) - a curses interface on top of the GDB debuger with keybindings modeled after vim.
-* :white_check_mark: [vimpdb](https://github.com/gotcha/vimpdb) - An integration of the python debugger `pdb` and vim.
 
 ## E-Mail
 * :white_check_mark: [Mutt](http://www.mutt.org/) - The vim of email, a TUI email client
@@ -424,10 +426,6 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
   * :heavy_plus_sign: ![atom-vim-mode-plus](https://github.com/atom/vim-mode)~
   * :heavy_plus_sign: ~[atom-vim-mode-plus](https://github.com/t9md/atom-vim-mode-plus)~
 
-## WYSIWYG Editors
-* :white_check_mark: [zettlr](https://www.zettlr.com) - Markdown document editor on the fly, vim+emacs keybindings.
-* :white_check_mark: [VNote](https://vnotex.github.io/vnote/en_us/) - A note taking app.
-
 ## Web browsers
 * :white_check_mark: [qutebrowser](https://qutebrowser.org/)
 * :white_check_mark: [Vieb](https://vieb.dev/) - Vim bindings for the web by design (electron based)
@@ -482,6 +480,11 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
 * :white_check_mark: [euclid-wm](https://code.google.com/archive/p/euclid-wm/) - A minimalist tiling wm with default Vim-like keybindings.
 * :white_check_mark: [howm](https://github.com/HarveyHunt/howm) - A lightweight tiling X11 window manager that mimics vi.
 * :white_check_mark: [AppGrid](https://github.com/mjolnirapp/AppGrid) - A window manager for macOS with Vim-like hotkeys.
+
+
+## WYSIWYG Editors
+* :white_check_mark: [zettlr](https://www.zettlr.com) - Markdown document editor on the fly, vim+emacs keybindings.
+* :white_check_mark: [VNote](https://vnotex.github.io/vnote/en_us/) - A note taking app.
 
 
 # Contributing
