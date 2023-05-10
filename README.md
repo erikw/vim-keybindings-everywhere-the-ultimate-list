@@ -25,7 +25,7 @@ There are of course already lists like this one floating around on the internet 
 
 (yes, technically it is **vi**-like keybindings we talk about here, but most people know and Google for vim, thus vim is used here instead of vi).
 
-# The Ultimate Vim Keybinding List
+## Legend
 The following symbols are used with each list item to make it clearer what kind of Vim keybindings support exist
 * :white_check_mark: - built-in support (possibly via a setting)
 * :heavy_plus_sign: - via addon/extension
@@ -38,6 +38,8 @@ Terminology:
 
 
 
+
+# The Ultimate Vim Keybinding List
 
 ## Development
 * :white_check_mark: [ipython](https://ipython.org/) - Interactive Python shell. It no longer uses readline for input, so it must be configured in the ipython profile `~/.ipython/profile_default/ipython_config.py` itself ([reference](https://gist.github.com/sstirlin/c3c207b1052b613ab9554b4ebdfc3f35)):
