@@ -80,6 +80,8 @@ Terminology:
 * :white_check_mark: [ranger](https://github.com/ranger/ranger) - Another TUI file manager.
 * :white_check_mark: [lf](https://github.com/gokcehan/lf) - TUI file manager similar to ranger.
 * :white_check_mark: [ncdu](https://dev.yorhel.nl/ncdu) - ncurses disk usage explorer.
+* :white_check_mark: [cfiles](https://github.com/mananapr/cfiles) - A ncurses file manager written in C with Vim-like keybindings. 
+* :white_check_mark: [rover](http://lecram.github.io/p/rover/) - A small file browser with Vi-like key bindings for navigation.
 * [Total Commander](https://www.ghisler.com/)
   * :heavy_plus_sign: [ViATc](https://github.com/magicstep/ViATc-English) - adds a Vim mode to Total Commander.
 * macOS Finder
@@ -119,11 +121,17 @@ Terminology:
 * DrRacket - IDE for learning the Racket language.
   * :heavy_plus_sign: ~[DrRacket Vim Tool](https://github.com/takikawa/drracket-vim-tool)~ - An IDE that aims to use the tools you wish to use(including Vim and Emacs).
 
-## Image Viewers/Editor
-* :white_check_mark: [xzgv](https://sourceforge.net/projects/xzgv/) - Keyboard driven image viewer with Vim-style navigation.
+## Image Editors
 * :white_check_mark: [rx](https://rx.cloudhead.io/) - A pixel editor.
 * :white_check_mark: [ViPaint](https://gitlab.com/jgkamat/ViPaint) - A modal Vi-like painting program.
-* :white_check_mark: ~[sxiv](https://github.com/xyb3rt/sxiv)~
+
+## Image Viewers
+* :white_check_mark: [vimiv-qt](https://github.com/karlch/vimiv-qt) - An image viewer with Vim-like keybindings.
+* :white_check_mark: [xzgv](https://sourceforge.net/projects/xzgv/) - Keyboard driven image viewer with Vim-style navigation.
+* :white_check_mark: [Pim](https://github.com/Narrat/Pim) - A PyGObject based image viewer with Vim-like keybindings.
+* :white_check_mark: [nsxiv](https://codeberg.org/nsxiv/nsxiv) - A maintained fork of sxiv.
+* :white_check_mark: ~[sxiv](https://github.com/xyb3rt/sxiv)~ - See nsxiv instead.
+* :white_check_mark: ~[vimiv](https://github.com/karlch/vimiv)~ - See vimiv-qt.
 
 ## Hex editors
 * :white_check_mark: [bvi](https://bvi.sourceforge.net/) - A Hex editor for those familiar with Vi-like keybindings
@@ -197,6 +205,7 @@ Terminology:
   * :heavy_plus_sign: It can be [configured](http://recycledelectron.blogspot.com/2009/01/vi-and-emacs-key-bindings-in-abiword.html) to get Vim keybindings.
 * :white_check_mark: [sc](https://en.wikipedia.org/wiki/Sc_(spreadsheet_calculator)) - The venerable Spreadsheet Calculator with Vim-like [keybindings](https://www.linuxjournal.com/article/10699).
 * :white_check_mark: [sc-im](https://github.com/andmarti1424/sc-im) - Like sc but improved, a Vim-like spreadsheet calculator.
+* :white_check_mark: [VisiData](https://www.visidata.org/) - A TUI data exploration tool with Vim-like [navigation](https://jsvine.github.io/intro-to-visidata/basics/navigating-visidata/).
 
 ## Pagers
 * :white_check_mark: [less](https://en.wikipedia.org/wiki/Less_(Unix))
@@ -207,8 +216,10 @@ Terminology:
 * :white_check_mark: [MuPDF](https://mupdf.com) - PDF and ebook reader with [vim keybindings](http://tuxdiary.com/2015/04/18/mupdf/).
 * :white_check_mark: [zathura](https://pwmt.org/projects/zathura) - Document reader, vim-keybindings, partly based on MuPDF. Linux only.
 * :white_check_mark: [SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader) - Document reader, vim-keybindings. Windows only.
+* :white_check_mark: [Okular](https://okular.kde.org/) - Has some [basic](https://docs.kde.org/stable5/en/okular/okular/okular.pdf) Vim-like navigation.
+* :white_check_mark: [xpdf](https://www.xpdfreader.com/) - This PDF viewer can be [configured](https://stackoverflow.com/a/11800265/265508) to get Vim-like navigation.
 * Preview.app - macOS native document viewer:
-  * :heavy_plus_sign: [preview-vim](https://github.com/xrisk/preview-vim) - adds vim-like keybindings, works via Karabiner Elements.
+  * :heavy_plus_sign: [preview-vim](https://github.com/xrisk/preview-vim) - Adds vim-like keybindings, works via Karabiner Elements.
 
 ## Personal Knowledge Management
 * :white_check_mark: [Obsidian](https://obsidian.md/) - under "Editor" options
@@ -220,7 +231,8 @@ Terminology:
 * :white_check_mark: [tut](https://github.com/RasmusLindroth/tut) - a Mastodon client with vim-like navigation
 * [irssi](https://github.com/shabble/irssi-scripts/tree/master/vim-mode) - the popular IRC client.
   * :heavy_plus_sign: [vim_mode](https://github.com/shabble/irssi-scripts/tree/master/vim-mode) plugin.
-* :white_check_mark: [weechat](https://weechat.org/) - IRC client with Vim-like [keyboard shortcuts](https://blog.jasonmeridth.com/posts/weechat-keyboard-shortcuts/).
+* [weechat](https://weechat.org/) - A flexible IRC client.
+  * :heavy_plus_sign: [weechat-vimode](https://github.com/GermainZ/weechat-vimode) - A script that will configure Weechat to get Vim-like navigation.
 * :white_check_mark: [scli](https://github.com/isamert/scli) - Signal messenger TUI with Vim-like keybindings.
 * ~[rtv](https://github.com/michael-lazar/rtv)~ - A Reddit TUI viewer
 * ~[vchatter](https://vchatter.sourceforge.net/)~ - A Vi-like Jabber chat client.
@@ -335,7 +347,13 @@ Terminology:
 
 ## System Tools
 * :white_check_mark: [htop-vim](https://aur.archlinux.org/packages/htop-vim/) - A patched version the [htop](https://htop.dev/) interactive process viewer that has vim keybindings for navigation.
+* :white_check_mark: [btop++](https://github.com/aristocratos/btop) - A resource monitor. To enable Vim-navigation, set in the config file:
+  * ```ini
+    vim_keys = True
+    ```
 * :white_check_mark: [aptitude](https://wiki.debian.org/Aptitude) - ncurses interface for APT on Debian-derived Linux distros. The [keybindings](https://www.debian.org/doc/manuals/aptitude/ch02s05s02.en.html) are already vim-like.
+* :white_check_mark: [CopyQ](https://github.com/hluk/CopyQ) - A clipboard manager with basic Vim-like navigation.
+* :white_check_mark: [lnav](https://lnav.org/) - A log viewer with minimal Vim-like [navigation](https://docs.lnav.org/en/latest/hotkeys.html).
 
 
 ## Task Management
@@ -362,6 +380,8 @@ Terminology:
        ```
     </details>
 * :white_check_mark: [alacritty](https://github.com/alacritty/alacritty) - A cross-platform, OpenGL terminal emulator with Vim-like keybindings by default.
+* [rxvt-unicode](https://wiki.archlinux.org/title/rxvt-unicode) - The Unicode fork of the rxvt terminal emulator.
+  * :heavy_plus_sign: [urxvt-vim-scrollback](https://github.com/ervandew/urxvt-vim-scrollback) - Provides Vim-like scrollback mode and pasting.
 * :white_check_mark: ~[Termine](https://github.com/thestinger/termite)~ - See alacritty instead.
 
 ## Text Editors
@@ -394,6 +414,10 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
 * :white_check_mark: ~[editra](https://github.com/cjprecord/editra)~ - Developers Text Editor, with a Vi-mode.
 * [Inkdrop](https://www.inkdrop.app/) - A Markdown note taking app.
   * :heavy_plus_sign: [inkdrop-vim](https://github.com/inkdropapp/inkdrop-vim) - Provides a Vim modal control for Inkdrop.
+* :white_check_mark: [GNOME Text Editor](https://gitlab.gnome.org/GNOME/gnome-text-editor) - If it's [installed](https://askubuntu.com/a/1439846) with APT, enable the Vim mode by running this in a Terminal:
+  * ```bash
+    $ gsettings set org.gnome.TextEditor keybindings vim
+    ```
 * ~Atom~ - [Discontinued](https://github.blog/2022-06-08-sunsetting-atom/)
   * :heavy_plus_sign: ![atom-vim-mode-plus](https://github.com/atom/vim-mode)~
   * :heavy_plus_sign: ~[atom-vim-mode-plus](https://github.com/t9md/atom-vim-mode-plus)~
@@ -451,7 +475,11 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
 ## Window Managers
 * :white_check_mark: [howm](https://github.com/HarveyHunt/howm) - A lightweight, X11 tiling window manager that behaves like vim.
 * :white_check_mark: [i3wm](https://i3wm.org/) - A tilling window manager with Vim-like [keyboard shortcuts](https://i3wm.org/docs/refcard.html).
+* :white_check_mark: [sway](https://swaywm.org/) - A drop-in replacement for i3 for Wayland.
 * :white_check_mark: [wmii](https://github.com/0intro/wmii) - A small and scriptable window manager that can be configured with Vim-like [keyboard shortcuts](https://wiki.debian.org/Wmii#Basic_Configuration).
+* :white_check_mark: [euclid-wm](https://code.google.com/archive/p/euclid-wm/) - A minimalist tiling wm with default Vim-like keybindings.
+* :white_check_mark: [howm](https://github.com/HarveyHunt/howm) - A lightweight tiling X11 window manager that mimics vi.
+* :white_check_mark: [AppGrid](https://github.com/mjolnirapp/AppGrid) - A window manager for macOS with Vim-like hotkeys.
 
 
 # Contributing
