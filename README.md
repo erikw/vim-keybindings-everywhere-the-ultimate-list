@@ -68,6 +68,9 @@ Terminology:
   * :heavy_plus_sign: ~[teledactyl](https://github.com/5digits/dactyl/tree/master/teledactyl)~
 * :white_check_mark: [aerc](https://aerc-mail.org/) - Terminal email client with Vim keybindings.
 * :white_check_mark: [meli](https://meli.delivery/) - A TUI email client with Vim-like keybindings.
+* Microsoft Outlook
+  * :heavy_plus_sign: ~[cubiclevim](https://sourceforge.net/projects/cubiclevim/)~ - Edit Microsoft Outlook messages in Vim-style.
+
 
 ## Economy
 * :white_check_mark: [cointop](https://github.com/cointop-sh/cointop) - interactive terminal based UI application for tracking and monitoring cryptocurrency.
@@ -137,9 +140,6 @@ Terminology:
 * :white_check_mark: [stig](https://github.com/rndusr/stig) - TUI/CLI for the BitTorrent client Transmission.
 * :white_check_mark: [termshark](https://termshark.io/) - a UI for tshark with Vim-navigation.
 * :white_check_mark: ~[Yzis](https://github.com/chrizel/Yzis)~ - A vi/vim engine that is easy to integrate in any graphical application.
-
-# Misc Extensions
-* :heavy_plus_sign: ~[cubiclevim](https://sourceforge.net/projects/cubiclevim/)~ - Dditing Microsoft Outlook messages Vim-style.
 
 ## Music Players
 * :white_check_mark: [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) - An ncurses client for [mpd](https://www.musicpd.org/). The navigation can quite easily be made to behave like vim with some keyboard configurations.
