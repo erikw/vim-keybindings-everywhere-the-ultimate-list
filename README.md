@@ -231,6 +231,8 @@ Terminology:
 * :white_check_mark: [Obsidian](https://obsidian.md/) - under "Editor" options
 * [Logseq](https://logseq.com/)
   * :heavy_plus_sign: [logseq-plugin-vim-shortcuts](https://github.com/vipzhicheng/logseq-plugin-vim-shortcuts) - normal mode commands deal with whole blocks, editing text is only possible in edit mode
+* :white_check_mark: [Trilium](https://github.com/zadam/trilium) - 'Enable Vim Keybindings' added to Options in early-2022
+  * code notes use the [CodeMirror](https://github.com/codemirror/dev/) editor and its [Vim mode](https://codemirror.net/5/demo/vim.html)
 
 ## Social
 * :white_check_mark: [matui](https://github.com/pkulak/matui) - a Matrix TUI with vim-like navigation.
