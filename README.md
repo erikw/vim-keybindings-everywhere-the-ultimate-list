@@ -231,6 +231,7 @@ Terminology:
 * :white_check_mark: [Obsidian](https://obsidian.md/) - under "Editor" options
 * [Logseq](https://logseq.com/)
   * :heavy_plus_sign: [logseq-plugin-vim-shortcuts](https://github.com/vipzhicheng/logseq-plugin-vim-shortcuts) - normal mode commands deal with whole blocks, editing text is only possible in edit mode
+* :white_check_mark: [Joplin](https://joplinapp.org/) - under "Tools" → "Options" → "General" → "Show Advanced Settings" → "Keyboard Mode"
 
 ## Social
 * :white_check_mark: [matui](https://github.com/pkulak/matui) - a Matrix TUI with vim-like navigation.
