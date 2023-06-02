@@ -103,9 +103,8 @@ Terminology:
 * [Jetbrain's IDEs](https://www.jetbrains.com/products/#type=ide) (Intellij, PYCharm, PHPStorm, WebStorm, ...)
   * :heavy_plus_sign: [IdeaVim](https://plugins.jetbrains.com/plugin/164-ideavim) - Install it directly from the plugin section in the IDE settings.
 * [Visual Studio Code (VSCode)](https://code.visualstudio.com/)
-  * :heavy_plus_sign: [Vim plugin](https://github.com/VSCodeVim/Vim) - Install it directly in the plugin section in the IDE settings.
-  * :heavy_plus_sign: [NVim plugin](https://github.com/vscode-neovim/vscode-neovim) - Vim emulation for Visual Studio Code [GitHub](https://github.com/VSCodeVim/Vim).
-  * :heavy_plus_sign: [VSCodeVim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim) - Alternative to the VIM plugin, uses a full nvim instance in the background instead of just emulating VIM
+  * :heavy_plus_sign: [VSCodeVim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim) - Vim emulation for Visual Studio Code. [GitHub](https://github.com/VSCodeVim/Vim)
+  * :heavy_plus_sign: [VSCode Neovim](https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim) - Alternative to the VIM plugin, uses a full nvim instance in the background instead of just emulating VIM. [GitHub](https://github.com/vscode-neovim/vscode-neovim)
 * :white_check_mark: [XCode](https://developer.apple.com/xcode/) - Apple's IDE. Vim mode can be enabled under the "Editor" menu without use of plugins.
   * :heavy_plus_sign: ~[XVim](https://github.com/XVimProject/XVim)~ plugin. Deprecated, use native keybindings (above) instead.
   * :heavy_plus_sign: ~[XVim2](https://github.com/XVimProject/XVim2)~ plugin. Deprecated, use native keybindings (above) instead.
