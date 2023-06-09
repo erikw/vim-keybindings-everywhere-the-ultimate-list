@@ -145,6 +145,8 @@ Terminology:
 * :white_check_mark: [hed](https://repo.or.cz/w/hed.git) - A terminal hexadecimal editor with Vim-like controls.
 * :white_check_mark: [hexer](https://devel.ringlet.net/editors/hexer/) - a Vi-like binary editor.
 * :white_check_mark: [hx](https://github.com/krpors/hx) - Hex editor for the terminal with simple Vim-like keybindings.
+* [Neovim](https://github.com/neovim/neovim)
+  * :heavy_plus_sign: [hex.nvim](https://github.com/RaafatTurki/hex.nvim) - A hex editing plugin for neovim. Makes use of `xxd` by default.
 * :white_check_mark: ~[HEdit](https://github.com/95ulisse/hedit)~ - A Vim-like terminal-based hex editor scriptable with JS.
 * :white_check_mark: ~[bviplus](https://bviplus.sourceforge.net/)~ - An ncurses based Gex editor with a Vim-like interface.
 
