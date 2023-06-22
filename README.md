@@ -64,7 +64,8 @@ Terminology:
 * [Azure Data Studio](https://azure.microsoft.com/en-us/products/data-studio/) - Database tool similar to Microsoft SQL Server Management Studio. Supports VSCode extensions.
   * :heavy_plus_sign: [Vim plugin](https://github.com/VSCodeVim/Vim) - Cannot be installed directly in the plugin section. Go to [Vim plugin release page](https://github.com/VSCodeVim/Vim/releases) and download `.vsix` file. Inside Azure Data Studio navigate to Extensions > three dots at the top > Install from VSXI. You will likely see message: "Unable to install extension 'vscodevim.vim' as it is not compatible with the current VS Code engine version". If you see that message you should try earlier release.
 * :white_check_mark: [Google Colab](https://colab.research.google.com/) - Data analysis and machine learning tool that allows you to combine executable Python code and rich text along with charts, images, HTML, LaTeX and more into a single document stored in Google Drive. Vi mode supported through [keyboard binding settings](https://colab.research.google.com/notebooks/editor_details.ipynb#scrollTo=bEXkvERUtU5O). You can [enable](https://stackoverflow.com/questions/48674326/is-there-a-way-to-use-vim-keybindings-in-google-colaboratory ) it through Tools > Settings > Editor
-
+* [Julia REPL](https://julialang.org/) - High level, general-purpose dynamic programming language suited for numerical analysis and computational science
+  * :heavy_plus_sign: [VimBindings.jl](https://github.com/caleb-allen/VimBindings.jl) - A Julia package which emulates vim directly in the Julia REPL
 
 
 ## E-Mail
