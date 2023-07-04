@@ -88,6 +88,7 @@ Terminology:
 * :white_check_mark: [vifm](https://vifm.info/) - TUI file manager with vi keybindings.
 * :white_check_mark: [ranger](https://github.com/ranger/ranger) - Another TUI file manager.
 * :white_check_mark: [lf](https://github.com/gokcehan/lf) - TUI file manager similar to ranger.
+* :white_check_mark: [nnn](https://github.com/jarun/nnn) - TUI file manager.
 * :white_check_mark: [ncdu](https://dev.yorhel.nl/ncdu) - ncurses disk usage explorer.
 * :white_check_mark: [cfiles](https://github.com/mananapr/cfiles) - A ncurses file manager written in C with Vim-like keybindings. 
 * :white_check_mark: [rover](http://lecram.github.io/p/rover/) - A small file browser with Vi-like key bindings for navigation.
@@ -152,6 +153,7 @@ Terminology:
 ## Misc
 * :white_check_mark: [gollum](https://github.com/gollum/gollum) - A Git-powered wiki with built-in vim editing mode. Start with `--default-keybind vim`.
 * :white_check_mark: [pipedial](https://code.reversed.top/user/xaizek/pipedial) - A terminal selector with basic Vim-like keybindings.
+* :white_check_mark: [pulsemixer](https://github.com/GeorgeFilipkin/pulsemixer) - CLI and curses mixer for [PulseAudio](https://www.freedesktop.org/wiki/Software/PulseAudio/).
 * :white_check_mark: [sentaku](https://github.com/rcmdnk/sentaku) - A terminal selector with Vim-like keybindings.
 * :white_check_mark: [stig](https://github.com/rndusr/stig) - TUI/CLI for the BitTorrent client Transmission.
 * :white_check_mark: [termshark](https://termshark.io/) - a UI for tshark with Vim-navigation.
