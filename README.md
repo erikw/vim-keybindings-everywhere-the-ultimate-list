@@ -92,6 +92,7 @@ Terminology:
 * :white_check_mark: [ncdu](https://dev.yorhel.nl/ncdu) - ncurses disk usage explorer.
 * :white_check_mark: [cfiles](https://github.com/mananapr/cfiles) - A ncurses file manager written in C with Vim-like keybindings. 
 * :white_check_mark: [rover](http://lecram.github.io/p/rover/) - A small file browser with Vi-like key bindings for navigation.
+* :white_check_mark: [broot](https://dystroy.org/broot/) - An interactive file tree explorer. [vim_mode](https://dystroy.org/broot/vim_mode/) can be enabled in the configuration file.
 * [Total Commander](https://www.ghisler.com/)
   * :heavy_plus_sign: [ViATc](https://github.com/magicstep/ViATc-English) - adds a Vim mode to Total Commander.
 * macOS Finder
