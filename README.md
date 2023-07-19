@@ -88,9 +88,11 @@ Terminology:
 * :white_check_mark: [vifm](https://vifm.info/) - TUI file manager with vi keybindings.
 * :white_check_mark: [ranger](https://github.com/ranger/ranger) - Another TUI file manager.
 * :white_check_mark: [lf](https://github.com/gokcehan/lf) - TUI file manager similar to ranger.
+* :white_check_mark: [felix](https://github.com/kyoheiu/felix) - TUI file manager.
 * :white_check_mark: [nnn](https://github.com/jarun/nnn) - TUI file manager.
+* :white_check_mark: [xplr](https://github.com/sayanarijit/xplr) - TUI file manager.
 * :white_check_mark: [ncdu](https://dev.yorhel.nl/ncdu) - ncurses disk usage explorer.
-* :white_check_mark: [cfiles](https://github.com/mananapr/cfiles) - A ncurses file manager written in C with Vim-like keybindings. 
+* :white_check_mark: [cfiles](https://github.com/mananapr/cfiles) - A ncurses file manager written in C with Vim-like keybindings.
 * :white_check_mark: [rover](http://lecram.github.io/p/rover/) - A small file browser with Vi-like key bindings for navigation.
 * :white_check_mark: [broot](https://dystroy.org/broot/) - An interactive file tree explorer. [vim_mode](https://dystroy.org/broot/vim_mode/) can be enabled in the configuration file.
 * [Total Commander](https://www.ghisler.com/)
@@ -152,7 +154,10 @@ Terminology:
 * :white_check_mark: ~[bviplus](https://bviplus.sourceforge.net/)~ - An ncurses based Gex editor with a Vim-like interface.
 
 ## Misc
+* :white_check_mark: [fx](https://github.com/antonmedv/fx) - Terminal based JSON viewer.
+* :white_check_mark: [glow](https://github.com/charmbracelet/glow) - Terminal based markdown reader.
 * :white_check_mark: [gollum](https://github.com/gollum/gollum) - A Git-powered wiki with built-in vim editing mode. Start with `--default-keybind vim`.
+* :white_check_mark: [mdp](https://github.com/visit1985/mdp) - A command-line based markdown presentation tool.
 * :white_check_mark: [pipedial](https://code.reversed.top/user/xaizek/pipedial) - A terminal selector with basic Vim-like keybindings.
 * :white_check_mark: [pulsemixer](https://github.com/GeorgeFilipkin/pulsemixer) - CLI and curses mixer for [PulseAudio](https://www.freedesktop.org/wiki/Software/PulseAudio/).
 * :white_check_mark: [sentaku](https://github.com/rcmdnk/sentaku) - A terminal selector with Vim-like keybindings.
@@ -198,6 +203,7 @@ Terminology:
 * :white_check_mark: [vitunes](http://vitunes.org/) - An MPD client with Vi-like bindings.
 * :white_check_mark: [pms](https://ambientsound.github.io/pms/) - A frontend to MPD with Vim-like keybindings.
 * :white_check_mark: [siren](https://www.kariliq.nl/siren/) - A text-based audio player with [Vim-like](https://www.kariliq.nl/man/siren.1.html) keybindings.
+* :white_check_mark: [spotify-tui](https://github.com/Rigellute/spotify-tui) - TUI for Spotify with Vim-like keybindings.
 * :white_check_mark: ~[herrie](https://github.com/EdSchouten/herrie)~ - a MPD player with Vim-like [keybindings](https://github.com/EdSchouten/herrie/blob/master/herrie/man/00-man).
 
 ## Music Production
@@ -239,7 +245,7 @@ Terminology:
 * :white_check_mark: [Joplin](https://joplinapp.org/) - under "Tools" → "Options" → "General" → "Show Advanced Settings" → "Keyboard Mode"
 * :white_check_mark: [Trilium](https://github.com/zadam/trilium) - 'Enable Vim Keybindings' added to Options in early-2022
   * code notes use the [CodeMirror](https://github.com/codemirror/dev/) editor and its [Vim mode](https://codemirror.net/5/demo/vim.html)
-  
+
 ## Social
 * :white_check_mark: [matui](https://github.com/pkulak/matui) - a Matrix TUI with vim-like navigation.
 * :white_check_mark: [tut](https://github.com/RasmusLindroth/tut) - a Mastodon client with vim-like navigation
@@ -306,7 +312,7 @@ Terminology:
     done
     ```
     </details>
-  * :heavy_plus_sign: [zsh-vi-mode](https://github.com/jeffreytse/zsh-vi-mode) - A better and friendly Vim-mode plugin for zsh. 
+  * :heavy_plus_sign: [zsh-vi-mode](https://github.com/jeffreytse/zsh-vi-mode) - A better and friendly Vim-mode plugin for zsh.
 * :white_check_mark: [fish](https://fishshell.com/) - Just add to your `~/.config/fish/config.fish` ([reference](https://stackoverflow.com/a/28445450/265508)):
   * ```bash
     fish_vi_key_bindings
@@ -373,6 +379,7 @@ Terminology:
 ## Task Management
 * :white_check_mark: [TuDu](https://code.meskio.net/tudu/) - A comand line interface to manage hierarchical todos.
 * :white_check_mark: [calcurse](https://calcurse.org/) - A calendar and scheduling application for the command line with default [vim-like keybindings](http://culot.org/calcurse/manual_en.html#options_keys).
+* :white_check_mark: [kabmat](https://github.com/PlankCipher/kabmat) - TUI for managing kanban boards with Vim-like keybindings.
 * :white_check_mark: [taskell](https://taskell.app/) - Command-line Kanban board/task management.
 * :white_check_mark: [vit](https://github.com/vit-project/vit) - An TUI for [Taskwarrior](https://taskwarrior.org/) Vim-like keybindings.
 
