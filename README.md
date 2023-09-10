@@ -164,6 +164,7 @@ Terminology:
 * :white_check_mark: [stig](https://github.com/rndusr/stig) - TUI/CLI for the BitTorrent client Transmission.
 * :white_check_mark: [termshark](https://termshark.io/) - a UI for tshark with Vim-navigation.
 * :white_check_mark: ~[Yzis](https://github.com/chrizel/Yzis)~ - A vi/vim engine that is easy to integrate in any graphical application.
+* :white_check_mark: [mycli](https://www.mycli.net) - A CLI for MySQL, MariaDB, and Percona with auto-completion and syntax highlighting. There are two types of keybindings available. Emacs mode and Vi mode.
 
 ## Music Players
 * :white_check_mark: [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) - An ncurses client for [mpd](https://www.musicpd.org/). The navigation can quite easily be made to behave like vim with some keyboard configurations.
