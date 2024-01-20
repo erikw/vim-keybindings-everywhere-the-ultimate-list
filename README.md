@@ -252,6 +252,8 @@ Terminology:
 * :white_check_mark: [sc](https://en.wikipedia.org/wiki/Sc_(spreadsheet_calculator)) - The venerable Spreadsheet Calculator with Vim-like [keybindings](https://www.linuxjournal.com/article/10699).
 * :white_check_mark: [sc-im](https://github.com/andmarti1424/sc-im) - Like sc but improved, a Vim-like spreadsheet calculator.
 * :white_check_mark: [VisiData](https://www.visidata.org/) - A TUI data exploration tool with Vim-like [navigation](https://jsvine.github.io/intro-to-visidata/basics/navigating-visidata/).
+* Google Docs Editors suite
+  * :heavy_plus_sign: [SheetKeys](https://github.com/philc/sheetkeys) - Browser extension (Chrome and Firefox) which adds Vim keybindings to Google Sheets.
 
 ## Pagers
 * :white_check_mark: [less](https://en.wikipedia.org/wiki/Less_(Unix))
