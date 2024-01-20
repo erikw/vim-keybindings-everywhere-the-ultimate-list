@@ -293,20 +293,7 @@ Terminology:
     [user]
         editor = vim
     ```
-* :white_check_mark: [tig](https://jonas.github.io/tig/) - Text interface for git. Works mostly like vim out of the box, but can be enhanced:
-  * <details>
-      <summary>~/.config/tig/config</summary>
-
-      ```
-      bind generic <Ctrl-f>   scroll-page-down
-      bind generic <Ctrl-b>   scroll-page-up
-      bind generic g move-first-line			# Move cursor to top.
-      bind generic G move-last-line			# Move cursor to bottom.
-
-      bind main B :toggle commit-title-graph		# Rebind G to B.
-      bind main G move-last-line			# Move cursor to bottom.
-      ```
-    </details>
+* :white_check_mark: [tig](https://jonas.github.io/tig/) - Text interface for git. Works mostly like vim out of the box, but can be enhanced by sourcing these [keybindings](https://github.com/jonas/tig/blob/master/contrib/vim.tigrc) in your `~/.tigrc`.
 * :white_check_mark: [hg/mercurical](https://www.mercurial-scm.org/) - Put in your `~/.config/hg/hgrc`:
   * ```ini
     [ui]
