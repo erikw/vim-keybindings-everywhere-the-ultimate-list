@@ -382,7 +382,7 @@ Terminology:
 * :white_check_mark: [sketchyvim](https://github.com/FelixKratz/SketchyVim) - Get vim-like navigation in any macOS text field.
 * :white_check_mark: [athame](https://github.com/ardagnir/athame) - Patches your shell to add full Vim support by routing your keystrokes through an actual Vim process.
 * :white_check_mark: ~[kommand](https://www.autohotkey.com/board/topic/42706-kommand-a-cross-application-vim-like-hot-key-solution/)~ - A cross-application Vim-like hot key solution.
-
+* :white_check_mark: [win-vind](https://github.com/pit-ray/win-vind) - Control the Windows GUI in the same way as Vim.
 
 ## System Tools
 * :white_check_mark: [htop-vim](https://aur.archlinux.org/packages/htop-vim/) - A patched version the [htop](https://htop.dev/) interactive process viewer that has vim keybindings for navigation.
