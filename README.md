@@ -402,7 +402,7 @@ Terminology:
 * :white_check_mark: [taskell](https://taskell.app/) - Command-line Kanban board/task management.
 * :white_check_mark: [vit](https://github.com/vit-project/vit) - An TUI for [Taskwarrior](https://taskwarrior.org/) Vim-like keybindings.
 
-## Terminal Emulators/*
+## Terminal Emulators
 * :white_check_mark: [tmux](https://github.com/tmux/tmux) - the terminal multiplexer, superseding GNU Screen.
   * <details>
       <summary>~/.config/tmux/tmux.conf</summary>
