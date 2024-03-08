@@ -494,6 +494,10 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
   * :heavy_plus_sign: ~[VimOperate](https://github.com/rscircus/VimOperate)~
 * :white_check_mark: [w3m](https://w3m.sourceforge.net/) - A text-based web browser with some Vim-like [keyboard shortcuts](https://cheatsheetfactory.geekyhacker.com/linux/w3m).
 * :white_check_mark: [netrik](https://netrik.sourceforge.net/) - A text-based web browser with Vi-inspired keyboard commands.
+* :white_check_mark: [lynx](https://lynx.invisible-island.net/) - A customizable text-based browser and the oldest web browser still being maintained. You can enable Vi-like movement by passing `-vikeys` or add an alias in your `.bashrc`:
+  * ```bash
+    alias lynx='lynx -vikeys'
+    ```
 * :white_check_mark: [vimb](https://fanglingsu.github.io/vimb/) - The vim like browser.
 * :white_check_mark: [jumanji](https://pwmt.org/projects/jumanji) - A keyboard driven web browser.
 * :white_check_mark: [luakit](https://luakit.github.io/) - A highly configurable browser with [Vim-like](https://wiki.archlinux.org/title/Luakit) navigation.
