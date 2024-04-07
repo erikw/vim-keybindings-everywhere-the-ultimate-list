@@ -103,6 +103,7 @@ Terminology:
 * :white_check_mark: ~[vide](https://github.com/xaizek/vide)~ - The graphical predecessor of vifm that uses GTK+
 * [fman](https://fman.io/) - A dual-pane file manager.
   * :heavy_plus_sign: [VimNavigation](https://github.com/raguay/VimNavigation) - Adds Vim-style keyboard navigation to the fman file manager.
+* :white_check_mark: [yazi](https://yazi-rs.github.io/) - Blazing fast terminal file manager written in Rust, based on async I/O.
 
 ## IDEs
 * [Jetbrain's IDEs](https://www.jetbrains.com/products/#type=ide) (Intellij, PYCharm, PHPStorm, WebStorm, ...)
