@@ -231,7 +231,7 @@ Terminology:
 * :white_check_mark: [vimus](https://github.com/vimus/vimus) - An MPD client with Vim-like keybindings.
 * :white_check_mark: [vimpc](https://github.com/boysetsfrog/vimpc) - A console mpd client that provides a vim-like interface. Default keybindings in the [help file](https://github.com/boysetsfrog/vimpc/blob/master/doc/help.txt)
 * :white_check_mark: [vitunes](http://vitunes.org/) - An MPD client with Vi-like bindings.
-* :white_check_mark: [pms](https://ambientsound.github.io/pms/) - A frontend to MPD with Vim-like keybindings.
+* :white_check_mark: [pms](https://kimtore.github.io/pms/) - A frontend to MPD with Vim-like keybindings.
 * :white_check_mark: [siren](https://www.kariliq.nl/siren/) - A text-based audio player with [Vim-like](https://www.kariliq.nl/man/siren.1.html) keybindings.
 * :white_check_mark: [spotify-tui](https://github.com/Rigellute/spotify-tui) - TUI for Spotify with Vim-like keybindings.
 * :white_check_mark: ~[herrie](https://github.com/EdSchouten/herrie)~ - a MPD player with Vim-like [keybindings](https://github.com/EdSchouten/herrie/blob/master/herrie/man/00-man).
