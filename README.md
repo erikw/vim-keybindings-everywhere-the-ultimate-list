@@ -233,7 +233,9 @@ Terminology:
 * :white_check_mark: [vitunes](http://vitunes.org/) - An MPD client with Vi-like bindings.
 * :white_check_mark: [pms](https://kimtore.github.io/pms/) - A frontend to MPD with Vim-like keybindings.
 * :white_check_mark: [siren](https://www.kariliq.nl/siren/) - A text-based audio player with [Vim-like](https://www.kariliq.nl/man/siren.1.html) keybindings.
-* :white_check_mark: [spotify-tui](https://github.com/Rigellute/spotify-tui) - TUI for Spotify with Vim-like keybindings.
+* Spotify
+    * :white_check_mark: [spotify-tui](https://github.com/Rigellute/spotify-tui) - TUI for Spotify with Vim-like keybindings.
+    * :heavy_plus_sign: [spicetify](https://spicetify.app/) - an extension framework for spotify. Includes an extension with [vim-like](https://spicetify.app/docs/advanced-usage/extensions/#keyboard-shortcut) keybindings.
 * :white_check_mark: ~[herrie](https://github.com/EdSchouten/herrie)~ - a MPD player with Vim-like [keybindings](https://github.com/EdSchouten/herrie/blob/master/herrie/man/00-man).
 
 ## Music Production
