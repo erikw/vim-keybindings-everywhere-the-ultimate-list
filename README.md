@@ -306,7 +306,7 @@ Terminology:
     [ui]
         editor = vim
     ```
-* :heavy_plus_sign: [GitUI](https://github.com/extrawurst/gitui) - GitUI provides you with the comfort of a git GUI but right in your terminal.  
+* :white_check_mark: [GitUI](https://github.com/extrawurst/gitui) - GitUI provides you with the comfort of a git GUI but right in your terminal.  
   * instruction how to enable vi bindings - https://github.com/extrawurst/gitui/blob/master/KEY_CONFIG.md
 
 
