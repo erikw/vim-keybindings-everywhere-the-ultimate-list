@@ -67,6 +67,8 @@ Terminology:
 * [The Julia Programming Language](https://julialang.org/) - High level, general-purpose dynamic programming language suited for numerical analysis and computational science
   * :heavy_plus_sign: [VimBindings.jl](https://github.com/caleb-allen/VimBindings.jl) - A Julia package which emulates vim directly in the Julia REPL
 
+* :white_check_mark: [k9s](https://k9scli.io/) - Kubernetes CLI tool with full VIM bindings
+
 
 ## E-Mail
 * :white_check_mark: [Mutt](http://www.mutt.org/) - The vim of email, a TUI email client
@@ -304,6 +306,10 @@ Terminology:
     [ui]
         editor = vim
     ```
+* :heavy_plus_sign: [GitUI](https://github.com/extrawurst/gitui) - GitUI provides you with the comfort of a git GUI but right in your terminal.  
+  * instruction how to enable vi bindings - https://github.com/extrawurst/gitui/blob/master/KEY_CONFIG.md
+
+
 
 
 ## Shells
