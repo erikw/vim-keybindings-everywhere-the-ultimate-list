@@ -196,6 +196,8 @@ Terminology:
     # Use nvim as the pager. Remove all ASCII formatting characters.
     scrollback_pager nvim --noplugin -c 'set buftype=nofile' -c 'set noswapfile' -c 'silent! %s/\%x1b\[[0-9;]*[sumJK]//g' -c 'silent! %s/\%x1b]133;[A-Z]\%x1b\\//g' -c 'silent! %s/\%x1b\[[^m]*m//g' -c 'silent! %s///g' -
     ```
+* [Anki](https://apps.ankiweb.net/) - Spaced repetition and media-rich cards flashcard program for study.
+	* ➕ [anki_vimove](https://ankiweb.net/shared/info/1997961715) - Add-on for vi-like movement in deck browser.
 
 ## Music Players
 * :white_check_mark: [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) - An ncurses client for [mpd](https://www.musicpd.org/). The navigation can quite easily be made to behave like vim with some keyboard configurations.
