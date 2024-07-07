@@ -347,7 +347,7 @@ Terminology:
   * ```bash
     fish_vi_key_bindings
     ```
-* :white_check_mark: [tcsh](https://www.tcsh.org/) - Put this in your ksh startup file e.g. `~/.kshrc` ([reference](https://www.oreilly.com/library/view/mac-os-x/0596004583/ch04s02.html)):
+* :white_check_mark: [tcsh](https://www.tcsh.org/) - Put this in your tcsh startup file e.g. `~/.tcshrc` ([reference](https://www.oreilly.com/library/view/mac-os-x/0596004583/ch04s02.html)):
   * ```bash
     bindkey -v
     ```
