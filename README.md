@@ -68,6 +68,8 @@ Terminology:
   * :heavy_plus_sign: [VimBindings.jl](https://github.com/caleb-allen/VimBindings.jl) - A Julia package which emulates vim directly in the Julia REPL
 
 * :white_check_mark: [k9s](https://k9scli.io/) - Kubernetes CLI tool with full VIM bindings
+* [DBeaver](https://dbeaver.io/) - Free Universal Database Tool
+  * :heavy_plus_sign: [Vrapper plugin](https://vrapper.sourceforge.net/home/) - Plugin adds vim bindings to SQL editor. Install it using instructions from https://github.com/dbeaver/dbeaver/issues/8219
 
 
 ## E-Mail
