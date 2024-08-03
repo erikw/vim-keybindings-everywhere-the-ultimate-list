@@ -137,6 +137,7 @@ Terminology:
 * :white_check_mark: ~[pida](https://launchpad.net/pida)~ - An IDE that aims to use the tools you wish to use(including Vim and Emacs).
 * DrRacket - IDE for learning the Racket language.
   * :heavy_plus_sign: ~[DrRacket Vim Tool](https://github.com/takikawa/drracket-vim-tool)~ - An IDE that aims to use the tools you wish to use(including Vim and Emacs).
+* :white_check_mark: [Zed](https://zed.dev/) - Vim mode is built-in. Can be [enabled](https://zed.dev/docs/configuring-zed#vim) and [configured](https://zed.dev/docs/vim) in the settings file.
 
 ## Image Editors
 * :white_check_mark: [rx](https://rx.cloudhead.io/) - A pixel editor.
