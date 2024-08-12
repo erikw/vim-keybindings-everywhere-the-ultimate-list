@@ -388,7 +388,7 @@ Terminology:
     ```
    * This was collected from many github issues and posts. Powershell 5.1 for one reason or another refuses to change the cursor so the script to give
     feedback does not work. Just remove it and it will still work, just no feedback of the mode you're in.
- * ✅ [xsh](https://xon.sh/) - Put this in your run control file `~/.xonshrc`:
+ * :white_check_mark: [xsh](https://xon.sh/) - Put this in your run control file `~/.xonshrc`:
    * ```
      $VI_MODE = True
      ```
