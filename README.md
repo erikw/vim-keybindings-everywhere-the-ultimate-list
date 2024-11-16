@@ -397,6 +397,7 @@ Terminology:
 * :white_check_mark: [vim-anywhere](https://github.com/cknadler/vim-anywhere) - Spawn a vim buffer from any text input in the operating system.
 * :white_check_mark: [Homerow](https://www.homerow.app/) - Add vim-like navigation to any macOS app.
 * :white_check_mark: [kindaVim](https://kindavim.app/) - Get Vim motions all over macOS, in text fields, text areas, and other UI elements. 
+* :white_check_mark: [Scrolla](https://scrolla.app/) - Scroll in macOS using Vim motions.
 * :white_check_mark: [sketchyvim](https://github.com/FelixKratz/SketchyVim) - Get vim-like navigation in any macOS text field.
 * :white_check_mark: [athame](https://github.com/ardagnir/athame) - Patches your shell to add full Vim support by routing your keystrokes through an actual Vim process.
 * :white_check_mark: ~[kommand](https://www.autohotkey.com/board/topic/42706-kommand-a-cross-application-vim-like-hot-key-solution/)~ - A cross-application Vim-like hot key solution.
