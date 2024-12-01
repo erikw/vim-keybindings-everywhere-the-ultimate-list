@@ -289,6 +289,7 @@ Terminology:
   * code notes use the [CodeMirror](https://github.com/codemirror/dev/) editor and its [Vim mode](https://codemirror.net/5/demo/vim.html)
 
 ## Social
+* :white_check_mark: [iamb](https://github.com/ulyssa/iamb) - A Matrix client for Vim addicts.
 * :white_check_mark: [matui](https://github.com/pkulak/matui) - a Matrix TUI with vim-like navigation.
 * :white_check_mark: [tut](https://github.com/RasmusLindroth/tut) - a Mastodon client with vim-like navigation
 * [irssi](https://github.com/shabble/irssi-scripts/tree/master/vim-mode) - the popular IRC client.
