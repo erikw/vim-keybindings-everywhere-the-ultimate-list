@@ -416,6 +416,7 @@ Terminology:
 
 
 ## Task Management
+* :white_check_mark: [Keyban](https://site.keyban.app/) - Kanban board/task management/bullet journal app built for Vim-like operation.
 * :white_check_mark: [TuDu](https://code.meskio.net/tudu/) - A comand line interface to manage hierarchical todos.
 * :white_check_mark: [calcurse](https://calcurse.org/) - A calendar and scheduling application for the command line with default [vim-like keybindings](http://culot.org/calcurse/manual_en.html#options_keys).
 * :white_check_mark: [kabmat](https://github.com/PlankCipher/kabmat) - TUI for managing kanban boards with Vim-like keybindings.
