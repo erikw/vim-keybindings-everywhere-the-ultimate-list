@@ -160,6 +160,8 @@ Terminology:
 * :white_check_mark: ~[bviplus](https://bviplus.sourceforge.net/)~ - An ncurses based Gex editor with a Vim-like interface.
 
 ## Misc
+* :white_check_mark: [leetcode](https://leetcode.com/) - Algorithmic programming problem repository.
+ * :heavy_plus_sign [leetcode.vim](https://github.com/ianding1/leetcode.vim) - Vim integration for Leetcode.
 * :white_check_mark: [fx](https://github.com/antonmedv/fx) - Terminal based JSON viewer.
 * :white_check_mark: [glow](https://github.com/charmbracelet/glow) - Terminal based markdown reader.
 * :white_check_mark: [gollum](https://github.com/gollum/gollum) - A Git-powered wiki with built-in vim editing mode. Start with `--default-keybind vim`.
