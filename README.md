@@ -324,6 +324,18 @@ Terminology:
     set editing-mode vi
     set keymap vi-insert
     ```
+* :white_check_mark: [ble.sh](https://github.com/akinomyoga/ble.sh) - Bash Line Editor―a line editor written in pure Bash with syntax highlighting, auto suggestions, vim modes, etc. for Bash interactive sessions.
+  * ```
+    # bashrc
+
+    # Add this lines at the top of .bashrc:
+    [[ $- == *i* ]] && source /path/to/blesh/ble.sh --noattach
+
+    # your bashrc settings come here...
+
+    # Add this line at the end of .bashrc:
+    [[ ! ${BLE_VERSION-} ]] || ble-attach
+    ```
 * :white_check_mark: [Bash](https://www.gnu.org/software/bash/) - The preferred method is to set Vi mode in `~/.inputrc` via readline, as you will get Vi mode automatically in all programs using the library. However, if you just want this for bash, put this in your bash startup file e.g. `~/.bashrc`:
   * ```bash
     set -o vi
@@ -403,6 +415,8 @@ Terminology:
 * :white_check_mark: [athame](https://github.com/ardagnir/athame) - Patches your shell to add full Vim support by routing your keystrokes through an actual Vim process.
 * :white_check_mark: ~[kommand](https://www.autohotkey.com/board/topic/42706-kommand-a-cross-application-vim-like-hot-key-solution/)~ - A cross-application Vim-like hot key solution.
 * :white_check_mark: [win-vind](https://github.com/pit-ray/win-vind) - Control the Windows GUI in the same way as Vim.
+* :white_check_mark: [warpd](https://github.com/rvaiya/warpd) - A modal keyboard driven interface for mouse manipulation, Linux (X11/Wayland)
+* :white_check_mark: [keystrokes](https://github.com/Darukutsu/keystrokes) - Record you keystrokes and replay them just like in vim macro, Linux (X11/Wayland)
 
 ## System Tools
 * :white_check_mark: [htop-vim](https://aur.archlinux.org/packages/htop-vim/) - A patched version the [htop](https://htop.dev/) interactive process viewer that has vim keybindings for navigation.
