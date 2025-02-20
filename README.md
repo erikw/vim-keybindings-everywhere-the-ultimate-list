@@ -510,6 +510,7 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
   * :heavy_plus_sign: [Krabby](https://krabby.netlify.app/) - keyboard-based navigation inspired by Kakoune.
   * :heavy_plus_sign: ~[Vimperator](http://vimperator.org/vimperator)~ - See Tridactyl instead
   * :heavy_plus_sign: ~[Pentadactyl](https://en.wikipedia.org/wiki/Pentadactyl)~ - See Tridactyl instead
+  * :heavy_plus_sign: [Video Speed Controller](https://addons.mozilla.org/en-US/firefox/addon/videospeed/) – Allows remapping HTML5 video playback controls (e.g., seeking with `h/l`, speed adjustment with `j/k`) to match Vim-like navigation.
 * Chrome
   * :heavy_plus_sign: [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
   * :heavy_plus_sign: [Vimium C](https://chrome.google.com/webstore/detail/vimium-c-all-by-keyboard/hfjbmagddngcpeloejdejnfgbamkjaeg?hl=en)
@@ -519,6 +520,7 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
   * :heavy_plus_sign: [Krabby](https://krabby.netlify.app/) - keyboard-based navigation inspired by Kakoune.
   * :heavy_plus_sign: ~[ViChrome](https://github.com/k2nr/ViChrome)~
   * :heavy_plus_sign: ~[vrome](https://github.com/jinzhu/vrome)~
+  * :heavy_plus_sign: [Video Speed Controller](https://chromewebstore.google.com/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk) – Allows remapping HTML5 video playback controls (e.g., seeking with `h/l`, speed adjustment with `j/k`) to match Vim-like navigation.
 * Safari
   * :heavy_plus_sign: [Surfingkeys](https://apps.apple.com/us/app/surfingkeys/id1609752330)
   * :heavy_plus_sign: [Vimari](https://apps.apple.com/us/app/vimari/id1480933944?ls=1&mt=12) -  A Safari [extension](https://televator.net/vimari/) that provides vim style keyboard based navigation, based on Vimium.
