@@ -71,6 +71,7 @@ Terminology:
 * [DBeaver](https://dbeaver.io/) - Free Universal Database Tool
   * :heavy_plus_sign: [Vrapper plugin](https://vrapper.sourceforge.net/home/) - Plugin adds vim bindings to SQL editor. Install it using instructions from https://github.com/dbeaver/dbeaver/issues/8219
 
+* :white_check_mark: [ptpython](https://github.com/prompt-toolkit/ptpython) - A better Python REPL. Start it with `ptpython --vi` or add `repl.vi_mode = True` to its `config.py`.
 
 ## E-Mail
 * :white_check_mark: [Mutt](http://www.mutt.org/) - The vim of email, a TUI email client
