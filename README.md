@@ -171,7 +171,6 @@ Terminology:
 * :white_check_mark: [termshark](https://termshark.io/) - a UI for tshark with Vim-navigation.
 * :white_check_mark: ~[Yzis](https://github.com/chrizel/Yzis)~ - A vi/vim engine that is easy to integrate in any graphical application.
 * :white_check_mark: [mycli](https://www.mycli.net) - A CLI for MySQL, MariaDB, and Percona with auto-completion and syntax highlighting. There are two types of keybindings available. Emacs mode and Vi mode.
-* :white_check_mark: [Remember The Milk](https://www.rememberthemilk.com/help/answer/basics-basics-keyboard) - A task management application available on various platforms including web, Windows, Linux, macOS desktop, and Android & iOS mobile apps. It offers built-in Vim-like keybindings on its desktop and web versions.
 * :white_check_mark: [Kitty](https://sw.kovidgoyal.net/kitty/) - The fast, feature-rich, GPU based terminal emulator. Through its configuration, users can configure splitting and navigation to mimic the behavior of Vi.
     Example:
     ```
@@ -436,6 +435,7 @@ Terminology:
 * :white_check_mark: [kabmat](https://github.com/PlankCipher/kabmat) - TUI for managing kanban boards with Vim-like keybindings.
 * :white_check_mark: [taskell](https://taskell.app/) - Command-line Kanban board/task management.
 * :white_check_mark: [vit](https://github.com/vit-project/vit) - An TUI for [Taskwarrior](https://taskwarrior.org/) Vim-like keybindings.
+* :white_check_mark: [Remember The Milk](https://www.rememberthemilk.com/help/answer/basics-basics-keyboard) - A task management application available on various platforms including web, Windows, Linux, macOS desktop, and Android & iOS mobile apps. It offers built-in Vim-like keybindings on its desktop and web versions.
 
 ## Terminal Emulators
 * :white_check_mark: [tmux](https://github.com/tmux/tmux) - the terminal multiplexer, superseding GNU Screen.
