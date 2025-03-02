@@ -1,6 +1,6 @@
 # Vim Keybindings Everywhere - The Ultimate List [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20Vim%20keybindings%20everywhere%20-%20the%20ultimate%20list%20of%20programs%20with%20native%20support%20or%20extensions%20providing%20it&url=https://github.com/erikw/vim-keybindings-everywhere-the-ultimate-list&via=erik_westrup&hashtags=vim,keybindings,list)
-[![<magic-marker-nbr-native>](https://img.shields.io/badge/Native%20programs%20listed-164-brightgreen)](#)
-[![<magic-marker-nbr-extensions>](https://img.shields.io/badge/Extensions%20listed-74-blue)](#)
+[![<magic-marker-nbr-native>](https://img.shields.io/badge/Native%20programs%20listed-166-brightgreen)](#)
+[![<magic-marker-nbr-extensions>](https://img.shields.io/badge/Extensions%20listed-76-blue)](#)
 [![Closed issues](https://img.shields.io/github/issues-closed/erikw/vim-keybindings-everywhere-the-ultimate-list?color=success)](https://github.com/erikw/vim-keybindings-everywhere-the-ultimate-list/issues?q=is%3Aissue+is%3Aclosed)
 [![Closed PRs](https://img.shields.io/github/issues-pr-closed/erikw/vim-keybindings-everywhere-the-ultimate-list?color=success)](https://github.com/erikw/vim-keybindings-everywhere-the-ultimate-list/pulls?q=is%3Apr+is%3Aclosed)
 [![OSS Lifecycle](https://img.shields.io/osslifecycle/erikw/vim-keybindings-everywhere-the-ultimate-list)](https://github.com/Netflix/osstracker)
@@ -71,6 +71,7 @@ Terminology:
 * [DBeaver](https://dbeaver.io/) - Free Universal Database Tool
   * :heavy_plus_sign: [Vrapper plugin](https://vrapper.sourceforge.net/home/) - Plugin adds vim bindings to SQL editor. Install it using instructions from https://github.com/dbeaver/dbeaver/issues/8219
 
+* :white_check_mark: [ptpython](https://github.com/prompt-toolkit/ptpython) - A better Python REPL. Start it with `ptpython --vi` or add `repl.vi_mode = True` to its `config.py`.
 
 ## E-Mail
 * :white_check_mark: [Mutt](http://www.mutt.org/) - The vim of email, a TUI email client
@@ -416,6 +417,7 @@ Terminology:
 * :white_check_mark: [win-vind](https://github.com/pit-ray/win-vind) - Control the Windows GUI in the same way as Vim.
 * :white_check_mark: [warpd](https://github.com/rvaiya/warpd) - A modal keyboard driven interface for mouse manipulation, Linux (X11/Wayland)
 * :white_check_mark: [keystrokes](https://github.com/Darukutsu/keystrokes) - Record you keystrokes and replay them just like in vim macro, Linux (X11/Wayland)
+* :white_check_mark: [AltTab](https://alt-tab-macos.netlify.app/) - A utility that brings Windows-style Alt-Tab functionality to macOS with Vim key support.  To enable Vim keys, go to:  `Preferences` → `Controls` → `Additional controls` → **Select windows using Vim keys**.
 
 ## System Tools
 * :white_check_mark: [htop-vim](https://aur.archlinux.org/packages/htop-vim/) - A patched version the [htop](https://htop.dev/) interactive process viewer that has vim keybindings for navigation.
@@ -458,6 +460,34 @@ Terminology:
 * [rxvt-unicode](https://wiki.archlinux.org/title/rxvt-unicode) - The Unicode fork of the rxvt terminal emulator.
   * :heavy_plus_sign: [urxvt-vim-scrollback](https://github.com/ervandew/urxvt-vim-scrollback) - Provides Vim-like scrollback mode and pasting.
 * :white_check_mark: ~[Termine](https://github.com/thestinger/termite)~ - See alacritty instead.
+* :white_check_mark: [Kitty](https://sw.kovidgoyal.net/kitty/) - The fast, feature-rich, GPU based terminal emulator. Through its configuration, users can configure splitting and navigation to mimic the behavior of Vi.
+  * <details>
+      <summary>~/.config/kitty/kitty.conf</summary>
+
+    ```
+    # Jump around neighboring window Vi key binding
+    map ctrl+shift+w>h neighboring_window left
+    map ctrl+shift+w>l neighboring_window right
+    map ctrl+shift+w>j neighboring_window down
+    map ctrl+shift+w>k neighboring_window up
+
+    map ctrl+shift+w>shift+h move_window left
+    map ctrl+shift+w>shift+l move_window right
+    map ctrl+shift+w>shift+j move_window down
+    map ctrl+shift+w>shift+k move_window up
+
+    # Create a new window splitting the space used by the existing one so that
+    # the two windows are placed one above the other
+    map ctrl+shift+w>s launch --location=hsplit
+
+    # Create a new window splitting the space used by the existing one so that
+    # the two windows are placed side by side
+    map ctrl+shift+w>v launch --location=vsplit
+
+    # Use nvim as the pager. Remove all ASCII formatting characters.
+    scrollback_pager nvim --noplugin -c 'set buftype=nofile' -c 'set noswapfile' -c 'silent! %s/\%x1b\[[0-9;]*[sumJK]//g' -c 'silent! %s/\%x1b]133;[A-Z]\%x1b\\//g' -c 'silent! %s/\%x1b\[[^m]*m//g' -c 'silent! %s///g' -
+    ```
+    </details>
 
 ## Text Editors
 We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have Vi(m) keybindings so let's skip those here (Vim, NeoVim, vile, elvis, nvi, vis, pyvim, jVi, ex-vi ...)
@@ -510,6 +540,7 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
   * :heavy_plus_sign: [Krabby](https://krabby.netlify.app/) - keyboard-based navigation inspired by Kakoune.
   * :heavy_plus_sign: ~[Vimperator](http://vimperator.org/vimperator)~ - See Tridactyl instead
   * :heavy_plus_sign: ~[Pentadactyl](https://en.wikipedia.org/wiki/Pentadactyl)~ - See Tridactyl instead
+  * :heavy_plus_sign: [Video Speed Controller](https://addons.mozilla.org/en-US/firefox/addon/videospeed/) – Allows remapping HTML5 video playback controls (e.g., seeking with `h/l`, speed adjustment with `j/k`) to match Vim-like navigation.
 * Chrome
   * :heavy_plus_sign: [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
   * :heavy_plus_sign: [Vimium C](https://chrome.google.com/webstore/detail/vimium-c-all-by-keyboard/hfjbmagddngcpeloejdejnfgbamkjaeg?hl=en)
@@ -519,6 +550,7 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
   * :heavy_plus_sign: [Krabby](https://krabby.netlify.app/) - keyboard-based navigation inspired by Kakoune.
   * :heavy_plus_sign: ~[ViChrome](https://github.com/k2nr/ViChrome)~
   * :heavy_plus_sign: ~[vrome](https://github.com/jinzhu/vrome)~
+  * :heavy_plus_sign: [Video Speed Controller](https://chromewebstore.google.com/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk) – Allows remapping HTML5 video playback controls (e.g., seeking with `h/l`, speed adjustment with `j/k`) to match Vim-like navigation.
 * Safari
   * :heavy_plus_sign: [Surfingkeys](https://apps.apple.com/us/app/surfingkeys/id1609752330)
   * :heavy_plus_sign: [Vimari](https://apps.apple.com/us/app/vimari/id1480933944?ls=1&mt=12) -  A Safari [extension](https://televator.net/vimari/) that provides vim style keyboard based navigation, based on Vimium.
