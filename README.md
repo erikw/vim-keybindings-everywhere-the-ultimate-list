@@ -172,33 +172,6 @@ Terminology:
 * :white_check_mark: [termshark](https://termshark.io/) - a UI for tshark with Vim-navigation.
 * :white_check_mark: ~[Yzis](https://github.com/chrizel/Yzis)~ - A vi/vim engine that is easy to integrate in any graphical application.
 * :white_check_mark: [mycli](https://www.mycli.net) - A CLI for MySQL, MariaDB, and Percona with auto-completion and syntax highlighting. There are two types of keybindings available. Emacs mode and Vi mode.
-* :white_check_mark: [Kitty](https://sw.kovidgoyal.net/kitty/) - The fast, feature-rich, GPU based terminal emulator. Through its configuration, users can configure splitting and navigation to mimic the behavior of Vi.
-    Example:
-    ```
-    # ~/.config/kitty/kitty.conf
-
-    # Jump around neighboring window Vi key binding
-    map ctrl+shift+w>h neighboring_window left
-    map ctrl+shift+w>l neighboring_window right
-    map ctrl+shift+w>j neighboring_window down
-    map ctrl+shift+w>k neighboring_window up
-
-    map ctrl+shift+w>shift+h move_window left
-    map ctrl+shift+w>shift+l move_window right
-    map ctrl+shift+w>shift+j move_window down
-    map ctrl+shift+w>shift+k move_window up
-
-    # Create a new window splitting the space used by the existing one so that
-    # the two windows are placed one above the other
-    map ctrl+shift+w>s launch --location=hsplit
-
-    # Create a new window splitting the space used by the existing one so that
-    # the two windows are placed side by side
-    map ctrl+shift+w>v launch --location=vsplit
-
-    # Use nvim as the pager. Remove all ASCII formatting characters.
-    scrollback_pager nvim --noplugin -c 'set buftype=nofile' -c 'set noswapfile' -c 'silent! %s/\%x1b\[[0-9;]*[sumJK]//g' -c 'silent! %s/\%x1b]133;[A-Z]\%x1b\\//g' -c 'silent! %s/\%x1b\[[^m]*m//g' -c 'silent! %s///g' -
-    ```
 * [Anki](https://apps.ankiweb.net/) - Spaced repetition and media-rich cards flashcard program for study.
 	* ➕ [anki_vimove](https://ankiweb.net/shared/info/1997961715) - Add-on for vi-like movement in deck browser.
 
