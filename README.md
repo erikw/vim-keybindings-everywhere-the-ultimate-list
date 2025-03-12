@@ -13,7 +13,8 @@
 <img src = "https://contrib.rocks/image?repo=erikw/vim-keybindings-everywhere-the-ultimate-list&max=36"/>
 </a>
 
-**:rocket: PRs are welcome**
+> [!NOTE]
+> **:rocket: PRs are very welcome**
 
 ## What is this list?
 Once your fingers have [learned](https://www.thejach.com/view/2012/07/vims_learning_curve_is_wrong) to speak Vim, they don't want to speak anything else! It's simply a very effective way of navigating, creating and editing text. Thus, it's natural that one would like to get Vim-like keybindings in as many programs we use as possible.
@@ -27,6 +28,12 @@ There are of course already lists like this one floating around on the internet 
 
 (yes, technically it is **vi**-like keybindings we talk about here, but most people know and Google for vim, thus vim is used here instead of vi).
 
+
+> [!TIP]
+> **Tip**: navigate this document easily by using GitHub's built-in Markdown Table of Contents in the top left corner:
+> <a href="#" title="GitHub built-in Table of Contents for markdown files."><img src="img/github_md_toc.png" width="256" alt="ToC"></a>
+
+
 ## Legend
 The following symbols are used with each list item to make it clearer what kind of Vim keybindings support exist
 * :white_check_mark: - built-in support (possibly via a setting)
@@ -35,8 +42,7 @@ The following symbols are used with each list item to make it clearer what kind 
 Terminology:
 * [TUI](https://itlaw.fandom.com/wiki/Text_user_interface) - Text User Interface
 
-**Tip**: navigate this file easily by using GitHub's built-in Markdown Table of Contents in the top left corner:
-<a href="#" title="GitHub built-in Table of Contents for markdown files."><img src="img/github_md_toc.png" width="256" alt="ToC"></a>
+
 
 
 
@@ -565,6 +571,10 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
 ## WYSIWYG Editors
 * :white_check_mark: [zettlr](https://www.zettlr.com) - Markdown document editor on the fly, vim+emacs keybindings.
 * :white_check_mark: [VNote](https://vnotex.github.io/vnote/en_us/) - A note taking app.
+
+
+
+
 
 
 # Contributing
