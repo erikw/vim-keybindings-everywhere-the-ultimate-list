@@ -307,7 +307,7 @@ Terminology:
   * ```bash
     set -o vi
     ```
-  * :heavy_plus_sign: [ble.sh](https://github.com/akinomyoga/ble.sh) - Bash Line Editor—a line editor written in pure Bash with syntax highlighting, auto suggestions, vim modes, etc. for Bash interactive sessions.
+  * :heavy_plus_sign: [ble.sh](https://github.com/akinomyoga/ble.sh) (Bash Line Editor) - An interactive plugin `ble.sh` provides a better Vim mode as well as syntax highlighting and autosuggestions.  In addition to the above setting of `set -o vi` in `~/.bashrc` or `set editing-mode vi` in `~/.inputrc`, you can add the following settings in `~/.bashrc` to enable `ble.sh`.
     * ```
       # bashrc
 
