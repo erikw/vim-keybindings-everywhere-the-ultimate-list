@@ -303,22 +303,22 @@ Terminology:
     set editing-mode vi
     set keymap vi-insert
     ```
-* :white_check_mark: [ble.sh](https://github.com/akinomyoga/ble.sh) - Bash Line Editor―a line editor written in pure Bash with syntax highlighting, auto suggestions, vim modes, etc. for Bash interactive sessions.
-  * ```
-    # bashrc
-
-    # Add this lines at the top of .bashrc:
-    [[ $- == *i* ]] && source /path/to/blesh/ble.sh --noattach
-
-    # your bashrc settings come here...
-
-    # Add this line at the end of .bashrc:
-    [[ ! ${BLE_VERSION-} ]] || ble-attach
-    ```
 * :white_check_mark: [Bash](https://www.gnu.org/software/bash/) - The preferred method is to set Vi mode in `~/.inputrc` via readline, as you will get Vi mode automatically in all programs using the library. However, if you just want this for bash, put this in your bash startup file e.g. `~/.bashrc`:
   * ```bash
     set -o vi
     ```
+  * :heavy_plus_sign: [ble.sh](https://github.com/akinomyoga/ble.sh) - Bash Line Editor—a line editor written in pure Bash with syntax highlighting, auto suggestions, vim modes, etc. for Bash interactive sessions.
+    * ```
+      # bashrc
+
+      # Add this lines at the top of .bashrc:
+      [[ $- == *i* ]] && source /path/to/blesh/ble.sh --noattach
+
+      # your bashrc settings come here...
+
+      # Add this line at the end of .bashrc:
+      [[ ! ${BLE_VERSION-} ]] || ble-attach
+      ```
 * :white_check_mark: [zsh](https://en.wikipedia.org/wiki/Z_shell) - just put this in your ZSH startup file, most likely `~/.zshrc`:
   * ```bash
     bindkey -v
