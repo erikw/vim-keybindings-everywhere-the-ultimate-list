@@ -35,9 +35,10 @@ There are of course already lists like this one floating around on the internet 
 
 
 ## Legend
-The following symbols are used with each list item to make it clearer what kind of Vim keybindings support exist
+The following symbols and formattings are used with each list item to make it clearer what kind of Vim keybindings support exist:
 * :white_check_mark: - built-in support (possibly via a setting)
 * :heavy_plus_sign: - via addon/extension
+* ~strikethrough~: deprecated or unsupported software
 
 Terminology:
 * [TUI](https://itlaw.fandom.com/wiki/Text_user_interface) - Text User Interface
