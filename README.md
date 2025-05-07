@@ -524,9 +524,9 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
 * Chrome
   * :heavy_plus_sign: [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
   * :heavy_plus_sign: [Vimium C](https://chrome.google.com/webstore/detail/vimium-c-all-by-keyboard/hfjbmagddngcpeloejdejnfgbamkjaeg?hl=en)
-  * :heavy_plus_sign: [cVim](https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh)
+  * :heavy_plus_sign: ~[cVim](https://github.com/1995eaton/chromium-vim)~
   * :heavy_plus_sign: [Surfingkeys](https://chrome.google.com/webstore/detail/surfingkeys/gfbliohnnapiefjpjlpjnehglfpaknnc)
-  * :heavy_plus_sign: [wasavi](https://chrome.google.com/webstore/detail/wasavi/dgogifpkoilgiofhhhodbodcfgomelhe) - Transform text areas into a vi editor.
+  * :heavy_plus_sign: ~[wasavi](https://github.com/akahuku/wasavi)~ - Transform text areas into a vi editor.
   * :heavy_plus_sign: [Krabby](https://krabby.netlify.app/) - keyboard-based navigation inspired by Kakoune.
   * :heavy_plus_sign: ~[ViChrome](https://github.com/k2nr/ViChrome)~
   * :heavy_plus_sign: ~[vrome](https://github.com/jinzhu/vrome)~
@@ -537,7 +537,7 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
 * Edge
   * :heavy_plus_sign: [Surfingkeys](https://microsoftedge.microsoft.com/addons/detail/surfingkeys/kgnghhfkloifoabeaobjkgagcecbnppg)
 * Opera
-  * :heavy_plus_sign: [wasavi](https://chrome.google.com/webstore/detail/wasavi/dgogifpkoilgiofhhhodbodcfgomelhe) - Transform text areas into a vi editor.
+  * :heavy_plus_sign: ~[wasavi](https://github.com/akahuku/wasavi)~ - Transform text areas into a vi editor.
   * :heavy_plus_sign: ~[VimOperate](https://github.com/rscircus/VimOperate)~
 * :white_check_mark: [w3m](https://w3m.sourceforge.net/) - A text-based web browser with some Vim-like [keyboard shortcuts](https://cheatsheetfactory.geekyhacker.com/linux/w3m).
 * :white_check_mark: [netrik](https://netrik.sourceforge.net/) - A text-based web browser with Vi-inspired keyboard commands.
