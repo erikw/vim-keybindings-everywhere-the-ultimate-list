@@ -140,6 +140,8 @@ Terminology:
   * :heavy_plus_sign: [viemu](http://www.viemu.com/) - add Vim emulation to Visual Studio, SQL Server, Word & Outlook.
 * [Geany](https://www.geany.org/)
   * :heavy_plus_sign: [vimode](https://github.com/geany/geany-plugins/blob/master/vimode/README) - The vimode plugin can be enabled from the settings.
+* :white_check_mark: [KDevelop](https://www.kdevelop.org/) - Uses the same editor component as Kate. Enable [Vi-mode](https://docs.kde.org/stable5/en/kate/katepart/vi-input-mode-chapter.html) in the editor settings.
+* :white_check_mark: [Qt Creator](https://www.qt.io/product/development-tools) - Vim mode is built-in. Enable [FakeVim](https://doc.qt.io/qtcreator/creator-reference-preferences-fakevim.html) via Preferences > FakeVim.
 * :white_check_mark: [RStudio](https://posit.co/download/rstudio-desktop/) - There's a built-in [Vim Editing Mode](https://stackoverflow.com/a/47208291).
 * :white_check_mark: [MonoDevelop](https://www.monodevelop.com/) - Cross platform IDE for C#, F# and more, with [Vi-mode](https://www.monodevelop.com/archived/developers/tasks/source-editing/vi-mode/).
 * :white_check_mark: ~[pida](https://launchpad.net/pida)~ - An IDE that aims to use the tools you wish to use(including Vim and Emacs).
