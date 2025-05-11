@@ -507,6 +507,10 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
   * :heavy_plus_sign: ![atom-vim-mode-plus](https://github.com/atom/vim-mode)~
   * :heavy_plus_sign: ~[atom-vim-mode-plus](https://github.com/t9md/atom-vim-mode-plus)~
 
+## Web Apps
+* :white_check_mark: [leetcode](https://leetcode.com/) - Algorithmic programming problem repository.
+* :white_check_mark: [Rust Playground](https://play.rust-lang.org/) - The editor in the rust playground has a Vim mode.
+
 ## Web browsers
 * :white_check_mark: [qutebrowser](https://qutebrowser.org/)
 * :white_check_mark: [Vieb](https://vieb.dev/) - Vim bindings for the web by design (electron based)
