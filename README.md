@@ -238,7 +238,8 @@ Terminology:
 
 ## Office Productivity
 * [LibreOffice](https://www.libreoffice.org/)
-  * :heavy_plus_sign: [vibreoffice](https://github.com/seanyeh/vibreoffice) - Vi Mode for LibreOffice/OpenOffice.
+  * :heavy_plus_sign: ~[vibreoffice](https://github.com/seanyeh/vibreoffice)~ - Vi Mode for LibreOffice/OpenOffice.
+  * :heavy_plus_sign: [vibreoffice](https://github.com/Nazo1412/vibreoffice) - Vi Mode for LibreOffice/OpenOffice, fork that supports calc.
 * [AbiWord](http://www.abisource.com/) - An OSS word processor.
   * :heavy_plus_sign: It can be [configured](http://recycledelectron.blogspot.com/2009/01/vi-and-emacs-key-bindings-in-abiword.html) to get Vim keybindings.
 * :white_check_mark: [sc](https://en.wikipedia.org/wiki/Sc_(spreadsheet_calculator)) - The venerable Spreadsheet Calculator with Vim-like [keybindings](https://www.linuxjournal.com/article/10699).
