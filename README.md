@@ -157,6 +157,7 @@ Terminology:
 * :white_check_mark: [vimiv-qt](https://github.com/karlch/vimiv-qt) - An image viewer with Vim-like keybindings.
 * :white_check_mark: [xzgv](https://sourceforge.net/projects/xzgv/) - Keyboard driven image viewer with Vim-style navigation.
 * :white_check_mark: [Pim](https://github.com/Narrat/Pim) - A PyGObject based image viewer with Vim-like keybindings.
+* :white_check_mark: [imv](https://sr.ht/~exec64/imv/) - A command line image viewer intended for use with tiling window managers (X11/Wayland).
 * :white_check_mark: [nsxiv](https://codeberg.org/nsxiv/nsxiv) - A maintained fork of sxiv.
 * :white_check_mark: ~[sxiv](https://github.com/xyb3rt/sxiv)~ - See nsxiv instead.
 * :white_check_mark: ~[vimiv](https://github.com/karlch/vimiv)~ - See vimiv-qt.
