@@ -259,6 +259,7 @@ Terminology:
 * :white_check_mark: [zathura](https://pwmt.org/projects/zathura) - Document reader, vim-keybindings, partly based on MuPDF. Linux only.
 * :white_check_mark: [SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader) - Document reader, vim-keybindings. Windows only.
 * :white_check_mark: [Okular](https://okular.kde.org/) - Has some [basic](https://docs.kde.org/stable5/en/okular/okular/okular.pdf) Vim-like navigation.
+* :white_check_mark: [Evince](https://gitlab.gnome.org/GNOME/evince) - Has some basic Vim-like navigation.
 * :white_check_mark: [xpdf](https://www.xpdfreader.com/) - This PDF viewer can be [configured](https://stackoverflow.com/a/11800265/265508) to get Vim-like navigation.
 * :white_check_mark: [Sioyek](https://github.com/ahrm/sioyek) - Both keyboard and (optionally) mouse focused. Configurable and has the possibility of adding and developing plugins.
 * Preview.app - macOS native document viewer:
