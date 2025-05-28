@@ -171,6 +171,7 @@ Terminology:
 * :white_check_mark: ~[bviplus](https://bviplus.sourceforge.net/)~ - An ncurses based Gex editor with a Vim-like interface.
 
 ## Misc
+* :white_check_mark: [Foliate](https://johnfactotum.github.io/foliate/) - An e-book reader with basic vim-like navigation
 * :white_check_mark: [fx](https://github.com/antonmedv/fx) - Terminal based JSON viewer.
 * :white_check_mark: [glow](https://github.com/charmbracelet/glow) - Terminal based markdown reader.
 * :white_check_mark: [gollum](https://github.com/gollum/gollum) - A Git-powered wiki with built-in vim editing mode. Start with `--default-keybind vim`.
