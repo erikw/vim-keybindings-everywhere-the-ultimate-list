@@ -589,6 +589,45 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
 
 
 
+# Keyboard Remapping
+Keyboard remapping tools can improve your efficiency while navigating across the system, as well as enhance your experience inside Vim. 
+They allow you to flexibly remap any key—for example, replacing the arrow keys with `hjkl`, among other useful remappings.  
+Most of these tools are universal enough to work system-wide, even inside a Linux TTY, due to their low-level nature.
+* :heavy_plus_sign: [keyd](https://github.com/rvaiya/keyd) - A key remapping daemon for Linux.
+  * <details>
+      <summary>Example: Vim-like remaps using <code>keyd</code></summary>
+      
+      ```ini
+      [ids] # A valid config file has the extension .conf and must begin with an [ids] section
+      *
+      [main]
+      # Map Caps Lock to Escape when tapped and Control when held.
+      capslock = overload(control, esc) # Super useful for Vim and not only!
+      
+      # Make Alt a modifier ("[alt") for defined keys and act as regular Alt (":A]") when used with other keys.
+      [alt:A]
+      h = left
+      k = up
+      j = down
+      l = right
+      
+      0 = home
+      4 = end
+      # i = home
+      # a = end
+      
+      u = pageup
+      d = pagedown
+      
+      x = delete
+      
+      # Check the keyd repo for more!
+      ```
+    </details>
+
+
+
+
 
 # Contributing
 This is a collaborative list -- please fork and make a pull request to add or improve the entries here! The initial contributions by the repo owner is limited to the tools he uses or knows of, so there is a lot of room for further additions here!
