@@ -300,6 +300,7 @@ Terminology:
     ```
 * :white_check_mark: [GitUI](https://github.com/extrawurst/gitui) - GitUI provides you with the comfort of a git GUI but right in your terminal.  
   * instruction how to enable vi bindings - https://github.com/extrawurst/gitui/blob/master/KEY_CONFIG.md
+* :white_check_mark: [Lazygit](https://github.com/jesseduffield/lazygit) - Simple terminal UI for git commands with Vim-like keybindings. 
 
 
 
