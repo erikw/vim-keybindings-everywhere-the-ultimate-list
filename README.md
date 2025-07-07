@@ -85,7 +85,7 @@ Terminology:
 * :white_check_mark: [NeoMutt](https://neomutt.org/) - A fork of mutt, intendted to reignite the development.
 * :white_check_mark: [sup](https://sup-heliotrope.github.io/) - a console-based email client for people with a lot of email with Vim-inspired [keyboard shortcuts](https://github.com/sup-heliotrope/sup/wiki/Keyboard-reference).
 * [Thunderbird](https://www.thunderbird.net/en-US/)
-  * :heavy_plus_sign: [Muttator](https://addons.thunderbird.net/en-US/thunderbird/addon/muttator/) - Like Vimperator but for thunderbird.
+  * :heavy_plus_sign: ~[Muttator](https://addons.thunderbird.net/en-US/thunderbird/addon/muttator/)~ - Like Vimperator but for thunderbird.
   * :heavy_plus_sign: ~[teledactyl](https://github.com/5digits/dactyl/tree/master/teledactyl)~
 * :white_check_mark: [aerc](https://aerc-mail.org/) - Terminal email client with Vim keybindings.
 * :white_check_mark: [meli](https://meli.delivery/) - A TUI email client with Vim-like keybindings.
