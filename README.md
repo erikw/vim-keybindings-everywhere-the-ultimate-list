@@ -185,6 +185,16 @@ Terminology:
 * :white_check_mark: [mycli](https://www.mycli.net) - A CLI for MySQL, MariaDB, and Percona with auto-completion and syntax highlighting. There are two types of keybindings available. Emacs mode and Vi mode.
 * [Anki](https://apps.ankiweb.net/) - Spaced repetition and media-rich cards flashcard program for study.
 	* ➕ [anki_vimove](https://ankiweb.net/shared/info/1997961715) - Add-on for vi-like movement in deck browser.
+* :white_check_mark: [ly](https://github.com/fairyglade/ly) - A TUI display manager. Supports vi-like movement. Edit this in your `/etc/ly/config.ini`
+  * ```ini
+    # Default vi mode
+	# normal   -> normal mode
+	# insert   -> insert mode
+	vi_default_mode = normal
+	
+	# Enable vi keybindings
+	vi_mode = true
+    ```
 
 ## Music Players
 * :white_check_mark: [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) - An ncurses client for [mpd](https://www.musicpd.org/). The navigation can quite easily be made to behave like vim with some keyboard configurations.
