@@ -116,7 +116,7 @@ Terminology:
 * [fman](https://fman.io/) - A dual-pane file manager.
   * :heavy_plus_sign: [VimNavigation](https://github.com/raguay/VimNavigation) - Adds Vim-style keyboard navigation to the fman file manager.
 * :white_check_mark: [yazi](https://yazi-rs.github.io/) - Blazing fast terminal file manager written in Rust, based on async I/O.
-* :white_check_mark: [superfile](https://superfile.dev/) - Pretty fancy and modern terminal file manager 
+* :white_check_mark: [superfile](https://superfile.dev/) - Pretty fancy and modern terminal file manager that supports h-j-k-l out of the box. See also more vim-like configuration [here](https://superfile.dev/configure/custom-hotkeys/#vim-like-superfile-hotkeys).
 
 ## IDEs
 * [Jetbrain's IDEs](https://www.jetbrains.com/products/#type=ide) (Intellij, PYCharm, PHPStorm, WebStorm, ...)
