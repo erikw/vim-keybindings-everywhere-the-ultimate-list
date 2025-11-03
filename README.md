@@ -532,6 +532,7 @@ We know that Vi-[clones](http://www.linfo.org/vi/clones.html)/derivatives have V
 * :white_check_mark: [OnlineGDB](https://www.onlinegdb.com/) - Online compiler and debugger supporting many programming languages.
 * :white_check_mark: [Godbolt](https://godbolt.org/) - An interactive compiler exploration website.
 * :white_check_mark: [Rust Playground](https://play.rust-lang.org/) - The editor in the Rust playground has a Vim mode.
+* :white_check_mark: [Svelte Playground](https://svelte.dev/playground/) - The editor in the Svelte playground has a Vim mode.
 
 ## Web browsers
 * :white_check_mark: [qutebrowser](https://qutebrowser.org/)
