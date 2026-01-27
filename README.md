@@ -613,14 +613,16 @@ Most of these tools are universal enough to work system-wide, even inside a Linu
       <summary>Example: Vim-like remaps using <code>keyd</code></summary>
       
       ```ini
-      [ids] # A valid config file has the extension .conf and must begin with an [ids] section
+      # A valid config file has the extension .conf and must begin with an [ids] section
+      [ids]
       *
+
       [main]
-      # Map Caps Lock to Escape when tapped and Control when held.
+      # Map Caps Lock to Escape when tapped and Control when held
       capslock = overload(control, esc) # Super useful for Vim and not only!
       
-      # Make Alt a modifier ("[alt") for defined keys and act as regular Alt (":A]") when used with other keys.
-      [alt:A]
+      # Make Alt a layer activator for the defined keys and act as regular Alt with all other keys
+      [alt]
       h = left
       k = up
       j = down
