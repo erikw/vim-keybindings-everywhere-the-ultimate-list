@@ -30,7 +30,7 @@ There are, of course, already lists like this one floating around on the interne
 
 
 > [!TIP]
-> **Tip**: navigate this document easily by using GitHub's built-in Markdown Table of Contents in the top left corner:
+> **Tip**: navigate this document easily by using GitHub's built-in Markdown Table of Contents in the top right corner:
 > <a href="#" title="GitHub built-in Table of Contents for markdown files."><img src="img/github_md_toc.png" width="256" alt="ToC"></a>
 
 
