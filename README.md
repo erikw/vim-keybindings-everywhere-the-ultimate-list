@@ -66,6 +66,9 @@ Terminology:
     ```
 
 * :heavy_plus_sign: [Jupyter Lab](https://pypi.org/project/jupyterlab-vim/) - Science and Data Development notebook environment. Add this package [jupyterlab-vim](https://pypi.org/project/jupyterlab-vim/) and restart the server. It is available for both `pip` and `conda` managed environments (and their derivatives).
+
+* :white_check_mark: [marimo](https://marimo.io/) - An open-source reactive Python notebook that's stored as a .py file, executable as a script, and deployable as an app. Supports importing and exporting as Jupyter Notebooks. Built-in [vim keybinds](https://docs.marimo.io/guides/editor_features/overview/#vim-keybindings).
+
 * :white_check_mark: [LINQPad](https://www.linqpad.net/) - The .NET Programmer’s Playground. vi mode is available in settings. To enable, go to Edit > Preferences > vi mode. Quite limited, doesn't support ex commands, registers, and macros.
 
 * [Azure Data Studio](https://azure.microsoft.com/en-us/products/data-studio/) - Database tool similar to Microsoft SQL Server Management Studio. Supports VSCode extensions.
