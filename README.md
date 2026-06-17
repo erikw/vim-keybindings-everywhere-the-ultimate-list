@@ -323,11 +323,14 @@ Terminology:
 
 * Preferences > USER INTERFACE > Hotkeys
 
-* For the server configuration, add this to `/etc/searxng/settings.yml`:
-  * ```
+* <details>
+    <summary>Server configuration at /etc/searxng/settings.yml</summary>
+
+    ```
     ui:
       hotkeys: vim
     ```
+  </details>
 
 * :white_check_mark: [DuckDuckGo](https://duckduckgo.com/) - DuckDuckGo lets you search and browse privately, it never tracks you. It has some vim-like bindings by default in its [keyboard shortcuts](https://duckduckgo.com/duckduckgo-help-pages/features/keyboard-shortcuts).
 * :white_check_mark: [Kagi](https://kagi.com/) - Kagi is a paid ad-free search engine that has vim-like bindings by default in its [keyboard shortcuts](https://help.kagi.com/kagi/features/search-operators.html#keyboard_shortcuts).
