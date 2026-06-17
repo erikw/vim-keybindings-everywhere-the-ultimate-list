@@ -1,5 +1,5 @@
 # Vim Keybindings Everywhere - The Ultimate List [![Post on X](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://x.com/intent/tweet?text=Get%20Vim%20keybindings%20everywhere%20-%20the%20ultimate%20list%20of%20programs%20with%20native%20support%20or%20extensions%20providing%20it&url=https://github.com/erikw/vim-keybindings-everywhere-the-ultimate-list&via=erik_westrup&hashtags=vim,keybindings,list)
-[![<magic-marker-nbr-native>](https://img.shields.io/badge/Native%20programs%20listed-182-brightgreen)](#)
+[![<magic-marker-nbr-native>](https://img.shields.io/badge/Native%20programs%20listed-185-brightgreen)](#)
 [![<magic-marker-nbr-extensions>](https://img.shields.io/badge/Extensions%20listed-79-blue)](#)
 [![Closed issues](https://img.shields.io/github/issues-closed/erikw/vim-keybindings-everywhere-the-ultimate-list?color=success)](https://github.com/erikw/vim-keybindings-everywhere-the-ultimate-list/issues?q=is%3Aissue+is%3Aclosed)
 [![Closed PRs](https://img.shields.io/github/issues-pr-closed/erikw/vim-keybindings-everywhere-the-ultimate-list?color=success)](https://github.com/erikw/vim-keybindings-everywhere-the-ultimate-list/pulls?q=is%3Apr+is%3Aclosed)
@@ -318,8 +318,19 @@ Terminology:
   * instruction how to enable vi bindings - https://github.com/extrawurst/gitui/blob/master/KEY_CONFIG.md
 * :white_check_mark: [Lazygit](https://github.com/jesseduffield/lazygit) - Simple terminal UI for git commands with Vim-like keybindings. 
 
+## Search Engines
+* :white_check_mark: [searxng](https://docs.searxng.org/) - SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled. You can either enable vi binds in the settings when using the site or when selfhosting, you can set the default hotkeys to be vi styled for every user.
 
+* Preferences > USER INTERFACE > Hotkeys
 
+* For the server configuration, add this to `/etc/searxng/settings.yml`:
+  * ```
+    ui:
+      hotkeys: vim
+    ```
+
+* :white_check_mark: [DuckDuckGo](https://duckduckgo.com/) - DuckDuckGo lets you search and browse privately, it never tracks you. It has some vim-like bindings by default in its [keyboard shortcuts](https://duckduckgo.com/duckduckgo-help-pages/features/keyboard-shortcuts).
+* :white_check_mark: [Kagi](https://kagi.com/) - Kagi is a paid ad-free search engine that has vim-like bindings by default in its [keyboard shortcuts](https://help.kagi.com/kagi/features/search-operators.html#keyboard_shortcuts).
 
 ## Shells
 * :white_check_mark: [readline](https://man.archlinux.org/man/readline.3) - Readline is a library used by many CLI programs to read input from users. By configuring readline to use vi key bindings, you automatically get it for programs like `bash`, `irb`, `octave`, etc. By default, readline has Emacs-like keybindings, but you can change that by putting this in your `~/.inputrc`:
