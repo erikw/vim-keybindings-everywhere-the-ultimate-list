@@ -439,24 +439,31 @@ Terminology:
     ```
 
 * ✅ [pwsh](https://learn.microsoft.com/en-us/powershell/) - The Readline module offers support for convenient vim support. Add this to your `$Profile`:
+  * <details>
+      <summary>$PROFILE</summary>
+
+      ```powershell
+      Import-Module PSReadLine
+      # enable Vim on the shell and as editor
+      $OnViModeChange = [scriptblock]{
+          if ($args[0] -eq 'Command') {
+              # Set the cursor to a blinking block.
+              Write-Host -NoNewLine "`e[2 q"
+          }
+          else {
+              # Set the cursor to a blinking line.
+              Write-Host -NoNewLine "`e[5 q"
+          }
+      }
+
+      Set-PsReadLineOption -EditMode Vi
+      Set-PSReadLineOption -ViModeIndicator Script -ViModeChangeHandler $OnViModeChange
+       ```
+
+    </details>
    *
 
     ```
-     Import-Module PSReadLine
-     # enable Vim on the shell and as editor
-     $OnViModeChange = [scriptblock]{
-        if ($args[0] -eq 'Command') {
-            # Set the cursor to a blinking block.
-            Write-Host -NoNewLine "`e[2 q"
-        }
-        else {
-            # Set the cursor to a blinking line.
-            Write-Host -NoNewLine "`e[5 q"
-        }
-     }
-
-     Set-PsReadLineOption -EditMode Vi
-     Set-PSReadLineOption -ViModeIndicator Script -ViModeChangeHandler $OnViModeChange
     ```
 
   * This was collected from many GitHub issues and posts. PowerShell 5.1, for one reason or another, refuses to change the cursor, so the script to give
