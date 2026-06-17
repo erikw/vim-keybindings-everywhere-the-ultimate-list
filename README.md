@@ -202,12 +202,12 @@ Terminology:
 
   * ```ini
     # Default vi mode
- # normal   -> normal mode
- # insert   -> insert mode
- vi_default_mode = normal
- 
- # Enable vi keybindings
- vi_mode = true
+    # normal   -> normal mode
+    # insert   -> insert mode
+    vi_default_mode = normal
+   
+    # Enable vi keybindings
+    vi_mode = true
     ```
 
 ## Music Players
