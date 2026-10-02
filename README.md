@@ -93,6 +93,8 @@ Terminology:
 * [Thunderbird](https://www.thunderbird.net/en-US/)
   * :heavy_plus_sign: ~[Muttator](https://addons.thunderbird.net/en-US/thunderbird/addon/muttator/)~ - Like Vimperator but for thunderbird.
   * :heavy_plus_sign: ~[teledactyl](https://github.com/5digits/dactyl/tree/master/teledactyl)~
+  * :heavy_plus_sign: [thundervim](https://addons.thunderbird.net/en-US/thunderbird/addon/thundervim/)
+  * :heavy_plus_sign: [External Editor Revived](https://addons.thunderbird.net/en-US/thunderbird/addon/external-editor-revived/) - A Thunderbird extension which allows editing emails in programs such as Vim, Neovim, Emacs, etc.
 * :white_check_mark: [aerc](https://aerc-mail.org/) - Terminal email client with Vim keybindings.
 * :white_check_mark: [meli](https://meli.delivery/) - A TUI email client with Vim-like keybindings.
 * Microsoft Outlook
