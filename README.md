@@ -511,6 +511,7 @@ Terminology:
 * :white_check_mark: [taskell](https://taskell.app/) - Command-line Kanban board/task management.
 * :white_check_mark: [vit](https://github.com/vit-project/vit) - An TUI for [Taskwarrior](https://taskwarrior.org/) Vim-like keybindings.
 * :white_check_mark: [Remember The Milk](https://www.rememberthemilk.com/help/answer/basics-basics-keyboard) - A task management application available on various platforms, including web, Windows, Linux, macOS desktop, and Android & iOS mobile apps. It offers built-in Vim-like keybindings on its desktop and web versions.
+* :white_check_mark: [trello-tui](https://github.com/ural89/trello-tui) - A keyboard-driven Trello client for the terminal with Vim-like keybindings.
 
 ## Terminal Emulators
 
