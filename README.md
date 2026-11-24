@@ -97,6 +97,7 @@ Terminology:
   * :heavy_plus_sign: [External Editor Revived](https://addons.thunderbird.net/en-US/thunderbird/addon/external-editor-revived/) - A Thunderbird extension which allows editing emails in programs such as Vim, Neovim, Emacs, etc.
 * :white_check_mark: [aerc](https://aerc-mail.org/) - Terminal email client with Vim keybindings.
 * :white_check_mark: [meli](https://meli.delivery/) - A TUI email client with Vim-like keybindings.
+* :white_check_mark: [Spool](https://github.com/wes/spool) - A native macOS email client with Vim-flavored keys: `j`/`k` to move, `gg`/`G` for newest and oldest, `/` to search.
 * Microsoft Outlook
   * :heavy_plus_sign: ~[cubiclevim](https://sourceforge.net/projects/cubiclevim/)~ - Edit Microsoft Outlook messages in Vim-style.
 
